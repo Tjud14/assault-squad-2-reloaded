@@ -1,0 +1,22 @@
+{bullet
+	{tag "big shell fg bomb nebel"}
+	{inventory
+		{size 5 1}
+		{weight 100}
+	}
+	{entity "swg41_ammo"}
+	{mass 82}
+	{view "swg41_ammo"
+		{tail "rocket_smoke" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	{damage blastwave
+		{energy 13.2}
+		{area 2 4}
+	}
+	{damage add blastwave
+		{energy 3}
+		{area 16 24}
+	}
+}

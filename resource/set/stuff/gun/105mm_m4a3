@@ -1,0 +1,15 @@
+{from "pattern gun"		; "m4a3_105"
+	{filling "bullet105"}
+	{fireSound "gun/howitzer/105mm_m2a1"}
+	("range_grazing_howitzer")
+	
+	("speed" s(225))
+	("caliber_maximum")
+	{projectileDamage 150}
+	
+	{range 120 130}
+	("accuracy_minimum")
+}
+
+
+

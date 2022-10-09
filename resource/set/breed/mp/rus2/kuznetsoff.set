@@ -1,0 +1,63 @@
+{breed
+	{hero}
+	{skin "rus_com"}
+	{portrait "kuznetsov"}
+	{nationality rus}
+	{icon "officer"}
+	{icon_priority 10}
+	{armors
+		{head cap1_rus}
+	}
+	{tags "officer"}
+	{perks
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "200%"
+		}
+		{"vision" "mp_officer"
+		}
+		{"speed" 1.0
+		}
+		{"field_glass"
+		}
+		{"stealth"
+		}
+		{"telescope"
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_3
+		}
+		{"aimedshot"}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "nagan" filled}
+		{item "ammo pistol" 30}
+		{item "knife_rus"}
+		{item "binocular"}
+		{in_hands 0}
+	}
+}

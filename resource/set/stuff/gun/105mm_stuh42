@@ -1,0 +1,21 @@
+{from "pattern gun"		; "stuh42"
+	{filling "bullet105"}
+	{fireSound "gun/howitzer/105mm_m2a1"}
+	("range_grazing_howitzer")
+
+	("speed" s(225))
+	("caliber_maximum")
+	{projectileDamage 72}
+	("damage" a(72) b(68) c(62) d(58) e(53))
+	{parameters "apcr"
+		("damage" a(72) b(68) c(62) d(58) e(53))
+	}
+	
+	{range 120 130}
+	{parameters "apcr"	
+		{range 110 120}
+	}
+	("accuracy_minimum")
+}
+
+

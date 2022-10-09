@@ -1,0 +1,6 @@
+{Mod
+	{Name "Reloaded mod Beta"}
+	{Desc "MP mod"}
+	{MinGameVersion "3.250"}
+	{MaxGameVersion "3.265"}
+}
