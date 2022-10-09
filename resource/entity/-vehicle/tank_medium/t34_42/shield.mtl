@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "t34e"}
+	{bump "$/model/t34e_bp"}
+	{specular "$/model/t34e_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

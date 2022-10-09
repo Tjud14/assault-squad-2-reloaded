@@ -1,0 +1,50 @@
+{Volume "internal_components"
+	{Box 20 20 20}
+	{Bone "internal_components"}
+	{Matrix34
+		1	0	0
+		0	1	0
+		0	0	1
+		0	0	30
+	}
+}
+{Volume "turret_drive"
+	{Box 20 20 20}
+	{Bone "turret_drive"}
+	{Matrix34
+		1	0	0
+		0	1	0
+		0	0	1
+		0	0	30
+	}
+}
+{Volume "vertical_drive"
+	{Box 20 20 20}
+	{Bone "vertical_drive"}
+	{Matrix34
+		1	0	0
+		0	1	0
+		0	0	1
+		0	0	30
+	}
+}
+{Volume "gun_breech"
+	{Box 20 20 20}
+	{Bone "gun_breech"}
+	{Matrix34
+		1	0	0
+		0	1	0
+		0	0	1
+		0	0	30
+	}
+}
+{Volume "transmission"
+	{Box 20 20 20}
+	{Bone "transmission"}
+	{Matrix34
+		1	0	0
+		0	1	0
+		0	0	1
+		0	0	30
+	}
+}
