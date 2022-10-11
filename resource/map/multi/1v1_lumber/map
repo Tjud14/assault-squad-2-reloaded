@@ -5,8 +5,8 @@
 	{Clips
 		{"[auto]"
 			{world -4000 -3994.07 4001.59 4000}
-			{camera -4013.39 -3965.3 3961.7 3989.66}
-			{pather -3438.96 -3407.03 3197.84 3443.38}
+			{camera -4013.39 -3965.3 4000.88 3989.66}
+			{pather -4002.48 -3407.03 4001.25 3443.38}
 			{distance 200 850}
 			{viewAngle 20 50}
 		}
@@ -3355,7 +3355,7 @@
 	}
 	{Entity "ju-52_destroyed" 0x5010
 		{Position -2295.62 -1193.27 -52.08}
-		{xform zl -43.17 y 2.9 zw 92.81}
+		{xform zl -43.42 y 2.9 zw 92.99}
 		{Constrain none}
 		{Placer
 			{State "gunner1" {Broken}}
@@ -8153,18 +8153,18 @@
 		{Constrain surface}
 	}
 	{Entity "reed4" 0x60d0
-		{Position 3942.08 -1811.91}
-		{xform zl 112.08 y 28.88 zw -110.18}
+		{Position 3942.08 -1811.91 -45.71}
+		{xform zl -97.24 y 53.69 zw 97.54}
 		{Constrain surface}
 	}
 	{Entity "reed4" 0x60d1
 		{Position 3871.67 -1805.83}
-		{xform zl 119.12 y 11.05 zw -117.66}
+		{xform zl 115.05 y 8.54 zw -112.35}
 		{Constrain surface}
 	}
 	{Entity "reed4" 0x60d2
 		{Position 3747.77 -1944.65}
-		{xform zl -111.5 y 8.42 zw 112.85}
+		{xform zl -104.9 y 6.7 zw 105.96}
 		{Constrain surface}
 	}
 	{Entity "reed4" 0x60d3
@@ -26190,6 +26190,36 @@
 		{xform zl -20.53}
 		{DecalOrder 1}
 		{Color 0xffc2c2c2}
+	}
+	{Entity "asphalt_road_q4" 0x225
+		{Position -4084.93 3094.1}
+		{xform zl 91.51}
+		{Color 0xff929292}
+	}
+	{Entity "asphalt_road_q4" 0x226
+		{Position -4068.4 2932.98}
+		{xform zl -89.42}
+		{Color 0xff929292}
+	}
+	{Entity "asphalt_road_q4" 0x227
+		{Position -4326.66 3094.9}
+		{xform zl 91.51}
+		{Color 0xff929292}
+	}
+	{Entity "asphalt_road_q4" 0x228
+		{Position -4310.13 2933.78}
+		{xform zl -89.42}
+		{Color 0xff929292}
+	}
+	{Entity "asphalt_road_q4" 0x229
+		{Position -4510.17 3092.92}
+		{xform zl 91.51}
+		{Color 0xff929292}
+	}
+	{Entity "asphalt_road_q4" 0x22b
+		{Position -4493.64 2931.8}
+		{xform zl -89.42}
+		{Color 0xff929292}
 	}
 	{Link 0x19 {0x15 "3"}}
 	{Link 0x480c {0x480a "2"}}

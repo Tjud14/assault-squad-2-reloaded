@@ -1,0 +1,112 @@
+{materials
+	{"mtl0"
+		{layer bump
+			{diffuse "/texture/land/grass/gramma_12"}
+			{bump "/texture/land/grass/gramma_12_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/town/cobble_14_2"}
+			{bump "/texture/land/town/cobble_14_2_nm"}
+		}
+	}
+	{"mtl1"
+		{layer bump
+			{diffuse "/texture/land/grass/gramma_12"}
+			{bump "/texture/land/grass/gramma_12_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/grass/gramma_111_vic2"}
+			{bump "/texture/land/grass/gramma_111_vic2_nm"}
+		}
+	}
+	{"mtl2"
+		{layer bump
+			{diffuse "/texture/land/town/cobble_b1_x"}
+			{bump "/texture/land/town/cobble_b1_x_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/town/cobble_14_2"}
+			{bump "/texture/land/town/cobble_14_2_nm"}
+		}
+	}
+	{"mtl3"
+		{layer bump
+			{diffuse "/texture/land/grass/gramma_12"}
+			{bump "/texture/land/grass/gramma_12_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/town/destroy_redbck1"}
+			{bump "/texture/land/town/destroy_redbck1_nm"}
+		}
+	}
+	{"mtl4"
+		{layer bump
+			{diffuse "/texture/land/grass/gramma_12"}
+			{bump "/texture/land/grass/gramma_12_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/fields/stubble_field3a"}
+			{bump "/texture/land/fields/stubble_field3a_nm"}
+		}
+	}
+	{"mtl5"
+		{layer bump
+			{diffuse "/texture/land/fields/stubble_field3"}
+			{bump "/texture/land/fields/stubble_field3_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/fields/stubble_field3a"}
+			{bump "/texture/land/fields/stubble_field3a_nm"}
+		}
+	}
+	{"mtl6"
+		{layer bump
+			{diffuse "/texture/land/grass/gramma_12"}
+			{bump "/texture/land/grass/gramma_12_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/sand/sand_speckled1"}
+			{bump "/texture/land/sand/sand_speckled1_nm"}
+		}
+	}
+	{"mtl7"
+		{layer bump
+			{diffuse "/texture/land/grass/gramma_12"}
+			{bump "/texture/land/grass/gramma_12_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/grass/grass_pebb3"}
+			{bump "/texture/land/grass/grass_pebb3_nm"}
+		}
+	}
+	{"mtl8"
+		{layer bump
+			{diffuse "/texture/land/bottom/bottom_2"}
+			{bump "/texture/land/bottom/bottom_2_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/town/cobble_14_2"}
+			{bump "/texture/land/town/cobble_14_2_nm"}
+		}
+	}
+	{"mtl9"
+		{layer bump
+			{diffuse "/texture/land/dirt/soil_q41"}
+			{bump "/texture/land/dirt/soil_q41_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/sand/sand_speckled1"}
+			{bump "/texture/land/sand/sand_speckled1_nm"}
+		}
+	}
+	{"mtl10"
+		{layer bump
+			{diffuse "/texture/land/town/destroy_redbck1"}
+			{bump "/texture/land/town/destroy_redbck1_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/dirt/muddy_1"}
+			{bump "/texture/land/dirt/muddy_1_nm"}
+		}
+	}
+}

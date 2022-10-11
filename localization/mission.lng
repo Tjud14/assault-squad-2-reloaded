@@ -230,6 +230,9 @@
 		{"8v8_winter_walk"
 			{"name" "Winter walk <e(shadow)><c(bebebe)>8x8</c>"}
 		}
+		{"1v1_airborne"
+			{"name" "Airborne <e(shadow)><c(bebebe)>1x1</c>"}
+		}
 		{"1v1_deb"
 			{"name" "Deb <e(shadow)><c(bebebe)>1x1</c>"}
 		}
@@ -253,6 +256,9 @@
 		}
 		{"2v2_mirage"
 			{"name" "Mirage <e(shadow)><c(bebebe)>2x2</c>"}
+		}	
+		{"3v3_elzas"
+			{"name" "Elzas <e(shadow)><c(bebebe)>3x3</c>"}
 		}
 	}
 }
