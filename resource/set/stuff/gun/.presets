@@ -19,6 +19,10 @@
 	{projectileDamageTable {10 %a} {50 %b} {75 %c} {100 %d} {125 %e} {150 (* %e 0.8)} {200 (* %e 0)}}
 	; 100m - 500m - 1000m - 1500m - 2000m
 )
+(define "damage3"                                                                                 
+	{projectileDamageTable {10 %a} {50 %b} {75 %c} {100 %d} {125 %e} {210 (* %e 0.8)} {250 (* %e 0)}}
+	; 100m - 500m - 1000m - 1500m - 2000m
+)
 
 
 (define "accuracy_curve_1"
@@ -87,6 +91,9 @@
 )
 (define "accuracy_grazinghowitzer2" 
 	("accuracy_curve_2" r1(1.25))
+)
+(define "accuracy_grazinghowitzer3" 
+	("accuracy_curve_2" r1(0.90))
 )
 (define "accuracy_howitzer" 
 	("accuracy_curve_3" r1(8.00))

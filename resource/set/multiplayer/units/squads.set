@@ -88,7 +88,7 @@
 ("squad_with2types" side(eng) name(home_guards) c(30) g(squad_1) c1(home_guard:6) c2(home_guard2:2) b(squad1) t(all inf_only) level(1) cost(60) f(-1.0))
 ("squad_with2types" side(jap) name(home_guards) c(30) g(squad_1) c1(home_guard:6) c2(home_guard2:2) b(squad1) t(all inf_only) level(1) cost(60) f(-1.0))
 ("squad_with3types" side(ger2) name(home_guards) c(60) g(squad_1) c1(squadleader:1) c2(smg:3) c3(rifle:2)  b(squad1) t(all inf_only) level(1) cost(80) f(1.0))
-("squad_with2types" side(rus2) name(home_guards) c(30) g(squad_1) c1(home_guard:6) c2(home_guard2:2) b(squad1) t(all inf_only) level(1) cost(60) f(-1.0))
+("squad_with2types" side(rus2) name(home_guards) c(30) g(squad_1) c1(home_guard:7) c2(home_guard2:1) b(squad1) t(all inf_only) level(1) cost(60) f(-1.0))
 
 ("squad_with3types" side(rus) name(smgs) c(30) g(squad_2) c1(squadleader2:1) c2(rifle2:3) c3(smg2:4) b(squad1) t(all inf_only) level(1) cost(115) f(1.0))
 ("squad_with3types" side(ger) name(smgs) c(30) g(squad_2) c1(squadleader2:1) c2(rifle2:3) c3(smg2:4) b(squad1) t(all inf_only) level(1) cost(110) f(1.0))

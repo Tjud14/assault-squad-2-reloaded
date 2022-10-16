@@ -1,0 +1,1430 @@
+{tags
+	{"human"
+		{"special"
+			{"hint" "Hint"}
+			{"narrator_eng" "<c(c3baae)>officer"}
+			{"narrator_ger" "<c(c3baae)>officer"}
+			{"narrator_jap" "<c(c3baae)>officer"}
+			{"narrator_rus" "<c(c3baae)>officer"}
+			{"narrator_usa" "<c(c3baae)>officer"}
+			{"narrator_peasant" "Civilian"}
+		}
+		{"specila"
+			{"narrator_scientist" "Scientist"}
+		}
+		{"mp"
+			{"rus"
+				{"ap_miner" "<c(c3baae)>combat engineer (AP mines)"}
+				{"at_miner" "<c(c3baae)>combat engineer (AT mines)"}
+				{"at_rifle" "<c(c3baae)>AT-Rifle infantry"}
+				{"at_rifle2" "<c(c3baae)>AT-Rifle support infantry"}
+				{"bazooker" "<c(c3baae)>AT infantry"}
+				{"bazooker2" "<c(c3baae)>AT support infantry"}
+				{"elite" "<c(c3baae)>marine"}
+				{"elite2" "<c(c3baae)>marine"}
+				{"elite3" "<c(c3baae)>marine"}
+				{"elite4" "<c(c3baae)>guards rifle"}
+				{"elite5" "<c(c3baae)>guards rifle"}
+				{"elite6" "<c(c3baae)>guards rifle"}
+				{"elite_at" "<c(c3baae)>marine"}
+				{"flamer" "<c(c3baae)>flamethrower infantry"}
+				{"flamer2" "<c(c3baae)>flamethrower support infantry"}
+				{"flamer3" "<c(c3baae)>shock infantry"}
+				{"home_guard" "<c(c3baae)>partisan"}
+				{"home_guard2" "<c(c3baae)>partisan"}
+				{"medic" "<c(c3baae)>medic"}
+				{"mgun" "<c(c3baae)>machine gunner"}
+				{"oficer" "<c(c3baae)>officer"}
+				{"radioman" "<c(c3baae)>radio operator"}
+				{"rifle" "<c(c3baae)>rifleman"}
+				{"rifle2" "<c(c3baae)>assault rifleman"}
+				{"rifle3" "<c(c3baae)>rifleman"}
+				{"saper" "<c(c3baae)>mine disposal expert"}
+				{"scout" "<c(c3baae)>spetsnaz"}
+				{"smg" "<c(c3baae)>SMG infantry"}
+				{"smg2" "<c(c3baae)>assault SMG infantry"}
+				{"smg3" "<c(c3baae)>shock infantry"}
+				{"smg4" "<c(c3baae)>shock infantry"}
+				{"sniper" "<c(c3baae)>sniper"}
+				{"sniper2" "<c(c3baae)>guards sniper"}
+				{"sturmovik" "<c(c3baae)>red guard"}
+				{"sturmovik2" "<c(c3baae)>red guard"}
+				{"sturmovik3" "<c(c3baae)>red guard"}
+				{"sturmovik4" "<c(c3baae)>red guard"}
+				{"sturmovik4b" "<c(c3baae)>red guard"}
+				{"sturmovik5" "<c(c3baae)>red guard"}
+				{"sturmovik5b" "<c(c3baae)>red guard"}
+				{"sturmovik6" "<c(c3baae)>red guard"}
+				{"sturmovik6b" "<c(c3baae)>red guard"}
+				{"squadleader" "<c(c3baae)>squad leader"}
+				{"squadleader2" "<c(c3baae)>assault squad leader"}
+				{"tankman" "<c(c3baae)>tank crew"}
+				{"tankman2" "<c(c3baae)>tank commander"}
+				{"vehicle_supporter" "<c(c3baae)>soldier"}
+				{"kuznetsoff_sp" "<c(c3baae)>Alexey Kuznetsov"}
+				{"kuznetsoff" "<c(c3baae)>Alexey Kuznetsov"}
+				{"kuznetsoff_pr" "<c(c3baae)>Alexey Kuznetsov"}
+				{"maverick" "<c(c3baae)>Maverick Russian Spy"}
+				{"smirnoff" "<c(c3baae)>Victor Smirnov"}
+			}
+			{"usa"
+				{"ap_miner" "<c(c3baae)>combat engineer (AP mines)"}
+				{"at_miner" "<c(c3baae)>combat engineer (AT mines)"}
+				{"bazooker" "<c(c3baae)>AT infantry"}
+				{"bazooker2" "<c(c3baae)>AT support infantry"}
+				{"elite" "<c(c3baae)>airborne"}
+				{"elite2" "<c(c3baae)>airborne"}
+				{"elite3" "<c(c3baae)>airborne"}
+				{"elite4" "<c(c3baae)>U.S. Marine"}
+				{"elite5" "<c(c3baae)>U.S. Marine"}
+				{"elite6" "<c(c3baae)>U.S. Marine"}
+				{"elite_at" "<c(c3baae)>airborne"}
+				{"elite_para" "<c(c3baae)>101st Airborne"}
+				{"flamer" "<c(c3baae)>flamethrower infantry"}
+				{"flamer2" "<c(c3baae)>flamethrower support infantry"}
+				{"home_guard" "<c(c3baae)>conscript"}
+				{"home_guard2" "<c(c3baae)>conscript"}
+				{"medic" "<c(c3baae)>medic"}
+				{"mgun" "<c(c3baae)>machine gunner"}
+				{"mgun2" "<c(c3baae)>machine gunner"}
+				{"oficer" "<c(c3baae)>officer"}
+				{"radioman" "<c(c3baae)>radio operator"}
+				{"rifle" "<c(c3baae)>rifleman"}
+				{"rifle2" "<c(c3baae)>assault rifleman"}
+				{"saper" "<c(c3baae)>mine disposal expert"}
+				{"saper2" "<c(c3baae)>combat engineer"}
+				{"scout" "<c(c3baae)>commando"}
+				{"scout2" "<c(c3baae)>commando"}
+				{"smg" "<c(c3baae)>SMG infantry"}
+				{"smg2" "<c(c3baae)>assault SMG infantry"}
+				{"sniper" "<c(c3baae)>sniper"}
+				{"shotgun" "<c(c3baae)>shotgun trooper"}
+				{"sturmovik" "<c(c3baae)>ranger"}
+				{"sturmovik2" "<c(c3baae)>ranger"}
+				{"sturmovik3" "<c(c3baae)>ranger"}
+				{"sturmovik4" "<c(c3baae)>ranger"}
+				{"sturmovik4b" "<c(c3baae)>ranger"}
+				{"sturmovik5" "<c(c3baae)>ranger"}
+				{"sturmovik5b" "<c(c3baae)>ranger"}
+				{"sturmovik6" "<c(c3baae)>ranger"}
+				{"sturmovik6b" "<c(c3baae)>ranger"}
+				{"squadleader" "<c(c3baae)>squad leader"}
+				{"squadleader2" "<c(c3baae)>assault squad leader"}
+				{"tankman" "<c(c3baae)>tank crew"}
+				{"tankman2" "<c(c3baae)>tank commander"}
+				{"vehicle_supporter" "<c(c3baae)>soldier"}
+			}
+			{"ger"
+				{"ap_miner" "<c(c3baae)>combat engineer (AP mines)"}
+				{"at_miner" "<c(c3baae)>combat engineer (AT mines)"}
+				{"at_rifle" "<c(c3baae)>AT-Rifle rifleman"}
+				{"at_rifle2" "<c(c3baae)>AT-Rifle support infantry"}
+				{"bazooker" "<c(c3baae)>AT infantry"}
+				{"bazooker2" "<c(c3baae)>AT support infantry"}
+				{"bazooker3" "<c(c3baae)>AT infantry"}
+				{"elite" "<c(c3baae)>paratrooper"}
+				{"elite2" "<c(c3baae)>paratrooper"}
+				{"elite3" "<c(c3baae)>paratrooper"}
+				{"elite4" "<c(c3baae)>brandenburger"}
+				{"elite5" "<c(c3baae)>brandenburger"}
+				{"elite6" "<c(c3baae)>brandenburger"}
+				{"elite_at" "<c(c3baae)>paratrooper"}
+				{"flamer" "<c(c3baae)>flamethrower infantry"}
+				{"flamer2" "<c(c3baae)>flamethrower support infantry"}
+				{"home_guard" "<c(c3baae)>volkssturm"}
+				{"home_guard2" "<c(c3baae)>volkssturm"}
+				{"medic" "<c(c3baae)>medic"}
+				{"mgun" "<c(c3baae)>machine gunner"}
+				{"oficer" "<c(c3baae)>officer"}
+				{"radioman" "<c(c3baae)>radio operator"}
+				{"rifle" "<c(c3baae)>rifleman"}
+				{"rifle2" "<c(c3baae)>assault rifleman"}
+				{"saper" "<c(c3baae)>mine disposal expert"}
+				{"smg" "<c(c3baae)>SMG infantry"}
+				{"smg2" "<c(c3baae)>assault SMG infantry"}
+				{"sniper" "<c(c3baae)>sniper"}
+				{"sniper2" "<c(c3baae)>veteran sniper"}
+				{"sturmovik" "<c(c3baae)>panzergrenadier"}
+				{"sturmovik2" "<c(c3baae)>panzergrenadier"}
+				{"sturmovik3" "<c(c3baae)>panzergrenadier"}
+				{"sturmovik4" "<c(c3baae)>panzergrenadier"}
+				{"sturmovik4b" "<c(c3baae)>panzergrenadier"}
+				{"sturmovik5" "<c(c3baae)>panzergrenadier"}
+				{"sturmovik5b" "<c(c3baae)>panzergrenadier"}
+				{"sturmovik6" "<c(c3baae)>panzergrenadier"}
+				{"sturmovik6b" "<c(c3baae)>panzergrenadier"}
+				{"squadleader" "<c(c3baae)>squad leader"}
+				{"squadleader2" "<c(c3baae)>assault squad leader"}
+				{"tankman" "<c(c3baae)>tank crew"}
+				{"tankman2" "<c(c3baae)>tank commander"}
+				{"vehicle_supporter" "<c(c3baae)>soldier"}
+			}
+			{"eng"
+				{"ap_miner" "<c(c3baae)>combat engineer (AP mines)"}
+				{"at_miner" "<c(c3baae)>combat engineer (AT mines)"}
+				{"at_rifle" "<c(c3baae)>AT-Rifle infantry"}
+				{"at_rifle2" "<c(c3baae)>AT-Rifle support infantry"}
+				{"bazooker" "<c(c3baae)>AT infantry"}
+				{"bazooker2" "<c(c3baae)>AT support infantry"}
+				{"elite" "<c(c3baae)>commando"}
+				{"elite2" "<c(c3baae)>commando"}
+				{"elite3" "<c(c3baae)>commando"}
+				{"elite4" "<c(c3baae)>anzac"}
+				{"elite5" "<c(c3baae)>anzac"}
+				{"elite6" "<c(c3baae)>anzac"}
+				{"elite_at" "<c(c3baae)>commando"}
+				{"flamer" "<c(c3baae)>flamethrower infantry"}
+				{"flamer2" "<c(c3baae)>flamethrower support infantry"}
+				{"home_guard" "<c(c3baae)>militiaman"}
+				{"home_guard2" "<c(c3baae)>militiaman"}
+				{"medic" "<c(c3baae)>medic"}
+				{"mgun" "<c(c3baae)>machine gunner"}
+				{"mgun2" "<c(c3baae)>machine gunner"}
+				{"oficer" "<c(c3baae)>officer"}
+				{"radioman" "<c(c3baae)>radio operator"}
+				{"rifle" "<c(c3baae)>rifleman"}
+				{"rifle2" "<c(c3baae)>assault rifleman"}
+				{"rifle3" "<c(c3baae)>rifleman"}
+				{"saper" "<c(c3baae)>mine disposal expert"}
+				{"saper2" "<c(c3baae)>royal engineer"}
+				{"saper3" "<c(c3baae)>royal engineer"}
+				{"scout" "<c(c3baae)>saboteur"}
+				{"smg" "<c(c3baae)>SMG infantry"}
+				{"smg2" "<c(c3baae)>assault SMG infantry"}
+				{"smg3" "<c(c3baae)>SMG infantry"}
+				{"sniper" "<c(c3baae)>sniper"}
+				{"sturmovik" "<c(c3baae)>SAS soldier"}
+				{"sturmovik2" "<c(c3baae)>SAS soldier"}
+				{"sturmovik3" "<c(c3baae)>SAS soldier"}
+				{"sturmovik4" "<c(c3baae)>SAS soldier"}
+				{"sturmovik4b" "<c(c3baae)>SAS soldier"}
+				{"sturmovik4c" "<c(c3baae)>SAS soldier"}
+				{"sturmovik5" "<c(c3baae)>SAS soldier"}
+				{"sturmovik5b" "<c(c3baae)>SAS soldier"}
+				{"sturmovik6" "<c(c3baae)>SAS soldier"}
+				{"sturmovik6b" "<c(c3baae)>SAS soldier"}
+				{"squadleader" "<c(c3baae)>squad leader"}
+				{"squadleader2" "<c(c3baae)>assault squad leader"}
+				{"tankman" "<c(c3baae)>tank crew"}
+				{"tankman2" "<c(c3baae)>tank commander"}
+				{"vehicle_supporter" "<c(c3baae)>soldier"}
+			}
+			{"jap"
+				{"at_miner" "<c(c3baae)>combat engineer (AP mines)"}
+				{"ap_miner" "<c(c3baae)>combat engineer (AT mines)"}
+				{"at_rifle" "<c(c3baae)>AT-Rifle infantry"}
+				{"at_rifle2" "<c(c3baae)>AT-Rifle support infantry"}
+				{"bazooker" "<c(c3baae)>AT infantry"}
+				{"bazooker2" "<c(c3baae)>AT support infantry"}
+				{"bazooker3" "<c(c3baae)>AT infantry"}
+				{"elite" "<c(c3baae)>paratrooper"}
+				{"elite2" "<c(c3baae)>paratrooper"}
+				{"elite3" "<c(c3baae)>paratrooper"}
+				{"elite4" "<c(c3baae)>paratrooper"}
+				{"elite_at" "<c(c3baae)>paratrooper"}
+				{"flamer" "<c(c3baae)>flamethrower infantry"}
+				{"flamer2" "<c(c3baae)>flamethrower support infantry"}
+				{"home_guard" "<c(c3baae)>recruit"}
+				{"home_guard2" "<c(c3baae)>recruit"}
+				{"kamikaze" "<c(c3baae)>kamikaze"}
+				{"medic" "<c(c3baae)>medic"}
+				{"mgun" "<c(c3baae)>machine gunner"}
+				{"oficer" "<c(c3baae)>officer"}
+				{"radioman" "<c(c3baae)>radio operator"}
+				{"rifle" "<c(c3baae)>rifleman"}
+				{"rifle2" "<c(c3baae)>assault rifleman"}
+				{"saper" "<c(c3baae)>mine disposal expert"}
+				{"smg" "<c(c3baae)>SMG infantry"}
+				{"smg2" "<c(c3baae)>assault SMG infantry"}
+				{"sniper" "<c(c3baae)>sniper"}
+				{"sturmovik" "<c(c3baae)>SNLF soldier"}
+				{"sturmovik2" "<c(c3baae)>SNLF soldier"}
+				{"sturmovik3" "<c(c3baae)>SNLF soldier"}
+				{"sturmovik4" "<c(c3baae)>SNLF soldier"}
+				{"sturmovik4b" "<c(c3baae)>SNLF soldier"}
+				{"sturmovik5" "<c(c3baae)>SNLF soldier"}
+				{"sturmovik5b" "<c(c3baae)>SNLF soldier"}
+				{"sturmovik6" "<c(c3baae)>SNLF soldier"}
+				{"sturmovik6b" "<c(c3baae)>SNLF soldier"}
+				{"squadleader" "<c(c3baae)>squad leader"}
+				{"squadleader2" "<c(c3baae)>assault squad leader"}
+				{"tankman" "<c(c3baae)>tank crew"}
+				{"tankman2" "<c(c3baae)>tank commander"}
+				{"vehicle_supporter" "<c(c3baae)>soldier"}
+			}
+			{"ger2"
+				{"ap_miner" "<c(c3baae)>combat engineer (AP mines)"}
+				{"at_miner" "<c(c3baae)>combat engineer (AT mines)"}
+				{"at_rifle" "<c(c3baae)>AT-Rifle rifleman"}
+				{"at_rifle2" "<c(c3baae)>AT-Rifle support infantry"}
+				{"bazooker" "<c(c3baae)>AT infantry"}
+				{"bazooker2" "<c(c3baae)>AT support infantry"}
+				{"bazooker3" "<c(c3baae)>AT infantry"}
+				{"elite" "<c(c3baae)>jäger"}
+				{"elite2" "<c(c3baae)>jäger"}
+				{"elite3" "<c(c3baae)>jäger"}
+				{"elite4" "<c(c3baae)>strafbataillon infantry"}
+				{"elite5" "<c(c3baae)>strafbataillon infantry"}
+				{"elite6" "<c(c3baae)>strafbataillon infantry"}
+				{"elite_at" "<c(c3baae)>jäger"}
+				{"flamer" "<c(c3baae)>flamethrower infantry"}
+				{"flamer2" "<c(c3baae)>flamethrower support infantry"}
+				{"home_guard" "<c(c3baae)>leichter aufklärer"}
+				{"home_guard2" "<c(c3baae)>leichter aufklärer"}
+				{"mgun" "<c(c3baae)>machine gunner"}
+				{"oficer" "<c(c3baae)>officer"}
+				{"oficer2" "<c(c3baae)>veteran officer"}
+				{"radioman" "<c(c3baae)>radio operator"}
+				{"rifle" "<c(c3baae)>rifleman"}
+				{"rifle2" "<c(c3baae)>stosstrupp infantry"}
+				{"saper" "<c(c3baae)>mine disposal expert"}
+				{"smg" "<c(c3baae)>SMG infantry"}
+				{"smg2" "<c(c3baae)>stosstrupp SMG infantry"}
+				{"sniper" "<c(c3baae)>sniper"}
+				{"sturmovik" "<c(c3baae)>gebirgsjäger"}
+				{"sturmovik2" "<c(c3baae)>gebirgsjäger"}
+				{"sturmovik3" "<c(c3baae)>gebirgsjäger"}
+				{"sturmovik4" "<c(c3baae)>gebirgsjäger"}
+				{"sturmovik4b" "<c(c3baae)>gebirgsjäger"}
+				{"sturmovik5" "<c(c3baae)>gebirgsjäger"}
+				{"sturmovik5b" "<c(c3baae)>gebirgsjäger"}
+				{"sturmovik6" "<c(c3baae)>gebirgsjäger"}
+				{"sturmovik6b" "<c(c3baae)>gebirgsjäger"}
+				{"squadleader" "<c(c3baae)>squad leader"}
+				{"squadleader2" "<c(c3baae)>stosstrupp squad leader"}
+				{"tankman" "<c(c3baae)>veteran tank crew"}
+				{"tankman2" "<c(c3baae)>veteran tank commander"}
+				{"vehicle_supporter" "<c(c3baae)>soldier"}
+			}
+		}
+		{"civilian"
+			{"civilian1" "Civilian"}
+			{"civilian2" "Civilian"}
+			{"civilian3" "Civilian"}
+			{"civilian4" "Civilian"}
+			{"civilian5" "Civilian"}
+		}
+	}
+	{"squad"
+		{"ap_miners(eng)" "Combat engineers (AP mines)"}
+		{"ap_miners(ger)" "Combat engineers (AP mines)"}
+		{"ap_miners(jap)" "Combat engineers (AP mines)"}
+		{"ap_miners(rus)" "Combat engineers (AP mines)"}
+		{"ap_miners(usa)" "Combat engineers (AP mines)"}
+		{"ap_miners(ger2)" "Combat engineers (AP mines)"}
+		{"at_miners(eng)" "Combat engineers (AT mines)"}
+		{"at_miners(ger)" "Combat engineers (AT mines)"}
+		{"at_miners(jap)" "Combat engineers (AT mines)"}
+		{"at_miners(rus)" "Combat engineers (AT mines)"}
+		{"at_miners(usa)" "Combat engineers (AT mines)"}
+		{"at_miners(ger2)" "Combat engineers (AT mines)"}
+		{"at_rifles(eng)" "AT-Rifle infantry"}
+		{"at_rifles(ger)" "AT-Rifle infantry"}
+		{"at_rifles(jap)" "AT-Rifle infantry"}
+		{"at_rifles(rus)" "AT-Rifle infantry"}
+		{"at_rifles(ger2)" "AT-Rifle infantry"}
+		{"bazookers(eng)" "AT infantry"}
+		{"bazookers(ger)" "AT infantry"}
+		{"bazookers(jap)" "AT infantry"}
+		{"bazookers(rus)" "AT infantry"}
+		{"bazookers(usa)" "AT infantry"}
+		{"bazookers(ger2)" "AT infantry"}
+		{"elites(eng)" "Commandos"}
+		{"elites(ger)" "Paratroopers"}
+		{"elites(jap)" "Paratroopers"}
+		{"elites(rus)" "Marines"}
+		{"elites(usa)" "Airborne"}
+		{"elites(ger2)" "Jäger"}
+		{"flamers(eng)" "Flamethrower infantry"}
+		{"flamers(ger)" "Flamethrower infantry"}
+		{"flamers(jap)" "Flamethrower infantry"}
+		{"flamers(rus)" "Flamethrower infantry"}
+		{"flamers(usa)" "Flamethrower infantry"}
+		{"flamers(ger2)" "Flamethrower infantry"}
+		{"home_guards(eng)" "Militia"}
+		{"home_guards(ger)" "Volkssturm"}
+		{"home_guards(jap)" "Recruits"}
+		{"home_guards(rus)" "Partisan"}
+		{"home_guards(usa)" "Conscripts"}
+		{"home_guards(ger2)" "Leichte Aufklärer"}
+		{"kamikazes(jap)" "Kamikaze"}
+		{"mgs2(eng)" "Machine gunner"}
+		{"mgs2(ger)" "Machine gunner"}
+		{"mgs2(jap)" "Machine gunner"}
+		{"mgs2(rus)" "Machine gunner"}
+		{"mgs2(usa)" "Machine gunner"}
+		{"mgs2(ger2)" "Machine gunner"}
+		{"officers(eng)" "Officer"}
+		{"officers(ger)" "Officer"}
+		{"officers(jap)" "Officer"}
+		{"officers(rus)" "Officer"}
+		{"officers(usa)" "Officer"}
+		{"officers(ger2)" "Officer"}
+		{"riflemans(eng)" "Regular infantry"}
+		{"riflemans(ger)" "Regular infantry"}
+		{"riflemans(jap)" "Regular infantry"}
+		{"riflemans(rus)" "Regular infantry"}
+		{"riflemans(usa)" "Regular infantry"}
+		{"riflemans(ger2)" "Veteranen"}
+		{"riflemans2(eng)" "Rifleman"}
+		{"riflemans2(ger)" "Rifleman"}
+		{"riflemans2(jap)" "Rifleman"}
+		{"riflemans2(rus)" "Rifleman"}
+		{"riflemans2(usa)" "Rifleman"}
+		{"riflemans2(ger2)" "Rifleman"}
+		{"sappers(eng)" "Mine disposal experts"}
+		{"sappers(ger)" "Mine disposal experts"}
+		{"sappers(jap)" "Mine disposal experts"}
+		{"sappers(rus)" "Mine disposal experts"}
+		{"sappers(usa)" "Mine disposal experts"}
+		{"sappers(ger2)" "Mine disposal experts"}
+		{"smgs(eng)" "Assault infantry"}
+		{"smgs(ger)" "Assault infantry"}
+		{"smgs(jap)" "Assault infantry"}
+		{"smgs(rus)" "Assault infantry"}
+		{"smgs(usa)" "Assault infantry"}
+		{"smgs(ger2)" "Stosstrupp"}
+		{"smgs2(eng)" "SMG"}
+		{"smgs2(ger)" "SMG"}
+		{"smgs2(jap)" "SMG"}
+		{"smgs2(rus)" "SMG"}
+		{"smgs2(usa)" "SMG"}
+		{"smgs2(ger2)" "SMG"}
+		{"snipers(eng)" "Sniper"}
+		{"snipers(ger)" "Sniper"}
+		{"snipers(jap)" "Sniper"}
+		{"snipers(rus)" "Sniper"}
+		{"snipers(usa)" "Sniper"}
+		{"snipers(ger2)" "Sniper"}
+		{"snipers_d(eng)" "Sniper"}
+		{"snipers_d(ger)" "Sniper"}
+		{"snipers_d(jap)" "Sniper"}
+		{"snipers_d(rus)" "Sniper"}
+		{"snipers_d(usa)" "Sniper"}
+		{"shotguns(usa)" "Shotgunners"}
+		{"stormtroopers(eng)" "SAS"}
+		{"stormtroopers1(eng)" "Elite marksmen"}
+		{"stormtroopers2(eng)" "Elite AT infantry"}
+		{"stormtroopers3(eng)" "Elite support infantry"}
+		{"stormtroopers(ger)" "Panzergrenadiere"}
+		{"stormtroopers1(ger)" "Elite marksmen"}
+		{"stormtroopers2(ger)" "Elite AT infantry"}
+		{"stormtroopers3(ger)" "Elite support infantry"}
+		{"stormtroopers(jap)" "SNLF"}
+		{"stormtroopers1(jap)" "Elite marksmen"}
+		{"stormtroopers2(jap)" "Elite AT infantry"}
+		{"stormtroopers3(jap)" "Elite support infantry"}
+		{"stormtroopers(rus)" "Red Guards"}
+		{"stormtroopers1(rus)" "Elite marksmen"}
+		{"stormtroopers2(rus)" "Elite AT infantry"}
+		{"stormtroopers3(rus)" "Elite support infantry"}
+		{"stormtroopers(usa)" "Rangers"}
+		{"stormtroopers1(usa)" "Elite marksmen"}
+		{"stormtroopers2(usa)" "Elite AT infantry"}
+		{"stormtroopers3(usa)" "Elite support infantry"}
+		{"stormtroopers(ger2)" "Gebirgsjäger"}
+		{"stormtroopers1(ger2)" "Veteran marksmen"}
+		{"stormtroopers2(ger2)" "Veteran AT infantry"}
+		{"stormtroopers3(ger2)" "Veteran support infantry"}
+		{"storm_mech_eng" "Mechanized SAS"}
+		{"storm_mech_ger" "Mechanized Panzergrenadiere"}
+		{"storm_mech_jap" "Mechanized SNLF"}
+		{"storm_mech_rus" "Mechanized Red Guards"}
+		{"storm_mech_usa" "Mechanized Rangers"}
+		{"storm_mech_ost" "Mechanized Gebirgsjäger"}
+		{"tankmans(eng)" "Tank crew"}
+		{"tankmans(ger)" "Tank crew"}
+		{"tankmans(jap)" "Tank crew"}
+		{"tankmans(rus)" "Tank crew"}
+		{"tankmans(usa)" "Tank crew"}
+		{"tankmans(ger2)" "Veteran tank crew"}
+		{"hero1_eng" "Saboteur"}
+		{"hero2_eng" "Royal Engineers"}
+		{"hero3_eng" "ANZAC"}
+		{"hero4_eng" "Royal Commandos"}
+		{"hero5_eng" "Radio Operator"}
+		{"hero6_eng" "Churchill Crocodile"}
+		{"hero7_eng" "Royal Artillery"}
+		{"hero8_eng" "Churchill AVRE"}
+		{"hero9_eng" "Black Prince"}
+		{"heronew1_eng" "Black Watch"}
+		{"heronew2_eng" "Cromwell Mk. VI"}
+		{"heronew3_eng" "M4A4 Tulip"}
+		{"hero1_ger" "Veteran Sniper"}
+		{"hero2_ger" "Brandenburger"}
+		{"hero3_ger" "Goliath"}
+		{"hero4_ger" "Fallschirmjäger"}
+		{"hero5_ger" "Radio Operator"}
+		{"hero6_ger" "StuH 42"}
+		{"hero7_ger" "Nebelwerfer 41"}
+		{"hero8_ger" "Veteran Tiger"}
+		{"hero9_ger" "Sturmtiger"}
+		{"heronew1_ger" "Panzerfaust Squad"}
+		{"heronew2_ger" "Marder III Ausf. H"}
+		{"heronew3_ger" "PaK 43"}
+		{"hero1_ost" "Veteran Officer"}
+		{"hero2_ost" "Panzerschreck Squad"}
+		{"hero3_ost" "SdKfz 234/3"}
+		{"hero4_ost" "Strafbataillon"}
+		{"hero5_ost" "Stosstrupp"}
+		{"hero6_ost" "SdKfz 234/4"}
+		{"hero7_ost" "Radio Operator"}
+		{"hero8_ost" "Beutepanzer T-34/85"}
+		{"hero9_ost" "Schweres Wurfgerät 41"}
+		{"hero10_ost" "SdKfz 8 Flak 37"}
+		{"hero11_ost" "Brummbär"}
+		{"hero12_ost" "Jagdtiger"}
+		{"hero1_jap" "AT-Riflegrenade Squad"}
+		{"hero2_jap" "Kamikaze!"}
+		{"hero3_jap" "Homeland Fury"}
+		{"hero4_jap" "Marine Paratroopers"}
+		{"hero5_jap" "Radio Operator"}
+		{"hero6_jap" "Banzai!"}
+		{"hero7_jap" "200mm Rocket"}
+		{"hero8_jap" "Marine Tank"}
+		{"hero9_jap" "Ho-Ri 1"}
+		{"heronew1_jap" "SS-D Flame Tank"}
+		{"heronew2_jap" "Ho-Ni 3"}
+		{"heronew3_jap" "Type 97 Mortar"}
+		{"hero1_rus" "Spetsnaz"}
+		{"hero2_rus" "Guards Rifle"}
+		{"hero3_rus" "Guards Sniper"}
+		{"hero4_rus" "Black Coats"}
+		{"hero5_rus" "Charge!"}
+		{"hero6_rus" "Radio Operator"}
+		{"hero7_rus" "Assault Troops"}
+		{"hero8_rus" "KV-2"}
+		{"hero9_rus" "203mm B-4M"}
+		{"heronew1_rus" "Shock Infantry"}
+		{"heronew2_rus" "BS-3"}
+		{"heronew3_rus" "BM-8-24"}
+		{"hero1_usa" "M8 Howitzer"}
+		{"hero2_usa" "U.S. Marines"}
+		{"hero3_usa" "101st Airborne"}
+		{"hero4_usa" "M4A3R2 Croc"}
+		{"hero5_usa" "Radio Operator"}
+		{"hero6_usa" "M4A3(105)"}
+		{"hero7_usa" "Mass Production"}
+		{"hero8_usa" "M4A3E2(76)W Jumbo"}
+		{"hero9_usa" "Super Pershing"}
+		{"heronew1_usa" ".30 cal Browning A6"}
+		{"heronew2_usa" "Combat Engineers"}
+		{"heronew3_usa" "Devil's Brigade"}
+		{"hero1_rus2" "Guards IS-2"}
+		{"hero2_rus2" "Radio Operator"}
+		{"hero3_rus2" "Tank Riders"}
+		{"hero4_rus2" "Katyusha"}
+		{"hero5_rus2" "A-19"}
+		{"hero6_rus2" "Sappers"}
+		{"hero7_rus2" "x"}
+		{"hero8_rus2" "T-34/57 '43"}
+		{"hero9_rus2" "x"}
+		{"heronew1_rus2" "x"}
+		{"heronew2_rus2" "x"}
+		{"heronew3_rus2" "T-34/76E"}
+	}
+	{"entity"
+		{"155gpf" "GPF"}
+		{"203b4" "203mm B-4M"}
+		{"20mm_u_boat" "AA gun"}
+		{"88mm_u_boat" "FlaK 41"}
+		{"achilles" "Achilles 1C"}
+		{"air-bag" "Boat"}
+		{"archer" "Archer"}
+		{"armor_barge_cs1" "Barge"}
+		{"armor_barge_cs2" "Barge"}
+		{"armored_locomotive" "Locomotive"}
+		{"ba11" "BA-11"}
+		{"ba64" "BA-64"}
+		{"bedford" "Bedford OYD"}
+		{"bedford_art" "Bedford OYD"}
+		{"bedford_eng" "Bedford OYD"}
+		{"bedford_inf" "Bedford OYD"}
+		{"bf109g" "BF-109 G-16"}
+		{"bishop" "Mk I Bishop"}
+		{"bk1124_k" "Ship"}
+		{"bl6" "BL 6\" 26 cwt"}
+		{"black_prince" "Black Prince"}
+		{"blitz3_6" "Opel Blitz 3.6"}
+		{"blitz3_6_ger2" "Opel Blitz 3.6"}
+		{"blitz3_6art" "Opel Blitz 3.6"}
+		{"blitz3_6art_ger2" "Opel Blitz 3.6"}
+		{"blitz3_6eng" "Opel Blitz 3.6"}
+		{"blitz3_6eng_ger2" "Opel Blitz 3.6"}
+		{"blitz3_6f" "Fuel truck"}
+		{"blitz3_6inf" "Opel Blitz 3.6"}
+		{"blitz3_6m" "Ambulance truck"}
+		{"bm13" "BM-13 Katyusha"}
+		{"bm_8_24" "BM-8-24"}
+		{"bm37" "BM-37 mortar"}
+		{"bofors" "40mm M1 Bofors L/60"}
+		{"box1" "Big box"}
+		{"box2" "Small box"}
+		{"boxes1" "Pile of boxes"}
+		{"browning_stan" "Heavy MG"}
+		{"browning_stan_fix" "Heavy MG"}
+		{"brummbar" "Brummbär"}
+		{"bs3" "BS-3"}
+		{"bt7a" "BT-7a"}
+		{"centurion" "Centurion Mk.II"}
+		{"chicken" "Chicken"}
+		{"chi-ha120" "Chi-Ha 120"}
+		{"chi-ha47" "Chi-Ha 47"}
+		{"chi-ha57" "Chi-Ha 57"}
+		{"chi-he" "Chi-He"}
+		{"chi-nu" "Chi-Nu"}
+		{"chi-ri" "Chi-Ri"}
+		{"chi-to" "Chi-To"}
+		{"churchill_avre" "Churchill AVRE"}
+		{"churchill_crocodile" "Churchill Crocodile"}
+		{"churchill_mk_vii" "Mk.VII Churchill"}
+		{"cistern" "Tank wagon"}
+		{"cometa34" "Comet I (A34)"}
+		{"cow" "Cow"}
+		{"crane_rail" "Crane"}
+		{"crane_rail1" "Rail crane"}
+		{"crane_m" "Crane"}
+		{"crusaderaa2" "Crusader AAII"}
+		{"crusaderaa1" "Crusader AA"}
+		{"d1" "D1"}
+		{"degtyarev_stan" "Heavy MG"}
+		{"degtyarev_stan_fix" "Heavy MG"}
+		{"destroyer_k" "Ship"}
+		{"dodge" "Dodge WC-56"}
+		{"dodgewc55" "Dodge WC-55"}
+		{"dshk_stan" "DShK Heavy MG"}
+		{"elefant" "Elefant"}
+		{"elefant_ger2" "Elefant"}
+		{"flak18" "FlaK 18"}
+		{"flak37" "FlaK 37"}
+		{"flak37_ger2" "FlaK 37"}
+		{"flak38" "FlaK 38"}
+		{"flak38_wheeled" "FlaK 38"}
+		{"flak38_wheeled_ger2" "FlaK 38"}
+		{"flak-38-1" "FlaK 38"}
+		{"flak41" "FlaK 41"}
+		{"gaz67" "GAZ-67"}
+		{"gaz67b" "GAZ-67B"}
+		{"gmc" "GMC CCKW"}
+		{"gmc_art" "GMC CCKW"}
+		{"gmc_cckw" "GMC CCKW-353"}
+		{"gmc_eng" "GMC CCKW"}
+		{"gmc_fuel" "GMC Refueller"}
+		{"gmc_inf" "GMC CCKW"}
+		{"grant_m3" "M3 Lee"}
+		{"hamilcar" "G.A.L.49 Hamilcar"}
+		{"ha-go" "Ha-Go"}
+		{"ha-to" "Ha-To"}
+		{"hd" "Harley Davidson"}
+		{"hetzer" "Hetzer"}
+		{"hetzer_ger2" "Hetzer"}
+		{"horch" "Horch"}
+		{"how_a(eng)" "BL 6\\26 cwt"}
+		{"how_aa(eng)" "3.7-Inch QF AA"}
+		{"how_b(eng)" "QF 25-pdr"}
+		{"how_a(ger)" "sFH 18"}
+		{"how_aa(ger)" "FlaK 37"}
+		{"how_b(ger)" "le. FH 18 M"}
+		{"how_a(jap)" "150mm Type 96"}
+		{"how_aa(jap)" "75mm Type 4 AA Gun"}
+		{"how_b(jap)" "105mm Type 91"}
+		{"how_a(rus)" "D1"}
+		{"how_aa(rus)" "61-K M1939"}
+		{"how_b(rus)" "M-30"}
+		{"how_a(usa)" "M114"}
+		{"how_aa(usa)" "40mm M1 Bofors L/60"}
+		{"how_b(usa)" "M2A1 L"}
+		{"how_a(ger2)" "sFH 18"}
+		{"how_aa(ger2)" "FlaK 37"}
+		{"how_b(ger2)" "le. FH 18 M"}
+		{"how_pak1(ger2)" "PaK 36"}
+		{"how_pak2(ger2)" "PaK 38"}
+		{"how_pak3(ger2)" "PaK 40"}
+		{"ho-ha3mgun" "Ho-Ha"}
+		{"ho-i" "Ho-I"}
+		{"ho-ni1" "Ho-Ni 1"}
+		{"ho-ni2" "Ho-Ni 2"}
+		{"ho-ni_3" "Ho-Ni 3"}
+		{"ho-ri" "Ho-Ri 2"}
+		{"ho-ri_1" "Ho-Ri 1"}
+		{"ho-ro" "Ho-Ro"}
+		{"hummel" "Hummel"}
+		{"il-2" "IL-2"}
+		{"is1" "IS-1"}
+		{"is2" "IS-2"}
+		{"is3" "IS-3"}
+		{"isu122" "ISU-122"}
+		{"isu152" "ISU-152"}
+		{"isuzutx40" "Isuzu"}
+		{"isuzutx40art" "Isuzu"}
+		{"isuzutx40_aa" "Isuzu AA"}
+		{"isuzutx40_eng" "Isuzu"}
+		{"isuzutx40_inf" "Isuzu"}
+		{"isuzutx40_mort" "Isuzu mortar"}
+		{"jagdpanther" "Jagdpanther"}
+		{"jagdpanzer_iv" "Jagdpanzer IV"}
+		{"jagdtiger" "Jagdtiger"}
+		{"jagdtiger_ger2" "Jagdtiger"}
+		{"ju-52" "JU-52"}
+		{"ju-87" "JU-87 A-1"}
+		{"k18" "K18"}
+		{"k61" "61-K"}
+		{"k61_fix" "61-K"}
+		{"ke-nu" "Ke-Nu"}
+		{"kfz15" "Kfz 15 Horch"}
+		{"kfz15_gun" "Kfz 15 Horch"}
+		{"kubel" "Kubel VW82"}
+		{"kubel_mgun" "Kubel VW82"}
+		{"kv1" "KV-1"}
+		{"kv2" "KV-2"}
+		{"kv85" "KV-85"}
+		{"land_mattress" "Land Mattress"}
+		{"land_mattress(eng)" "Land Mattress"}
+		{"lci(l)" "LCI(L)"}
+		{"lcvp" "Landing craft"}
+		{"lefh18" "le. FH 18 M"}
+		{"lefh18_ger2" "le. FH 18 M"}
+		{"lvt4" "LVT(A)-4"}
+		{"marder_3h" "Marder III Ausf. H"}
+		{"m10wolverine" "M10 Wolverine"}
+		{"m114" "M114"}
+		{"m12gmc" "M12 gun motor carriage"}
+		{"m16" "M16"}
+		{"m18" "M18 Hellcat"}
+		{"m19" "M19"}
+		{"m1mortar" "M1 mortar"}
+		{"m1_57mm" "M1 AT gun"}
+		{"m20" "M20"}
+		{"m24" "M24 Chaffee"}
+		{"m26e4" "M26 E4 'Super Pershing'"}
+		{"m26_pershing" "M26 Pershing"}
+		{"m2a1l" "M2A1 L"}
+		{"m3" "M5A1"}
+		{"m3_usa" "M3A1"}
+		{"m3_eng" "M5A1"}
+		{"m30_1938" "M-30"}
+		{"m36" "M36 Slugger"}
+		{"m37" "M-37"}
+		{"m3cannon" "M3 AT gun"}
+		{"m4a3c" "M4A3 Calliope"}
+		{"m4a3e2_jumbo" "M4A3E2 Jumbo"}
+		{"m4a3e2_jumbo_76" "M4A3E2(76)W Jumbo"}
+		{"m4a3e8" "M4A3E8(76)W Sherman"}
+		{"m4a3m" "M4A3 Crab"}
+		{"m4a3m_eng" "M4A3 Crab"}
+		{"m4a3vc" "M4A4 VC Firefly"}
+		{"m4a3_75" "M4A3 Sherman"}
+		{"m4a3_105" "M4A3(105) Sherman"}
+		{"m4a3_zippo" "M4A3R2 Croc"}
+		{"m4a4" "M4A4"}
+		{"m4a4_firefly" "M4A4 Firefly"}
+		{"m4a4_tulip" "M4A4 Tulip"}
+		{"m5" "M5 AT gun"}
+		{"m5a1" "M5A1 Stuart"}
+		{"m7" "M7 Priest"}
+		{"m72" "M-72"}
+		{"m7_eng" "M7 Priest"}
+		{"m8" "M8 Scott"}
+		{"m8grayhound" "M8 Greyhound"}
+		{"m8_howitzer" "M8"}
+		{"maxim" "Maxim MG"}
+		{"maxim_quad" "Maxim AA"}
+		{"maxson" "M45 Maxson AA"}
+		{"maxson_fix" "M45 Maxson AA"}
+		{"mg1_ju52" "Mounted MG"}
+		{"mg2_ju52" "Mounted MG"}
+		{"mg34_stan" "Heavy MG"}
+		{"mg34_tower" "Heavy MG"}
+		{"mg42_stan" "Heavy MG"}
+		{"mg42_stan_fix" "Heavy MG"}
+		{"mk10" "MK10"}
+		{"mk2a" "Mk.IIA Matilda"}
+		{"mk2daimler" "Daimler AC Mk.I"}
+		{"mk3" "Mk.III Valentine"}
+		{"mk4" "Mk.IV Churchill"}
+		{"mk6" "Mk.VI Crusader"}
+		{"mk7" "Mk.VII Tetrarch"}
+		{"cromwell_mk_vii" "Mk.VIII Cromwell"}
+		{"cromwell_mk_vi" "Mk.VIII Cromwell 95mm"}
+		{"ml3" "ML3 Mk.II mortar"}
+		{"nashorn" "Nashorn"}
+		{"nashorn_ger2" "Nashorn"}
+		{"nebelwerfer41" "Nebelwerfer 41"}
+		{"nebelwerfer42" "Nebelwerfer 42"}
+		{"oerlikon" "Oerlikon 20mm"}
+		{"oerlikon_fix" "Oerlikon 20mm"}
+		{"ostwind" "Ostwind"}
+		{"ostwind_ger2" "Ostwind"}
+		{"pak36" "PaK 36"}
+		{"pak36_ger2" "PaK 36"}
+		{"pak38" "PaK 38"}
+		{"pak38_ger2" "PaK 38"}
+		{"pak40" "PaK 40"}
+		{"pak40_ger2" "PaK 40"}
+		{"pak40_platform" "PaK 40"}
+		{"pak43" "PaK 43"}
+		{"pak47" "47mm Type 1"}
+		{"pak57" "57mm Type 2"}
+		{"passengervan" "Passenger car"}
+		{"pdr25" "QF 25-pdr"}
+		{"pg1" "Motor boat"}
+		{"platform" "Platform car"}
+		{"platform_can" "Platform car"}
+		{"platform_gun" "Platform car"}
+		{"pz1" "Flakpanzer I"}
+		{"pz1_ger2" "Flakpanzer I"}
+		{"pz1b" "PzKpfw I Ausf.B"}
+		{"pz1b_ger2" "PzKpfw I Ausf.B"}
+		{"pz2f" "PzKpfw II Ausf.F"}
+		{"pz2l" "PzKpfw II Luchs"}
+		{"pz3" "PzKpfw III Ausf.J"}
+		{"pz3_ger2" "PzKpfw III Ausf.J"}
+		{"pz3f" "PzKpfw III Ausf.F"}
+		{"pz3f_ger2" "PzKpfw III Ausf.F"}
+		{"pz3m" "Pz III Sapper"}
+		{"pz3m_ger2" "Pz III Sapper"}
+		{"pz3n" "PzKpfw III Ausf.N"}
+		{"pz4d" "PzKpfw IV Ausf.D"}
+		{"pz4g" "PzKpfw IV Ausf.G"}
+		{"pz4g_ger2" "PzKpfw IV Ausf.G"}
+		{"pz4h" "PzKpfw IV Ausf.H"}
+		{"pz4h_ger2" "PzKpfw IV Ausf.H"}
+		{"pz5" "PzKpfw V Panther"}
+		{"pz5g" "PzKpfw V Panther"}
+		{"pz5g_ger2" "PzKpfw V Panther"}
+		{"pz6b" "PzKpfw VI Kingtiger"}
+		{"pz6bh" "PzKpfw VI Kingtiger"}
+		{"pz6bh_ger2" "PzKpfw VI Kingtiger"}
+		{"pz6e" "PzKpfw VI Tiger"}
+		{"pz6e_ger2" "PzKpfw VI Tiger"}
+		{"pz_turret" "Pz Turret"}
+		{"p-51mustang" "P51 Mustang"}
+		{"qf17" "QF 17-pdr"}
+		{"qf2" "QF 2-pdr"}
+		{"qf6" "QF 6-pdr"}
+		{"r12" "BMW  R12"}
+		{"r12_ger2" "BMW  R12"}
+		{"s100_k" "Ship"}
+		{"searchlight" "Search light"}
+		{"searchlight2" "Search light"}
+		{"sdkfz138_1" "SdKfz 138/1 Grille"}
+		{"sdkfz222" "SdKfz 222"}
+		{"sdkfz223" "SdKfz 223"}
+		{"sdkfz232" "SdKfz 232"}
+		{"sdkfz234" "SdKfz 234 Puma"}
+		{"sdkfz234_ger2" "SdKfz 234 Puma"}
+		{"sdkfz234_1" "SdKfz 234/1"}
+		{"sdkfz234_3" "SdKfz 234/3"}
+		{"sdkfz234_4" "SdKfz 234/4"}
+		{"sdkfz250_1" "SdKfz 250/1"}
+		{"sdkfz250_11" "SdKfz 250/11"}
+		{"sdkfz251_1" "SdKfz 251/1"}
+		{"sdkfz251_1_stuka" "SdKfz 251/1 'Stuka zu Fuss'"}
+		{"sdkfz303" "SdKfz 303 'Goliath'"}
+		{"sdkfz4" "Panzerwerfer"}
+		{"sdkfz7" "SdKfz 7"}
+		{"sdkfz7_2" "SdKfz 7/2"}
+		{"sdkfz8" "SdKfz 8 Flak 37"}
+		{"sfh18" "sFH 18"}
+		{"sfh18_ger2" "sFH 18"}
+		{"sgrw42" "sGrW 34 mortar"}
+		{"sgrw42_ger2" "sGrW 34 mortar"}
+		{"sig33" "siG 33"}
+		{"ss-d" "SS-D"}
+		{"steam_locomotive" "Locomotive"}
+		{"steyr_rso" "Steyr RSO"}
+		{"stug3g" "StuG III Ausf.G"}
+		{"stuh42" "StuH 42"}
+		{"sturmtiger" "Sturmtiger"}
+		{"su122" "SU-122"}
+		{"su76" "SU-76"}
+		{"su85" "SU-85"}
+		{"su100" "SU-100"}
+		{"swg41" "Schweres Wurfgerät 41"}
+		{"t20" "T20 \"Komsomolets\" tractor"}
+		{"t26" "T-26"}
+		{"t29" "T29"}
+		{"t34_0" "T-34/76"}
+		{"t34_1" "T-34/57"}
+		{"t34_2" "T-34/76"}
+		{"t34_3" "T-34/85"}
+		{"t34_3_ger2" "Beutepanzer T-34/85"}
+		{"t34m" "T-34 Sapper"}
+		{"t60" "T-60"}
+		{"t70" "T-70"}
+		{"t90_75m" "75mm Type 90"}
+		{"t91_105m" "105mm Type 91"}
+		{"t96_150mm" "Type 96"}
+		{"tendor" "Tender"}
+		{"tradevan" "House car"}
+		{"tradevan_big" "House car"}
+		{"tradevan_explosive" "Explosive car"}
+		{"tramway" "Tram"}
+		{"tramway_driveable" "Tram"}
+		{"type1hmg_stan" "Heavy MG"}
+		{"type1hmg_stan_fix" "Heavy MG"}
+		{"type2_20mm" "20mm Type 2"}
+		{"type2_20mm_stand" "20mm Type 2"}
+		{"type4_200mm" "200mm Type 4"}
+		{"type4_75mm" "75mm Type 4"}
+		{"type96_150mm" "150mm Type 96"}
+		{"type93scout" "Type 92"}
+		{"type94" "Type 94 mortar"}
+		{"type97" "Type 97"}
+		{"type_97_150mm" "150mm Type 97 mortar"}
+		{"universal" "Universal-1"}
+		{"universal_carrier" "Bren carrier"}
+		{"u-boat" "U-boat"}
+		{"veteran_tiger" "Veteran Tiger"}
+		{"vickers" "3.7-Inch QF AA Mk.II"}
+		{"vickers_mgun" "Heavy MG"}
+		{"vickers_stan" "Heavy MG"}
+		{"vickers_stan_fix" "Heavy MG"}
+		{"welberwind" "Wirbelwind"}
+		{"wespe" "Wespe"}
+		{"wespe_ger2" "Wespe"}
+		{"willysat" "Willys AT"}
+		{"willysmb" "Willys MB"}
+		{"willysmb_eng" "Willys MB"}
+		{"ya5_k" "Ship"}
+		{"zis2" "ZIS-2"}
+		{"zis3" "ZiS-3"}
+		{"zis5" "ZiS-5"}
+		{"zis5art" "ZiS-5"}
+		{"zis5eng" "ZiS-5"}
+		{"zis5inf" "ZiS-5"}
+		{"zsu37" "ZSU-37"}
+		{"zis_30" "ZiS-30"}
+		{"afp" "MFP type D"}
+		{"karlthor" "Karl Thor"}
+		{"305mm" "Coastal battery"}
+		{"armor_barge" "Armor Barge"}
+		{"svarka_move" "Welding apparatus"}
+		{"do-24t" "Do-24"}
+		{"do-24t_1" "Do-24"}
+		{"lg40" "LG40"}
+	}
+	{"ammo"
+		{"arl" "Air rocket"}
+		{"bullet20 airplane" "AP 20mm FlaK rounds"}
+		{"bullet20 zenite" "AP 20mm Zenite"}
+		{"bullet25 zenite" "AP 25mm FlaK rounds"}
+		{"bullet28 ap" "AP 28mm"}
+		{"bullet28 fg" "HE 28mm"}
+		{"bullet37 ap" "AP 37mm"}
+		{"bullet37 apcr" "APCR 37mm"}
+		{"bullet37 fg" "HE 37mm"}
+		{"bullet37 zenite" "AP 37mm FlaK rounds"}
+		{"bullet40 ap" "AP 40mm"}
+		{"bullet40 apcr" "APCR 40mm"}
+		{"bullet40 fg" "HE 40mm"}
+		{"bullet40 zenite" "AP 40mm FlaK rounds"}
+		{"bullet45 ap" "AP 45mm"}
+		{"bullet45 apcr" "APCR 45mm"}
+		{"bullet45 fg" "HE 45mm"}
+		{"bullet47 ap" "AP 47mm"}
+		{"bullet47 apcr" "APCR 47mm"}
+		{"bullet47 fg" "HE 47mm"}
+		{"bullet50 ap" "AP 50mm"}
+		{"bullet50 apcr" "APCR 50mm"}
+		{"bullet50 fg" "HE 50mm"}
+		{"bullet57 ap" "AP 57mm"}
+		{"bullet57 apcr" "APCR 57mm"}
+		{"bullet57 fg" "HE 57mm"}
+		{"bullet75 ap" "AP 75mm"}
+		{"bullet75 apcr" "APCR 75mm"}
+		{"bullet75 fg" "HE 75mm"}
+		{"bullet76 ap" "AP 76mm"}
+		{"bullet76 apcr" "APCR 76mm"}
+		{"bullet76 fg" "HE 76mm"}
+		{"bullet77 ap" "AP 77mm"}
+		{"bullet77 apcr" "APCR 77mm"}
+		{"bullet77 fg" "HE 77mm"}
+		{"bullet85 ap" "AP 85mm"}
+		{"bullet85 apcr" "APCR 85mm"}
+		{"bullet85 fg" "HE 85mm"}
+		{"bullet89 ap" "AP 87.6mm"}
+		{"bullet89 apcr" "APCR 87.6mm"}
+		{"bullet89 fg" "HE 87.6mm"}
+		{"bullet88 ap" "AP 88mm"}
+		{"bullet88 apcr" "APCR 88mm"}
+		{"bullet88 fg" "HE 88mm"}
+		{"bullet90 ap" "AP 90mm"}
+		{"bullet90 apcr" "APCR 90mm"}
+		{"bullet90 fg" "HE 90mm"}
+		{"bullet93 ap" "AP 93mm"}
+		{"bullet93 apcr" "APCR 93mm"}
+		{"bullet93 fg" "HE 93mm"}
+		{"bullet95 ap" "AP 95mm"}
+		{"bullet95 apcr" "APCR 95mm"}
+		{"bullet95 fg" "HE 95mm"}
+		{"bullet100 ap" "AP 100mm"}
+		{"bullet100 apcr" "APCR 100mm"}
+		{"bullet100 fg" "HE 100mm"}
+		{"bullet105 ap" "AP 105mm"}
+		{"bullet105 apcr" "APCR 105mm"}
+		{"bullet105 fg" "HE 105mm"}
+		{"bullet105 sm" "SMOKE 105mm"}
+		{"bullet120 ap" "AP 120mm"}
+		{"bullet120 apcr" "APCR 120mm"}
+		{"bullet120 fg" "HE 120mm"}
+		{"bullet122 ap" "AP 122mm"}
+		{"bullet122 apcr" "APCR 122mm"}
+		{"bullet122 fg" "HE 122mm"}
+		{"bullet122 sm" "SMOKE 122mm"}
+		{"bullet128 ap" "AP 128mm"}
+		{"bullet128 apcr" "APCR 128mm"}
+		{"bullet128 fg" "HE 128mm"}
+		{"bullet150 ap" "AP 150mm"}
+		{"bullet150 fg" "HE 150mm"}
+		{"bullet150 sm" "SMOKE 150mm"}
+		{"bullet152 ap" "AP 152mm"}
+		{"bullet152 fg" "HE 152mm"}
+		{"bullet152 sm" "SMOKE 152mm"}
+		{"bullet155 fg" "HE 155mm"}
+		{"bullet155 sm" "SMOKE 155mm"}
+		{"bullet203" "HE 203mm"}
+		{"bullet290" "HE 290mm"}
+		{"bullet305" "305mm round"}
+		{"20cm_rocket" "200mm Type 4 rocket"}
+		{"30cm_rocket" "300mm Type 4 rocket"}
+		{"air_bomb" "Bomb"}
+		{"air_bomb_il2" "Bomb"}
+		{"air_bomb stuff" "Bomb"}
+		{"bazooka" "AT Bazooka rocket"}
+		{"bm8" "82mm BM-8 rocket"}
+		{"calliope" "114mm M8 rocket"}
+		{"flaergun ammo" "Artillery signal ammo"}
+		{"goliath" "Demolition charge"}
+		{"hmgun" "HMG ammo"}
+		{"katusha" "132mm BM-13 rocket"}
+		{"lm_ammo" "76mm RP-3 rocket"}
+		{"m18recoilless" "AT M18 recoilless projectile"}
+		{"mgun" "MG ammo"}
+		{"mortar fg" "Mortar shell"}
+		{"mortar150 fg" "Heavy mortar shell"}
+		{"mortar sm" "Smoke Mortar shell"}
+		{"nebel41" "150mm Nebelwerfer 41 rocket"}
+		{"nebel42" "210mm Nebelwerfer 42 rocket"}
+		{"panzerfaust" "AT Panzerfaust 100 projectile"}
+		{"panzerfaust60" "AT Panzerfaust 60 projectile"}
+		{"panzershreck" "AT Panzerschreck rocket"}
+		{"panzerwerfer42" "150mm Nebelwerfer rocket"}
+		{"piatrocket" "AT PIAT projectile"}
+		{"ptr" "AT-Rifle rounds"}
+		{"rifle" "Rifle ammo"}
+		{"rifle_grenade" "Rifle grenade"}
+		{"rifle_grenade_at" "AT-Rifle grenade"}
+		{"searchlight" ""}
+		{"shotgun" "Shotgun ammo"}
+		{"smg" "SMG ammo"}
+		{"sturmtiger" "380mm Sturmtiger rocket"}
+		{"swg41" "280mm Wurfkörper 41 rocket"}
+		{"tulip" "76mm Tulip rocket"}
+		{"torpedo" "Torpedo"}
+		{"type_4" "AT Type 4 rocket"}
+		{"bullet600" "HE 600mm"}
+		{"bullet20 ap" "AP 20mm"}
+		{"bullet20 fg" "HE 20mm"}
+		{"flaermow ammo" "Flare gun ammo"}
+	}
+	{"weapon"
+		{"type"
+			{"secondary_flamer" "<f(arial_hq)><c(20a601)>Flamer</c>"}
+			{"secondary_rockets" "<f(arial_hq)><c(20a601)>Rockets</c>"}
+			{"secondary_main" "<f(arial_hq)><c(20a601)>Secondary</c>"}
+			{"mgun_main" "<f(arial_hq)><c(20a601)>Main</c>"}
+			{"mgun_aa" "<f(arial_hq)><c(20a601)>AA</c>"}
+			{"mgun_coaxial" "<f(arial_hq)><c(20a601)>Coaxial</c>"}
+			{"mgun_hull" "<f(arial_hq)><c(20a601)>Hull</c>"}
+			{"mgun_rear" "<f(arial_hq)><c(20a601)>Rear</c>"}
+			{"mgun_right" "<f(arial_hq)><c(20a601)>Right</c>"}
+			{"mgun_left" "<f(arial_hq)><c(20a601)>Left</c>"}
+		}
+		{"20mm_flak38" "20mm FlaK 38"}
+		{"20mm_flak38_x4" "20mm FlaK 38"}
+		{"20mm_kwk30" "20mm KwK 30"}
+		{"20mm_kwk38(l55)" "20mm KwK 38 L/55"}
+		{"20mm_mg151" "20mm MG 151"}
+		{"20mm_mk10" "20mm Mk.10"}
+		{"20mm_oerlikon" "20mm Oerlikon"}
+		{"20mm_oerlikon_x2" "20mm Oerlikon"}
+		{"20mm_tns" "20mm TNSh"}
+		{"20mm_type2" "20mm Type 2"}
+		{"28mm_spzb41" "28mm sPzB 41"}
+		{"37mm_61-k" "37mm 61K"}
+		{"37mm_m3" "37mm M3"}
+		{"37mm_m6" "37mm M6"}
+		{"37mm_pak36" "37mm PaK 36"}
+		{"37mm_type38" "37mm Type 38"}
+		{"37mm_flak36" "37mm FlaK 36"}
+		{"37mm_flak43" "37mm FlaK 43"}
+		{"40mm_bofors" "40mm M1 Bofors L/60"}
+		{"40mm_m19" "40mm M19"}
+		{"40mm_oqf2pdr" "40mm QF 2pdr"}
+		{"45mm_20k" "45mm 20K"}
+		{"45mm_oqf2pdr" "45mm QF 2pdr"}
+		{"47mm_40" "47mm L40"}
+		{"47mm_type1" "47mm Type 1"}
+		{"50mm_kwk38" "50mm KwK 38"}
+		{"50mm_kwk39" "50mm KwK 39"}
+		{"50mm_pak38" "50mm PaK 38"}
+		{"57mm_type1" "50mm Type 1"}
+		{"57mm_type2" "57mm Type 2"}
+		{"57mm_type97" "57mm Type 97"}
+		{"57mm_oqf" "57mm QF 6pdr"}
+		{"57mm_zis2" "57mm ZIS-2"}
+		{"57mm_zis4" "57mm ZIS-4"}
+		{"75mm_k51(l24)" "75mm K 51 L/24"}
+		{"75mm_kwk37" "75mm KwK 37"}
+		{"75mm_kwk40" "75mm KwK 40"}
+		{"75mm_kwk40(l46)" "75mm KwK 40 L/46"}
+		{"75mm_kwk40(l48)" "75mm KwK 40 L/48"}
+		{"75mm_kwk42" "75mm KwK 42"}
+		{"75mm_m2" "75mm M2"}
+		{"75mm_m2a" "75mm M2"}
+		{"75mm_m3" "75mm M3"}
+		{"75mm_m6" "75mm M6"}
+		{"75mm_mk5" "75mm QF Mk.V"}
+		{"75mm_pak39" "75mm PaK 39"}
+		{"75mm_pak40" "75mm PaK 40"}
+		{"75mm_stuk40" "75mm Stuk 40"}
+		{"75mm_stuk42" "75mm Stuk 42"}
+		{"75mm_type3" "75mm Type 3"}
+		{"75mm_type5" "75mm Type 5"}
+		{"75mm_type90" "75mm Type 90"}
+		{"75mm_type99" "75mm Type 99"}
+		{"75mm_lg40" "75mm LG40"}
+		{"76mm_f32" "76mm F32"}
+		{"76mm_f34" "76mm F34"}
+		{"76mm_kt26" "76mm KT-26"}
+		{"76mm_l11" "76mm L11"}
+		{"76mm_m1a2" "76mm M1A2"}
+		{"76mm_m5" "76mm M5"}
+		{"76mm_m7" "76mm M7"}
+		{"76mm_mk4" "76mm Mk.IV"}
+		{"76mm_zis3" "76mm ZIS-3"}
+		{"76mm_zis5" "76mm ZIS-5"}
+		{"77mm_hv" "77mm HV"}
+		{"85mm_d5s" "85mm D5-S"}
+		{"85mm_d5t" "85mm D5-T"}
+		{"85mm_zis53" "85mm ZIS-53"}
+		{"88mm_flak18" "88mm FlaK 18"}
+		{"88mm_flak37" "88mm FlaK 37"}
+		{"88mm_flak41" "88mm FlaK 41"}
+		{"88mm_kwk36" "88mm KwK 36"}
+		{"88mm_kwk36_veteran" "88mm KwK 36"}
+		{"88mm_kwk43" "88mm KwK 43"}
+		{"88mm_oqfmk2" "88mm OQF Mk. II"}
+		{"88mm_pak43" "88mm PaK 43"}
+		{"88mm_type99" "88mm Type 99"}
+		{"90mm_m3" "90mm M3"}
+		{"90mm_m15" "90mm M15"}
+		{"93mm_vickers" "93mm 32pdr"}
+		{"93mm_vickers_aa" "93mm 32pdr"}
+		{"95mm_oqf" "95mm OQF"}
+		{"100mm_d10c" "100mm D10S"}
+		{"105mm_l31" "105mm L31"}
+		{"105mm_m2a1" "105mm M2A1"}
+		{"105mm_m4a3" "105mm M4"}
+		{"105mm_stuh42" "105mm StuH 42"}
+		{"105mm_type6" "105mm Type 6"}
+		{"105mm_type91" "105mm Type 91"}
+		{"120mm_l50" "120mm L/50"}
+		{"120mm_type97" "120mm Type 97"}
+		{"122mm_a19s" "122mm A19s"}
+		{"122mm_d25" "122mm D25"}
+		{"122mm_m30" "122mm M30"}
+		{"122mm_m30s" "122mm M-30s"}
+		{"128mm_pak44" "128mm PaK 44"}
+		{"150mm_sfh18" "150mm sFH 18"}
+		{"150mm_sfh18a" "150mm sFH 18"}
+		{"150mm_sig33" "150mm sIG 33"}
+		{"150mm_sig33_how" "150mm sIG 33"}
+		{"150mm_type38" "150mm Type 38"}
+		{"150mm_type96" "150mm Type 96"}
+		{"152mm_bl6" "152mm BL 26cwt"}
+		{"152mm_d1" "152mm D1"}
+		{"152mm_m10t" "152mm ML20"}
+		{"152mm_ml20a" "152mm ML20"}
+		{"155mm_gpf" "155mm Howitzer"}
+		{"155mm_m12" "155mm M12"}
+		{"203mm_gun" "203mm mortar"}
+		{"290mm_mortar" "290mm Spigot mortar"}
+		{"380mm_rw61" "380mm RW61"}
+		{"arl" "Missile"}
+		{"bar" "B.A.R."}
+		{"bazooka" "Bazooka M1A1"}
+		{"besa" "B.E.S.A."}
+		{"binocular" "Binocular"}
+		{"bm8" "82mm BM-8 rockets"}
+		{"bren" "Bren"}
+		{"browning" ".50 cal M2HB"}
+		{"browning_m19" ".30 cal M1919"}
+		{"browning_m19a6" ".30 cal M1919 A6"}
+		{"browning_x2" "2x .50 cal"}
+		{"browning_x4" "4x .50 cal"}
+		{"bomb_dropper" "Bomb"}
+		{"bomb_dropper_il2" "Bomb"}
+		{"boyes" "Boyes .55 Mk.I"}
+		{"browning_stan" "Heavy MG"}
+		{"calliope" "114mm M8 rockets"}
+		{"colt" "Colt 45"}
+		{"degtyarev_stan" "Heavy MG"}
+		{"de_lisle" "De Lisle carbine"}
+		{"doublebazooka" "2x Bazooka"}
+		{"dp" "DP-27"}
+		{"ds" "DS-39"}
+		{"dshk" "DShK"}
+		{"dt" "DT-29"}
+		{"em2" "EM 2 sniper"}
+		{"em3" "Lee-Enfield Mk.III"}
+		{"em3_mark1" "EM-3 rifle grenade"}
+		{"fg42" "FG-42"}
+		{"flaergun" "Artillery signal gun"}
+		{"flame_thrower" "Flamethrower"}
+		{"flame_thrower_g" "Flamethrower"}
+		{"flame_thrower_ssd" "Tank flamethrower"}
+		{"flame_thrower_tank" "Tank flamethrower"}
+		{"g41" "Karabiner 98k sniper"}
+		{"g41b" "G41"}
+		{"g43" "G43"}
+		{"g43_scope" "G43 Scope"}
+		{"garand" "M1 Garand"}
+		{"goliath" "Remote-controlled bomb"}
+		{"hdm" "HDM OSS"}
+		{"johnson" "M1941 Johnson Rifle"}
+		{"johnson_m1941" "M1941 Johnson LMG"}
+		{"katusha" "132mm BM-13 rockets"}
+		{"lewis_gun" "Lewis Gun"}
+		{"lm" "76mm RP-3 rockets"}
+		{"luger" "Parabellum"}
+		{"m18recoilless" "M18 recoilless rifle"}
+		{"m1903" "M1903 Springfield"}
+		{"m1903a4" "M1903A4 sniper"}
+		{"m1_carbine" "M1A1 Carbine"}
+		{"m12_shotgun" "M12 Shotgun"}
+		{"m2_carbine" "M2 Carbine"}
+		{"m3a" "M3A1"}
+		{"m50reising" "M50 Reising"}
+		{"mauzer" "Karabiner 98k"}
+		{"maxim" "Maxim MG"}
+		{"maxim_inv" "Maxim MG"}
+		{"mg34" "MG 34"}
+		{"mg34_tower" "MG 34"}
+		{"mg34_x2" "2x MG 34"}
+		{"mg37" "MG 37(t)"}
+		{"mg42" "MG 42"}
+		{"mg42_120" "MG 42"}
+		{"mguncolt" "Colt MG"}
+		{"mortar150" "150mm Type 97 mortar"}
+		{"mosin" "Mosin"}
+		{"mosin_s" "Mosin sniper"}
+		{"mp28" "MP 28"}
+		{"mp28_50" "MP 28"}
+		{"mp3008" "MP 3008"}
+		{"mp40" "MP 40"}
+		{"mp41" "MP 41"}
+		{"nagan" "Nagant"}
+		{"nagan_pb" "Nagant with silencer"}
+		{"nambu" "Type 14 Nambu"}
+		{"nebel41" "150mm Nebelwerfer 41 rockets"}
+		{"nebel42" "210mm Nebelwerfer 42 rockets"}
+		{"owen_gun" "Owen Gun"}
+		{"panzerfaust" "Panzerfaust 100"}
+		{"panzerfaust60" "Panzerfaust 60"}
+		{"panzershreck" "Panzerschreck"}
+		{"panzerwerfer42" "150mm Nebelwerfer rockets"}
+		{"piatrocket" "P.I.A.T. Mk.I"}
+		{"ptrd" "14.5 PTRD"}
+		{"ptrs" "14.5 PTRS"}
+		{"pps43" "PPS-43"}
+		{"ppsh" "PPSh"}
+		{"ppsh41" "PPSh-41"}
+		{"pzb39" "Pzb39"}
+		{"searchlight" "Searchlight"}
+		{"sg44" "StG 44"}
+		{"sg44b" "StG 44 Scope"}
+		{"sten" "Sten Mk.III"}
+		{"sten_v" "Sten Mk.V"}
+		{"sten_v_silencer" "Sten Mk.VI Silencer"}
+		{"sks" "SKS"}
+		{"svt40" "SVT-40"}
+		{"swg41" "280mm Schweres Wurfgerät 41 rockets"}
+		{"t4_20cm" "200mm Type 4 rocket"}
+		{"t4_30cm" "300mm Type 4 rocket"}
+		{"t94" "Type 94"}
+		{"thompson" "Thompson"}
+		{"thompson_30" "Thompson 30"}
+		{"thompson_m1928" "Thompson M1928"}
+		{"torpedo" "Torpedo launcher"}
+		{"tt" "TT"}
+		{"tulip" "93mm Tulip rockets"}
+		{"type100smg" "Type 100 SMG"}
+		{"type1hmg" "Type 1 MG"}
+		{"type2rifle" "Type 2 rifle"}
+		{"type2smg" "Type 2 SMG"}
+		{"type2_120mm" "120mm Type 2"}
+		{"type4_200mm" "200mm Type 4"}
+		{"type99lmg" "Type 99 MG"}
+		{"type99rifle" "Type 99 rifle"}
+		{"type99rifle_s" "Type 99 sniper"}
+		{"type99rifle_at" "Type 99 at-rifle grenade"}
+		{"type_4at" "Type 4 RPG"}
+		{"type_96" "25mm Type 96"}
+		{"type_97_antitank" "Type 97 AT-Rifle"}
+		{"valter" "Walther"}
+		{"vickers_k" "Vickers K (VGO)"}
+		{"vickers_mgun" "Vickers"}
+		{"webley" "Webley.45"}
+		{"welrod" "Welrod"}
+		{"werfer" "Mortar"}
+		{"werfer42" "Mortar"}
+		{"wurfrahmen40" "280mm Wurfrahmen 40 rockets"}
+		{"600mm_gun" "600mm Karl Moerser"}
+		{"305mm_gun" "305mm"}
+		{"flaermow" "Flare gun"}
+		{"uber_browning" ".50 cal M2HB"}
+	}
+	{"container"
+		{"box" "Box"}
+		{"small_box" "Box"}
+	}
+	{"stuff"
+		{"37mm_m5" "37mm M5"}
+		{"37mm_hori" "37mm Type 38"}
+		{"antitank mine" "AT mine"}
+		{"antipersonnel mine" "AP mine"}
+		{"axe" "Axe"}
+		{"b33r" "Crate of beer bottles"}
+		{"balloon" "Fuel container"}
+		{"balloon_g" "Fuel container"}
+		{"bandage" "Bandage"}
+		{"barbwire_kit" "Barbed wire"}
+		{"barrel" "Barrel"}
+		{"beret_commando" "Beret"}
+		{"beret_eng" "Beret"}
+		{"beret_eng1" "Beret"}
+		{"beret_eng2" "Beret"}
+		{"beret_sas" "Beret"}
+		{"body_armor" "Body armor"}
+		{"browning_stan" "Browning mounted"}
+		{"can" "Can"}
+		{"cap_eng" "Field cap"}
+		{"cap1_ger" "Officer cap"}
+		{"cap1_rus" "Field cap"}
+		{"cap1_jap" "Officer cap"}
+		{"cap1_usa" "Officer cap"}
+		{"cap2_ger" "Officer cap"}
+		{"cap2_rus" "Field cap"}
+		{"cap3_rus" "Officer cap"}
+		{"cap_eng_afr" "Officer cap"}
+		{"cap_jap_off" "Field cap"}
+		{"cap_officer_eng" "Officer cap"}
+		{"chicken" "Chicken"}
+		{"commando-cap1" "Beret"}
+		{"cook_cap" "Cap"}
+		{"cord_wood" "Cord of wood"}
+		{"crow_bar" "Crowbar"}
+		{"drug" "Medicine"}
+		{"dynamite" "Dynamite"}
+		{"dynamite_ladung" "Ladung 3kg"}
+		{"elf_cap" "Cap"}
+		{"f1" "AP grenade F1"}
+		{"fau_detail" "Rocket part"}
+		{"fieldcap1_ger" "Field cap"}
+		{"fieldcap1_jap" "Field cap"}
+		{"fieldcap1_rus" "Field cap"}
+		{"fieldcap_eng" "Field cap"}
+		{"fieldcap_ger" "Field cap"}
+		{"fieldcap_ger_tankmen" "Field cap"}
+		{"fieldcap_jap" "Field cap"}
+		{"fieldcap_rus" "Field cap"}
+		{"field_bag" "Field bag"}
+		{"filling_empty" "empty"}
+		{"flag" "Flag"}
+		{"hedgehog_kit" "Hedgehog"}
+		{"helmet1_ger" "Helmet"}
+		{"helmet1_eng" "Helmet"}
+		{"helmet1_eng_w" "Helmet"}
+		{"helmet1_jap" "Helmet"}
+		{"helmet1_jap_w" "Helmet"}
+		{"helmet1_rus" "Helmet"}
+		{"helmet1_rus_w" "Helmet"}
+		{"helmet1_usa" "Helmet"}
+		{"helmet2_eng" "Helmet"}
+		{"helmet2_eng_w" "Helmet"}
+		{"helmet2_ger" "Helmet"}
+		{"helmet2_rus" "Helmet"}
+		{"helmet2_usa" "Helmet"}
+		{"helmet2_jap" "Helmet"}
+		{"helmet3_ger" "Helmet"}
+		{"helmet3_jap" "Helmet"}
+		{"helmet4_ger" "Helmet"}
+		{"helmet4_usa" "Helmet"}
+		{"helmet5_ger" "Helmet"}
+		{"helmet_airborne_usa" "Helmet"}
+		{"helmet_jap" "Helmet"}
+		{"helmet_marine_usa" "Helmet"}
+		{"helmet_novice" "Helmet"}
+		{"helmet_paratrooper" "Helmet"}
+		{"helmet_usa_w" "Helmet"}
+		{"human" "body"}
+		{"kamikaze_bomb" "Explosives"}
+		{"knife" "knife"}
+		{"knife_ger" "Knife"}
+		{"knife_japan" "Knife"}
+		{"knife_rus" "Knife"}
+		{"knife_union" "Knife"}
+		{"m24" "AP grenade M24"}
+		{"m24x5" "AT grenade M24x5"}
+		{"m39" "AP grenade M39"}
+		{"m61" "AP grenade M61"}
+		{"matchbox" "Matchbox"}
+		{"medkit" "Medikit"}
+		{"mine antipersonnel" "AP mine"}
+		{"mine antitank" "AT mine"}
+		{"mine_antitank_jap" "AT high explosive mine"}
+		{"mine_detector" "Mine detector"}
+		{"mk1" "AP grenade Mk I"}
+		{"molotov_coctail" "Incendiary mixture"}
+		{"morphine" "Morphine"}
+		{"n73at" "AT grenade N73"}
+		{"petrol" "Fuel"}
+		{"plant" "Camouflage kit"}
+		{"pwm1" "AT grenade PWM-1"}
+		{"radioman_hat" "Radio operator hat"}
+		{"repair_kit" "Repair kit"}
+		{"rg42x3" "AT grenade RGD33x3 AT"}
+		{"rpg40" "AT grenade RPG-40"}
+		{"rpg43" "AT grenade RPG-43"}
+		{"rw_cap" "Tank cap"}
+		{"sandbag_kit" "Shovel and bags"}
+		{"sandbag_kit2" "Shovel and bags"}
+		{"satchel" "Satchel charge"}
+		{"santa_cap" "Cap"}
+		{"smoke" "Smoke grenade"}
+		{"smoke_paradrop_ammo" "Signal - ammo paradrop"}
+		{"smoke_paradrop_ammo_heavy" "Signal - heavy ammo paradrop"}
+		{"steak" "Beef steak"}
+		{"tankhelmet_jap" "Tank helmet"}
+		{"tankhelmet_rus" "Tank helmet"}
+		{"tankhelmet_usa" "Tank helmet"}
+		{"tank_balloon" "Fuel container"}
+		{"tank_cap1_ger" "Tank cap"}
+		{"tank_cap2_ger" "Tank cap"}
+		{"type3at" "Hand bomb"}
+		{"type3at_a" "AT grenade Type 3"}
+		{"type97" "AP grenade Type 97"}
+		{"type99" "AP grenade Type 99"}
+		{"type99at" "AT grenade Type 99"}
+		{"usmc-cap1" "Field cap"}
+		{"warden_furcap" "Field cap"}
+		{"water" "Water"}
+		{"winterhat" "Field cap"}
+		{"dynamite_clockwork" "Dynamite"}
+		{"wirecutters" "Wire-cutters"}
+		{"rad" "Strange crate"}
+		{"spade_inv" "Shovel"}
+	}
+}

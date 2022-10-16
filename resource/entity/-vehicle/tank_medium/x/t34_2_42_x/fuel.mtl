@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "fuel_t34_x"}
+	{blend none}
+}

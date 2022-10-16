@@ -1,0 +1,17 @@
+{from "pattern gun"      ; "isu-122"
+	{filling "bullet122"}
+	{fireSound "gun/howitzer/122mm_d25"}
+	{reloadSound "tankgun_r04"}
+	{rechargeTime 7.9}
+	("range_maximum")
+
+	("speed" s(792))
+	("caliber_maximum")
+	{projectileDamage 158}
+	("damage2" a(158) b(142) c(125) d(109) e(95))
+	{parameters "apcr"
+        ("damage2" a(183) b(162) c(140) d(119) e(100))
+	}
+	
+	("accuracy_high")
+}

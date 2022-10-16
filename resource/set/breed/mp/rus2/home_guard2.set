@@ -1,18 +1,18 @@
 {breed
-	{skin "rus_t1"}
-	{portrait "rus_soldier1"}
+	{skin "rus_officer"}
+	{portrait "rus_officer"}
 	{nationality rus}
-	{icon "home_guard2"}
-	{icon_priority 0}
+	{icon "officer"}
+	{icon_priority 6}
 	{armors
-		{head "warden_furcap"}
+		{head cap3_rus}
 	}
 	{perks
-		{"health" "100%"
+		{"health" "150%"
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "75%"
+		{"stamina" "100%"
 		}
 		{"stamina_regeneration" "100%"
 		}
@@ -20,20 +20,20 @@
 		}
 		{"speed" 0.9
 		}
-		{"tank"	0.6
+		{"tank"	0.8
 		}
-		{"vehicle" 0.8
+		{"vehicle" 1.0
 		}
-		{"cannon" 0.8
+		{"cannon" 1.0
 		}
 		
-		{"pistol" lvl_1
+		{"pistol" lvl_2
 		}
 		{"smg" lvl_1
 		}
 		{"mgun" lvl_1
 		}
-		{"rifle" lvl_1
+		{"rifle" lvl_2
 		}
 		{"rocketlauncher" lvl_1
 		}
@@ -45,10 +45,8 @@
 		("veterancy_1")
 	}
 	{inventory
-		{item "mp40" filled}
-		{item "ammo pistol" 500}
-		{item "bandage" 3}
-		{item "grenade f1" 2}
+		{item "tt" filled}
+		{item "ammo pistol" 30}
 		{in_hands 0}
 	}
 }
