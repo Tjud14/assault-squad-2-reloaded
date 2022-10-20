@@ -1,11 +1,11 @@
 {breed
 	{skin "rus_t2"}
-	{portrait "rus_soldier2"}
+	{portrait "rus_elite2"}
 	{nationality rus}
 	{icon "ap_miner"}
 	{icon_priority 3}
 	{armors
-		{head helmet1_rus}
+		{head "fieldcap1_rus"}
 	}
 	{perks
 		{"health" "250%"

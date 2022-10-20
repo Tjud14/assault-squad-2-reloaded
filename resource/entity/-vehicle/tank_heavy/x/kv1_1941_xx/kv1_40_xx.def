@@ -1,0 +1,23 @@
+{game_entity
+	{Extension "kv1_1940_xx.mdl"}
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun"
+	}
+	{Volume "mantlet"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+	{Volume "turret1"
+	}
+	{Volume "turret2"
+	}
+}

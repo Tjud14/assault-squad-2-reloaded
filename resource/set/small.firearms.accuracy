@@ -1,0 +1,56 @@
+;SDL
+(define "distance_1" 
+	{spreading 
+		{radiusTable {0 0} {10 %r1} {25 %r2} {60 %r3}}
+	}		
+)
+(define "distance_2" 
+	{spreading 
+		{radiusTable {0 0} {15 %r1} {40 %r2} {80 %r3}}
+	}		
+)
+(define "distance_3" 
+	{spreading 
+		{radiusTable {0 0} {30 %r1} {60 %r2} {90 %r3}}
+	}		
+)
+
+(define "accuracy_flaer"
+	("distance_1" r1(3.50) r2(8.00) r3(12.50))
+)
+
+(define "accuracy_pistol"
+	("distance_1" r1(0.20) r2(0.80) r3(1.50))
+)
+
+(define "accuracy_smg"
+	("distance_1" r1(0.30) r2(1.20) r3(3.00))
+)
+
+(define "accuracy_rifle"
+	("distance_1" r1(0.50) r2(1.00) r3(1.25))
+)
+
+(define "accuracy_automatic_rifle"
+	("distance_1" r1(0.60) r2(1.10) r3(1.35))
+)
+
+(define "accuracy_carabine"
+	("distance_1" r1(0.60) r2(1.20) r3(1.45))
+)
+
+(define "accuracy_mgun"
+	("distance_2" r1(0.60) r2(1.20) r3(2.50))
+)
+
+(define "accuracy_ptr"
+	("distance_2" r1(0.50) r2(1.40) r3(3.00))
+)
+
+(define "accuracy_sniper_rifle"
+	("distance_3" r1(0.60) r2(1.10) r3(2.00))
+)
+
+(define "accuracy_dshk"
+	("distance_3" r1(1.00) r2(3.00) r3(5.00))
+)

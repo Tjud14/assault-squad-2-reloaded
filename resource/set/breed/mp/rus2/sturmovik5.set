@@ -1,11 +1,12 @@
 {breed
-	{skin "rus_t4"}
+	{skin "rus_sniper"}
 	{portrait "rus_soldier5"}
 	{nationality rus}
 	{icon "stormtrooper5"}
 	{icon_priority 4}
 	{armors
-		{head "winterhat"}
+		{head "helmet2_rus"}
+		{body "body_armor"}
 	}
 	{perks
 		{"health" "350%"
@@ -45,12 +46,12 @@
 		("veterancy_1")
 	}
 	{inventory
-		{item "weapon bazooka" filled}
-		{item "ppsh" filled}
+		{item "weapon panzershreck" filled}
+		{item "ppsh41" filled}
 		{item "ammo pistol" 500}
 		{item "bandage" 5}
 		{item "rpg43 grenade" 1}
-		{item "ammo bazooka" 7}
+		{item "ammo panzershreck" 7}
 		{in_hands 0}
 	}
 }

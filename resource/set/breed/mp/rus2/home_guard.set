@@ -2,7 +2,7 @@
 	{skin "rus_flamer"}
 	{portrait "rus_soldier2"}
 	{nationality rus}
-	{icon "rifleman"}
+	{icon "home_guard"}
 	{icon_priority 1}
 	{armors
 		{head "fieldcap_rus"}

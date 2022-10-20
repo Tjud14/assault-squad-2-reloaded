@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/entity/rpd_dif"}
+	{specular "$/entity/rpd_spec"}
+	{color "255 255 255 25"}
+	{blend test}
+}

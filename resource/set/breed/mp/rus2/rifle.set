@@ -1,11 +1,11 @@
 {breed
 	{skin "rus_t2"}
-	{portrait "rus_soldier2"}
+	{portrait "rus_elite3"}
 	{nationality rus}
-	{icon "rifleman"}
+	{icon "elite5"}
 	{icon_priority 1}
 	{armors
-		{head "fieldcap_rus"}
+		{head "fieldcap1_rus"}
 	}
 	{perks
 		{"health" "150%"

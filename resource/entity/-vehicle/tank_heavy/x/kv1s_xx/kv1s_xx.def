@@ -1,0 +1,33 @@
+{game_entity
+	{Extension "kv1_s_xx.mdl"}
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}
+	{Volume "crew"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun"
+	}
+	{Volume "inventory"
+	}
+	{Volume "part4"
+	}
+	{Volume "part5"
+	}
+	{Volume "part6"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+	{Volume "turret1"
+	}
+	{Volume "turret2"
+	}
+	{Volume "turret3"
+	}
+}

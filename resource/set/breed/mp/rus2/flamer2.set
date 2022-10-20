@@ -2,7 +2,7 @@
 	{skin "rus_flamer"}
 	{portrait "rus_soldier2"}
 	{nationality rus}
-	{icon "smg"}
+	{icon "elite4"}
 	{icon_priority 1}
 	{armors
 		{head fieldcap1_rus}
@@ -45,7 +45,7 @@
 		("veterancy_1")
 	}
 	{inventory
-		{item "ppsh" filled}
+		{item "ppsh41" filled}
 		{item "ammo pistol" 500}
 		{item "bandage" 3}
 		{item "grenade f1" 2}

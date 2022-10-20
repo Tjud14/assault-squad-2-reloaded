@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "t80"}
+	{blend none}
+}

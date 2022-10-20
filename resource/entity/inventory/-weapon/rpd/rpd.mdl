@@ -1,0 +1,107 @@
+;Exported by: Kislov_A
+;Date:        Mon Jan 25 11:50:12 2010
+;File:        E:\Men of war red tide2\Art\Models\Weapons\Vietnam\RPD\rpd.max
+{Skeleton
+	{bone "rpd"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "rpd.ply"}
+			{VolumeView "rpd_lod1.ply"}
+			{VolumeView "rpd_lod2.ply"}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0.0697565	0.997564
+				1	0	0
+				0	0.997564	-0.0697565
+				2.34062	2.0449	0.753328
+			}
+		}
+		{bone "foresight3"
+			{Matrix34
+				1	-9.54891e-005	0
+				9.54962e-005	1	0
+				0	0	1
+				14.9961	1.56599	0.000804901
+			}
+		}
+		{bone "handle"
+			{Matrix34
+				0.999981	0.00623976	0
+				1.67266e-005	-0.00359595	-0.999994
+				-0.00623978	0.999974	-0.0035955
+				4.60942	2.29919	-0.439243
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 20.4945 4.77954 0.875037}
+	{Bone "rpd"}
+	{Matrix34
+		1	-9.55127e-005	0
+		9.54725e-005	1	0
+		0	0	1
+		4.68767	0.0280485	-0.000248492
+	}
+}
+{Volume "select"
+	{Box 22.4387 8.06348 4.3449}
+	{Bone "rpd"}
+	{Matrix34
+		1	-9.55127e-005	0
+		9.54725e-005	1	0
+		0	0	1
+		4.63584	-1.08997	0.00946784
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 5.34844	-3.24731	27.9552}
+			{lookat 5.07463	-1.65902	13.6821}
+			{fov 45}
+			{horizon 178.956}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0617883	0.242933	-0.432626}
+			}
+			{"1"
+				{type point}
+				{position 12.6122	-2.68641	1.94083}
+			}
+			{"2"
+				{type point}
+				{position -3.1664	-2.68476	1.4967}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 5.75917	-5.43687	31.3846}
+			{lookat 5.4087	-3.40389	17.4553}
+			{fov 45}
+			{horizon 178.956}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0617829	0.244028	-0.432011}
+			}
+			{"1"
+				{type point}
+				{position 12.5868	-2.68075	1.96093}
+			}
+			{"2"
+				{type point}
+				{position -3.15432	-2.68319	1.50743}
+			}
+		}
+	}
+}

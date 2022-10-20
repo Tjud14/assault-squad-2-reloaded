@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "su152_chassis_xx"}
+	{specular "$/model/su152_chassis_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

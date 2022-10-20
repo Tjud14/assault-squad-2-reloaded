@@ -1,14 +1,14 @@
 {breed
-	{skin "rus_t3"}
+	{skin "rus_t2"}
 	{portrait "rus_elite1"}
 	{nationality rus}
-	{icon "elite"}
+	{icon "elite4"}
 	{icon_priority 3}
 	{armors
-		{head "cap2_rus"}
+		{head "fieldcap1_rus"}
 	}
 	{perks
-		{"health" "250%"
+		{"health" "275%"
 		}
 		{"health_regeneration" "100%"
 		}
@@ -45,8 +45,8 @@
 		("veterancy_1")
 	}
 	{inventory
-		{item "weapon bazooka" filled}
-		{item "ppsh" filled}
+		{item "weapon panzershreck" filled}
+		{item "ppsh41" filled}
 		{item "ammo pistol" 500}
 		{item "bandage" 3}
 		{item "grenade rpg40" 1}

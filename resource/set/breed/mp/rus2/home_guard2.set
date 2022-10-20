@@ -2,7 +2,7 @@
 	{skin "rus_officer"}
 	{portrait "rus_officer"}
 	{nationality rus}
-	{icon "officer"}
+	{icon "home_guard"}
 	{icon_priority 6}
 	{armors
 		{head cap3_rus}

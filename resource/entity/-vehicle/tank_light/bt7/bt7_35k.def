@@ -1,0 +1,128 @@
+;Model created by: EngineerDen
+{entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{collider "tank.light"}
+	{props "light" "turret_rotator"  "vision_vehicle_low" "muzzle_minimum"}
+    {targetClass "light_tank"}
+    {patherId "tank.light"}
+	{Volume "Body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "Body2"
+		{tags "body"}
+		{component "body"}
+	}
+	
+	("armor_light" turret(15 15 15 10) body(20 13 13 10))
+	("armor_engine"  t(13))
+	{extender "enumerator"}
+	
+	{extender "inventory"
+		{box
+			{item "ammo 7x54" 2394}
+			{item "ammo bullet45_rus ap" 60}
+			{item "ammo bullet45_rus fg" 78}
+			{item "grenade f1" 3}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			("abm_18")
+			{weapon "45mm_20k" filling "ammo bullet45_rus ap" 1}
+			{charger "gunner"}
+		}
+		{place "mgun"
+			("abm_mgun")
+			{type "mgun_coaxial"}
+			{weapon "dt_optic" filled}
+			{charger "gunner"}
+			{basic}
+		}
+	}
+	("crew_2_human")
+	("crew_human" place(commander)	door1(emit1) door2(emit2) visor(main))
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_kv"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_MiddleArmor"} 	{end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_MiddleArmor"} 	{end "pose_seat_armor_2"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor1))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor))
+        
+	{mass 13200} 
+        {sensor
+		{visor "main"
+			{vision "tank_main-l"}
+		}
+		{visor "main1"
+			{vision "tank_main-m"}
+			{bone "foresight1"}
+		}
+	}
+        {Chassis
+		("tank_trace_ex" fx("tracks_sm") step(0.3) len(0.55) boneleft("wheell4") boneright("wheelr4"))
+		{Locomotion ("locomotion")
+			{MaxSpeed 	    38} ; максимальная скорость, kmph
+            {maxSpeedAtMaxTurn 23}
+			{StartTime 34}
+			{BrakeTime        0.5}
+			{StopTime         0.7}
+			{TurnRadius     	6} ; мин. радиус разворота, meter
+			{TurnTime 6}
+			{TurnStart		 2}	; время разгона до макс. угловой скорости с 0, seconds
+			{TurnStop	   0.5}	; время остановки с макс. угловой скорости до 0, seconds
+			{Gears 0.05 0.1 0.25 0.37 0.7} ; передаточные коэф-ты коробки передач
+                        {RearGears 0.1} ; передаточные коэф-ты коробки передач
+		}
+        {speed
+			{Slow	19}
+			{Normal	25}
+			{Fast	38}
+		}
+		{FuelBag	;bt7_37
+			{volume 650 }	; liters
+			{rate	75 } 	; liters per kilometer
+			{remain 650 }
+			{fuel "fuel"}
+		}
+	}
+	{extension "bt7_35k.mdl"}
+	{bone "gun_rot"
+		{speed 0.007}	;шёяЁртшЄ№
+		{limits -25 9}
+	}
+	{bone "turret"
+		{speed 0.013}
+	}
+	{bone "coaxial_mgun"
+		{limits 0}	;фы  ъюёЄш Єшяр socket эєцхэ 1 ярЁрьхЄЁ
+	}
+	;{texmod "2"}
+	("turret_speed_light")
+	{sensor
+		{visor "main"
+			{vision "tank_main-m"}
+			{bone "foresight1						"}
+		}
+	}
+	("rus_1_sight")
+}

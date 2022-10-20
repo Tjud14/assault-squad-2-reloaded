@@ -1,6 +1,6 @@
 {army
 	{id 6}
 	{title "Guards Tank Army"}
-	{icon "/interface/pages/multi/flag_rus"}
+	{icon "/interface/pages/multi/flag_rus2"}
 	{flag "/interface/scene/common/flag-ussr"}
 }

@@ -2,10 +2,10 @@
 	{skin "rus_mgun"}
 	{portrait "rus_soldier2"}
 	{nationality rus}
-	{icon "mg"}
+	{icon "elite6"}
 	{icon_priority 2}
 	{armors
-		{head helmet2_rus}
+		{head "fieldcap1_rus"}
 	}
 	{perks
 		{"health" "200%"

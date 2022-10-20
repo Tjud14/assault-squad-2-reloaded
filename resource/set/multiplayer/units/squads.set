@@ -201,7 +201,7 @@
 ("squad_with2types" side(eng) name(bazookers) c1(bazooker:1) c2(bazooker2:1) c(15) g(soldier_5) b(squad2) t(all inf_only) level(1) cost(70) f(1.0))
 ("squad_with2types" side(jap) name(bazookers) c1(bazooker:1) c2(bazooker2:1) c(15) g(soldier_5) b(squad2) t(all inf_only) level(1) cost(70) f(1.0))
 ("squad_with1types" side(ger2) name(bazookers) c1(bazooker:2) c(15) g(soldier_5) b(squad2) t(all inf_only) level(1) cost(60) f(1.0))
-("squad_with2types" side(rus2) name(bazookers) c1(bazooker:1) c2(bazooker2:1) c(15) g(soldier_5) b(squad2) t(all inf_only) level(1) cost(70) f(1.0))
+("squad_with1types" side(rus2) name(bazookers) c1(bazooker:2) c(15) g(soldier_5) b(squad2) t(all inf_only) level(1) cost(70) f(1.0))
 
 ("squad_with1types" side(rus) name(mgs2) c(300) g(soldier_6) c1(mgun:1) b(squad2) t(all inf_only) level(1) cost(60) f(1.0))
 ("squad_with1types" side(ger) name(mgs2) c(300) g(soldier_6) c1(mgun:1) b(squad2) t(all inf_only) level(1) cost(70) f(1.0))

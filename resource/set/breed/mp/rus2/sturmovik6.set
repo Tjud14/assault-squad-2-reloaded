@@ -1,11 +1,12 @@
 {breed
-	{skin "rus_t4"}
+	{skin "rus_sniper"}
 	{portrait "rus_soldier5"}
 	{nationality rus}
 	{icon "stormtrooper6"}
 	{icon_priority 4}
 	{armors
-		{head "winterhat"}
+		{head "helmet2_rus"}
+		{body "body_armor"}
 	}
 	{perks
 		{"health" "350%"
@@ -45,7 +46,7 @@
 		("veterancy_1")
 	}
 	{inventory
-		{item "dp" filled}
+		{item "rpd" filled}
 		{item "ammo mgun" 1200}
 		{item "bandage" 5}
 		{item "grenade f1" 2}

@@ -1,0 +1,105 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{collider "tank.light"}
+	{props "light" "turret_rotator" "vision_vehicle_low" "muzzle_minimum"}
+	{targetClass "light_tank"}
+	{patherId "tank.light"}
+	
+	{extender "enumerator"
+		{digit_folder "rus"}
+	}
+	
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 25}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 25}
+	}
+	{volume "engine"
+		{thickness 25}
+	}
+	
+	("armor_light" turret(65 35 35 10) body(35 25 25 25))
+	("crew_3_human")
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_left"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_LowArmor"} 	{end "seat_armor"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+	}
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	{extender "inventory"
+		{box
+			{item "bullet45 ap" 47}
+			{item "bullet45 fg" 45}
+			{item "bullet45 apcr" 5}
+			{item "ammo mgun" 945}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "45mm_20k" filling "bullet45 ap" 1}
+			{charger "gunner"}        
+			("abm_low")
+		}
+		{place "mgun"
+			{type "mgun_coaxial"}
+			{weapon "dt" filled}
+			{charger "gunner"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+	
+	{mass 9800}
+		{Chassis
+			("tank_trace" fx("tracks_sm2") step(0.15) len(0.6))
+			{Locomotion ("locomotion")
+				{maxspeed   38}
+				{maxSpeedAtMaxTurn 16}
+			{StartTime 24}
+				{TurnStart  1.1}
+			{TurnTime 14}
+				{TurnRadius  7} 
+    			{TurnStop   0.5}
+				{BrakeTime   1}
+				{StopTime    2}
+				{Gears   0.1 0.2 0.7}
+				{RearGears  0.27}
+			}
+			{FuelBag
+				{volume 440 }	
+				{rate	 90 }   
+				{remain 440 }
+				{fuel "fuel"}
+			}
+		{speed
+        	{Normal  12}
+        	{Slow  18}
+    	}
+		}
+	{Extension "t80.mdl"}
+	{bone "gun_rot"
+		{speed 0.008}
+		{limits -3 45}
+	}
+	{bone "turret"
+		{speed 0.015}
+	}
+}

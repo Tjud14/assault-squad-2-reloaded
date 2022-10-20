@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "bt-7_0_xx"}
+	{specular "$/model/bt-7_sp"}
+	{color "255 255 255 25"}
+	{blend test}
+}

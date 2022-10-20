@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "kv1s_chassis_x"}
+	{specular "$/model/kv1s_chassis_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

@@ -1,11 +1,11 @@
 {breed
 	{skin "rus_t2"}
-	{portrait "rus_soldier2"}
+	{portrait "rus_elite2"}
 	{nationality rus}
-	{icon "smg"}
+	{icon "bazooker"}
 	{icon_priority 1}
 	{armors
-		{head fieldcap_rus}
+		{head "fieldcap1_rus"}
 	}
 	{perks
 		{"health" "150%"
@@ -45,13 +45,13 @@
 		("veterancy_1")
 	}
 	{inventory
-		{item "ppsh" filled}
+		{item "weapon paznerfaust" filled}
+		{item "ppsh41" filled}
 		{item "ammo pistol" 500}
 		{item "bandage" 3}
 		{item "grenade f1" 2}
 		{item "grenade rpg40" 1}
 		{item "smoke grenade" 1}
-		{item "ammo bazooka" 3}
 		{in_hands 0}
 	}
 }

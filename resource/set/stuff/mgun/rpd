@@ -1,0 +1,10 @@
+{from "pattern mgun"
+	{filling "ammo mgun" 100}
+	{entity "rpd"}
+	{fireSound	"mgun/bar_burst/"}
+	{reloadSound "dt"}
+	
+	("recoveryTime" r(650))
+	("burst_long")
+	("speed" s(735))
+}

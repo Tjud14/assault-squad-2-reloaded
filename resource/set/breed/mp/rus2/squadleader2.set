@@ -1,11 +1,12 @@
 {breed
-	{skin "rus_com"}
-	{portrait "rus_soldier3"}
+	{skin "rus_sniper"}
+	{portrait "rus_elite3"}
 	{nationality rus}
-	{icon "squadleader2"}
-	{icon_priority 2}
+	{icon "smg3"}
+	{icon_priority 1}
 	{armors
-		{head "cap1_rus"}
+		{head "helmet2_rus"}
+		{body "body_armor"}
 	}
 	{perks
 		{"health" "200%"
@@ -45,7 +46,7 @@
 		("veterancy_1")
 	}
 	{inventory
-		{item "ppsh" filled}
+		{item "ppsh41" filled}
 		{item "ammo pistol" 500}
 		{item "bandage" 3}
 		{item "grenade f1" 4}

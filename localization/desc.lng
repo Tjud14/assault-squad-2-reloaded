@@ -295,6 +295,55 @@
 				{"tankman" "<c(c3baae)>veteran tank crew"}
 				{"tankman2" "<c(c3baae)>veteran tank commander"}
 				{"vehicle_supporter" "<c(c3baae)>soldier"}
+            }
+			{"rus2"
+				{"ap_miner" "<c(c3baae)>combat engineer (AP mines)"}
+				{"at_miner" "<c(c3baae)>combat engineer (AT mines)"}
+				{"at_rifle" "<c(c3baae)>AT-Rifle infantry"}
+				{"at_rifle2" "<c(c3baae)>AT-Rifle support infantry"}
+				{"bazooker" "<c(c3baae)>AT infantry"}
+				{"bazooker2" "<c(c3baae)>AT support infantry"}
+				{"elite" "<c(c3baae)>guards rifle"}
+				{"elite2" "<c(c3baae)>guards rifle"}
+				{"elite3" "<c(c3baae)>guards rifle"}
+				{"elite4" "<c(c3baae)>"}
+				{"elite5" "<c(c3baae)>"}
+				{"elite6" "<c(c3baae)>"}
+				{"elite_at" "<c(c3baae)>marine"}
+				{"flamer" "<c(c3baae)>flamethrower infantry"}
+				{"flamer2" "<c(c3baae)>flamethrower support infantry"}
+				{"flamer3" "<c(c3baae)>shock infantry"}
+				{"home_guard" "<c(c3baae)>shtrafniki"}
+				{"home_guard2" "<c(c3baae)>shtrafniki"}
+				{"medic" "<c(c3baae)>medic"}
+				{"mgun" "<c(c3baae)>machine gunner"}
+				{"oficer" "<c(c3baae)>officer"}
+				{"radioman" "<c(c3baae)>radio operator"}
+				{"rifle" "<c(c3baae)>rifleman"}
+				{"rifle2" "<c(c3baae)>shock rifleman"}
+				{"rifle3" "<c(c3baae)>rifleman"}
+				{"saper" "<c(c3baae)>mine disposal expert"}
+				{"scout" "<c(c3baae)>spetsnaz"}
+				{"smg" "<c(c3baae)>SMG infantry"}
+				{"smg2" "<c(c3baae)>shock SMG infantry"}
+				{"smg3" "<c(c3baae)>shock infantry"}
+				{"smg4" "<c(c3baae)>shock infantry"}
+				{"sniper" "<c(c3baae)>sniper"}
+				{"sniper2" "<c(c3baae)>guards sniper"}
+				{"sturmovik" "<c(c3baae)>spetsnaz"}
+				{"sturmovik2" "<c(c3baae)>spetsnaz"}
+				{"sturmovik3" "<c(c3baae)>spetsnaz"}
+				{"sturmovik4" "<c(c3baae)>spetsnaz"}
+				{"sturmovik4b" "<c(c3baae)>spetsnaz"}
+				{"sturmovik5" "<c(c3baae)>spetsnaz"}
+				{"sturmovik5b" "<c(c3baae)>spetsnaz"}
+				{"sturmovik6" "<c(c3baae)>spetsnaz"}
+				{"sturmovik6b" "<c(c3baae)>spetsnaz"}
+				{"squadleader" "<c(c3baae)>squad leader"}
+				{"squadleader2" "<c(c3baae)>shock infantry leader"}
+				{"tankman" "<c(c3baae)>tank crew"}
+				{"tankman2" "<c(c3baae)>tank commander"}
+				{"vehicle_supporter" "<c(c3baae)>soldier"}
 			}
 		}
 		{"civilian"
@@ -312,41 +361,48 @@
 		{"ap_miners(rus)" "Combat engineers (AP mines)"}
 		{"ap_miners(usa)" "Combat engineers (AP mines)"}
 		{"ap_miners(ger2)" "Combat engineers (AP mines)"}
+		{"ap_miners(rus2)" "Combat engineers (AP mines)"}
 		{"at_miners(eng)" "Combat engineers (AT mines)"}
 		{"at_miners(ger)" "Combat engineers (AT mines)"}
 		{"at_miners(jap)" "Combat engineers (AT mines)"}
 		{"at_miners(rus)" "Combat engineers (AT mines)"}
 		{"at_miners(usa)" "Combat engineers (AT mines)"}
 		{"at_miners(ger2)" "Combat engineers (AT mines)"}
+		{"at_miners(rus2)" "Combat engineers (AT mines)"}
 		{"at_rifles(eng)" "AT-Rifle infantry"}
 		{"at_rifles(ger)" "AT-Rifle infantry"}
 		{"at_rifles(jap)" "AT-Rifle infantry"}
 		{"at_rifles(rus)" "AT-Rifle infantry"}
 		{"at_rifles(ger2)" "AT-Rifle infantry"}
+		{"at_rifles(rus2)" "AT-Rifle infantry"}
 		{"bazookers(eng)" "AT infantry"}
 		{"bazookers(ger)" "AT infantry"}
 		{"bazookers(jap)" "AT infantry"}
 		{"bazookers(rus)" "AT infantry"}
 		{"bazookers(usa)" "AT infantry"}
 		{"bazookers(ger2)" "AT infantry"}
+		{"bazookers(rus2)" "AT infantry"}
 		{"elites(eng)" "Commandos"}
 		{"elites(ger)" "Paratroopers"}
 		{"elites(jap)" "Paratroopers"}
 		{"elites(rus)" "Marines"}
 		{"elites(usa)" "Airborne"}
 		{"elites(ger2)" "Jäger"}
+		{"elites(rus2)" "Guards rifle"}
 		{"flamers(eng)" "Flamethrower infantry"}
 		{"flamers(ger)" "Flamethrower infantry"}
 		{"flamers(jap)" "Flamethrower infantry"}
 		{"flamers(rus)" "Flamethrower infantry"}
 		{"flamers(usa)" "Flamethrower infantry"}
 		{"flamers(ger2)" "Flamethrower infantry"}
+		{"flamers(rus2)" "Flamethrower infantry"}
 		{"home_guards(eng)" "Militia"}
 		{"home_guards(ger)" "Volkssturm"}
 		{"home_guards(jap)" "Recruits"}
 		{"home_guards(rus)" "Partisan"}
 		{"home_guards(usa)" "Conscripts"}
 		{"home_guards(ger2)" "Leichte Aufklärer"}
+		{"home_guards(rus2)" "Shtrafbat"}
 		{"kamikazes(jap)" "Kamikaze"}
 		{"mgs2(eng)" "Machine gunner"}
 		{"mgs2(ger)" "Machine gunner"}
@@ -354,48 +410,56 @@
 		{"mgs2(rus)" "Machine gunner"}
 		{"mgs2(usa)" "Machine gunner"}
 		{"mgs2(ger2)" "Machine gunner"}
+		{"mgs2(rus2)" "Machine gunner"}
 		{"officers(eng)" "Officer"}
 		{"officers(ger)" "Officer"}
 		{"officers(jap)" "Officer"}
 		{"officers(rus)" "Officer"}
 		{"officers(usa)" "Officer"}
 		{"officers(ger2)" "Officer"}
+		{"officers(rus2)" "Officer"}
 		{"riflemans(eng)" "Regular infantry"}
 		{"riflemans(ger)" "Regular infantry"}
 		{"riflemans(jap)" "Regular infantry"}
 		{"riflemans(rus)" "Regular infantry"}
 		{"riflemans(usa)" "Regular infantry"}
 		{"riflemans(ger2)" "Veteranen"}
+		{"riflemans(rus2)" "Regular infantry"}
 		{"riflemans2(eng)" "Rifleman"}
 		{"riflemans2(ger)" "Rifleman"}
 		{"riflemans2(jap)" "Rifleman"}
 		{"riflemans2(rus)" "Rifleman"}
 		{"riflemans2(usa)" "Rifleman"}
 		{"riflemans2(ger2)" "Rifleman"}
+		{"riflemans2(rus2)" "Rifleman"}
 		{"sappers(eng)" "Mine disposal experts"}
 		{"sappers(ger)" "Mine disposal experts"}
 		{"sappers(jap)" "Mine disposal experts"}
 		{"sappers(rus)" "Mine disposal experts"}
 		{"sappers(usa)" "Mine disposal experts"}
 		{"sappers(ger2)" "Mine disposal experts"}
+		{"sappers(rus2)" "Mine disposal experts"}
 		{"smgs(eng)" "Assault infantry"}
 		{"smgs(ger)" "Assault infantry"}
 		{"smgs(jap)" "Assault infantry"}
 		{"smgs(rus)" "Assault infantry"}
 		{"smgs(usa)" "Assault infantry"}
 		{"smgs(ger2)" "Stosstrupp"}
+		{"smgs(rus2)" "Shock infantry"}
 		{"smgs2(eng)" "SMG"}
 		{"smgs2(ger)" "SMG"}
 		{"smgs2(jap)" "SMG"}
 		{"smgs2(rus)" "SMG"}
 		{"smgs2(usa)" "SMG"}
 		{"smgs2(ger2)" "SMG"}
+		{"smgs2(rus2)" "SMG"}
 		{"snipers(eng)" "Sniper"}
 		{"snipers(ger)" "Sniper"}
 		{"snipers(jap)" "Sniper"}
 		{"snipers(rus)" "Sniper"}
 		{"snipers(usa)" "Sniper"}
 		{"snipers(ger2)" "Sniper"}
+		{"snipers(rus2)" "Sniper"}
 		{"snipers_d(eng)" "Sniper"}
 		{"snipers_d(ger)" "Sniper"}
 		{"snipers_d(jap)" "Sniper"}
@@ -426,18 +490,24 @@
 		{"stormtroopers1(ger2)" "Veteran marksmen"}
 		{"stormtroopers2(ger2)" "Veteran AT infantry"}
 		{"stormtroopers3(ger2)" "Veteran support infantry"}
+		{"stormtroopers(rus2)" "Spetsnaz"}
+		{"stormtroopers1(rus2)" "Elite marksmen"}
+		{"stormtroopers2(rus2)" "Elite AT infantry"}
+		{"stormtroopers3(rus2)" "Elite support infantry"}
 		{"storm_mech_eng" "Mechanized SAS"}
 		{"storm_mech_ger" "Mechanized Panzergrenadiere"}
 		{"storm_mech_jap" "Mechanized SNLF"}
 		{"storm_mech_rus" "Mechanized Red Guards"}
 		{"storm_mech_usa" "Mechanized Rangers"}
 		{"storm_mech_ost" "Mechanized Gebirgsjäger"}
+		{"storm_mech_rus2" "Mechanized Spetsnaz"}
 		{"tankmans(eng)" "Tank crew"}
 		{"tankmans(ger)" "Tank crew"}
 		{"tankmans(jap)" "Tank crew"}
 		{"tankmans(rus)" "Tank crew"}
 		{"tankmans(usa)" "Tank crew"}
 		{"tankmans(ger2)" "Veteran tank crew"}
+		{"tankmans(rus2)" "Tank crew"}
 		{"hero1_eng" "Saboteur"}
 		{"hero2_eng" "Royal Engineers"}
 		{"hero3_eng" "ANZAC"}
@@ -510,18 +580,18 @@
 		{"heronew1_usa" ".30 cal Browning A6"}
 		{"heronew2_usa" "Combat Engineers"}
 		{"heronew3_usa" "Devil's Brigade"}
-		{"hero1_rus2" "Guards IS-2"}
-		{"hero2_rus2" "Radio Operator"}
-		{"hero3_rus2" "Tank Riders"}
-		{"hero4_rus2" "Katyusha"}
-		{"hero5_rus2" "A-19"}
-		{"hero6_rus2" "Sappers"}
-		{"hero7_rus2" "x"}
-		{"hero8_rus2" "T-34/57 '43"}
-		{"hero9_rus2" "x"}
-		{"heronew1_rus2" "x"}
-		{"heronew2_rus2" "x"}
-		{"heronew3_rus2" "T-34/76E"}
+		{"hero1_rus2" "Tank riders"}
+		{"hero2_rus2" "AT detachment"}
+		{"hero3_rus2" "284th Rifles"}
+		{"hero4_rus2" "T-34/76E"}
+		{"hero5_rus2" "T-34/57 '43"}
+		{"hero6_rus2" "Mechanized Guards Rifle"}
+		{"hero7_rus2" "Radio Operator"}
+		{"hero8_rus2" "ML-20"}
+		{"hero9_rus2" "KV-122"}
+		{"hero10_rus2" "BM-31-12"}
+		{"hero11_rus2" "Guards ISU-152"}
+		{"hero12_rus2" "Guards IS-2"}
 	}
 	{"entity"
 		{"155gpf" "GPF"}
@@ -785,8 +855,8 @@
 		{"pz3m_ger2" "Pz III Sapper"}
 		{"pz3n" "PzKpfw III Ausf.N"}
 		{"pz4d" "PzKpfw IV Ausf.D"}
-		{"pz4g" "PzKpfw IV Ausf.G"}
-		{"pz4g_ger2" "PzKpfw IV Ausf.G"}
+		{"pz4g" "PzKpfw IV Ausf.F2"}
+		{"pz4g_ger2" "PzKpfw IV Ausf.F2"}
 		{"pz4h" "PzKpfw IV Ausf.H"}
 		{"pz4h_ger2" "PzKpfw IV Ausf.H"}
 		{"pz5" "PzKpfw V Panther"}
@@ -844,10 +914,12 @@
 		{"t20" "T20 \"Komsomolets\" tractor"}
 		{"t26" "T-26"}
 		{"t29" "T29"}
-		{"t34_0" "T-34/76"}
+		{"t34_0" "T-34/76 '41"}
 		{"t34_1" "T-34/57"}
-		{"t34_2" "T-34/76"}
+		{"t34_2" "T-34/76 '43"}
+		{"t34_42e" "T-34/76E"}
 		{"t34_3" "T-34/85"}
+		{"t34_3c" "T-34/85E"}
 		{"t34_3_ger2" "Beutepanzer T-34/85"}
 		{"t34m" "T-34 Sapper"}
 		{"t60" "T-60"}
@@ -903,6 +975,24 @@
 		{"do-24t" "Do-24"}
 		{"do-24t_1" "Do-24"}
 		{"lg40" "LG40"}
+		{"kv1s" "KV-1S"}
+		{"ot34_2" "OT-34/76 '43"}
+		{"t34_1_43" "T-34/57 '43"}
+		{"kv-122" "KV-122"}
+		{"veteran_isu152" "Guards ISU-152"}
+		{"veteran_is2" "Guards IS-2"}
+		{"su152" "SU-152"}
+		{"t80" "T-80"}
+		{"ot-130" "OT-130"}
+		{"m42" "M-42"}
+		{"m43" "M-43"}
+		{"np_52k" "52-K"}
+		{"t34_l11" "T-34/76 '40"}
+		{"kv1_40" "KV-1 '40"}
+
+
+		
+
 	}
 	{"ammo"
 		{"arl" "Air rocket"}
@@ -1285,6 +1375,8 @@
 		{"305mm_gun" "305mm"}
 		{"flaermow" "Flare gun"}
 		{"uber_browning" ".50 cal M2HB"}
+		{"rpd" "RPD"}
+		{"avt40" "AVT-40"}
 	}
 	{"container"
 		{"box" "Box"}

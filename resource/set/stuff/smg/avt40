@@ -1,0 +1,21 @@
+{from "pattern autorifle"
+	{tag "autorifle"}
+	{filling "ammo rifle" 10}
+	{entity "svt40"}
+	{fireSound "rifle/svt40_shot/"}
+	{reloadSound "svt40"}
+	
+	{Automatic}
+	{healthDamage 200}
+	("recoveryTime" r(500))
+	("speed" s(840))
+
+	{burst
+		{short 2 0.5}
+		{long 5 0.5}
+	}	
+	{spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 75 60 45 30 15 13 11 9 7}
+	}
+}

@@ -1,0 +1,18 @@
+{from "pattern sniper_rifle"
+	{filling "ammo ptr" 5}                                          
+	{entity "ptrs"}
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+	{fireSound	"rifle/ptr/ptrs"}
+	{reloadSound "ptrd"}
+	
+	{Automatic}
+	{recoveryTime 2.5}
+	{projectileDamageTable {0 30} {35 25} {50 20} {80 12.5} {100 5}}
+	("speed" s(950))
+
+	{range 75 80}
+
+	{recoveryTime 1.25}
+	{healthDamage 275}
+}

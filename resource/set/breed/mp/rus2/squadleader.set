@@ -1,11 +1,11 @@
 {breed
-	{skin "rus_com"}
-	{portrait "rus_soldier3"}
+	{skin "rus_t2"}
+	{portrait "rus_elite2"}
 	{nationality rus}
-	{icon "squadleader"}
+	{icon "elite4"}
 	{icon_priority 2}
 	{armors
-		{head "cap1_rus"}
+		{head "fieldcap1_rus"}
 	}
 	{perks
 		{"health" "200%"
