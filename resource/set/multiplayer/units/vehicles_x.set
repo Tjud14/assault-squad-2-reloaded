@@ -33,7 +33,7 @@
 {"m4a3_zippo"			("extra" t() sc(22.50) cw(0) cp(15))}	;3
 {"m4a3_105"				("extra" t() sc(30.00) cw(0) cp(15))}	;4
 {"m4a3e2_jumbo_76"		("extra" t() sc(52.50) cw(0) cp(30))}	;7
-{"m26e4"				("extra" t() sc(75.00) cw(0) cp(40))}	;10
+{"m26e4"				("extra" t() sc(75.00) cw(0) cp(40))}	;13
 
 {"sdkfz234_3"			("extra" t() sc(15.00) cw(0) cp(10))}	;2
 {"sdkfz250_11"			("extra" t() sc(0.00) cw(0) cp(0))}		;0
@@ -43,6 +43,15 @@
 {"sdkfz8"				("extra" t() sc(52.50) cw(0) cp(15))}	;7
 {"brummbar"				("extra" t() sc(45.00) cw(0) cp(30))}	;6
 {"jagdtiger_ger2"		("extra" t() sc(75.00) cw(0) cp(40))}	;10
+
+{"t34_42e"			    ("extra" t() sc(15.00) cw(0) cp(15))}	;2
+{"t34_1_43"			    ("extra" t() sc(22.50) cw(0) cp(15))}	;3
+{"ML-20"			    ("extra" t() sc(37.50) cw(0) cp(20))}	;5
+{"kv-122"			    ("extra" t() sc(37.50) cw(0) cp(30))}	;5
+{"BM-31-12"				("extra" t() sc(37.50) cw(0) cp(20))}	;5
+{"veteran_isu152"		("extra" t() sc(60.00) cw(0) cp(30))}	;8
+{"veteran_is2"			("extra" t() sc(67.50) cw(0) cp(30))}	;9
+
 
 
 ;���Artillery���

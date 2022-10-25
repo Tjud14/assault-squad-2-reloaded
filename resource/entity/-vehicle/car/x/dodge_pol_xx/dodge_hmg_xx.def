@@ -1,0 +1,19 @@
+{game_entity
+	{Extension "dodge_hmg_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "bodyback"
+	}
+	{Volume "engine"
+	}
+	{Volume "part1"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright2"
+	}
+}

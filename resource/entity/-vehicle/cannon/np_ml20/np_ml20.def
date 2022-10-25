@@ -55,16 +55,15 @@
 
 	{extender "inventory"
 		{box
-                			{item "ammo bullet152_rus fg" 30}
-                			{item "ammo bullet152_rus sm" 10}
-                			{item "ammo bullet152_rus ap" 8}
+            {item "ammo bullet152 fg" 30}
+            {item "ammo bullet152 sm" 10}
 			{item "sandbag_kit2"}
 		}
 	}
 	{Weaponry
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "np_152mm_ml20" filling "ammo bullet152_rus fg" 1}
+			{weapon "152mm_ml20" filling "ammo bullet152 fg" 1}
 			("abm_howitzer")
 		}
 	}

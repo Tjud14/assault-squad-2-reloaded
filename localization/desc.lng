@@ -303,13 +303,13 @@
 				{"at_rifle2" "<c(c3baae)>AT-Rifle support infantry"}
 				{"bazooker" "<c(c3baae)>AT infantry"}
 				{"bazooker2" "<c(c3baae)>AT support infantry"}
-				{"elite" "<c(c3baae)>guards rifle"}
-				{"elite2" "<c(c3baae)>guards rifle"}
-				{"elite3" "<c(c3baae)>guards rifle"}
+				{"elite" "<c(c3baae)>paratrooper"}
+				{"elite2" "<c(c3baae)>paratrooper"}
+				{"elite3" "<c(c3baae)>paratrooper"}
 				{"elite4" "<c(c3baae)>"}
 				{"elite5" "<c(c3baae)>"}
 				{"elite6" "<c(c3baae)>"}
-				{"elite_at" "<c(c3baae)>marine"}
+				{"elite_at" "<c(c3baae)>paratrooper"}
 				{"flamer" "<c(c3baae)>flamethrower infantry"}
 				{"flamer2" "<c(c3baae)>flamethrower support infantry"}
 				{"flamer3" "<c(c3baae)>shock infantry"}
@@ -388,7 +388,7 @@
 		{"elites(rus)" "Marines"}
 		{"elites(usa)" "Airborne"}
 		{"elites(ger2)" "Jäger"}
-		{"elites(rus2)" "Guards rifle"}
+		{"elites(rus2)" "Paratroopers"}
 		{"flamers(eng)" "Flamethrower infantry"}
 		{"flamers(ger)" "Flamethrower infantry"}
 		{"flamers(jap)" "Flamethrower infantry"}
@@ -424,7 +424,7 @@
 		{"riflemans(rus)" "Regular infantry"}
 		{"riflemans(usa)" "Regular infantry"}
 		{"riflemans(ger2)" "Veteranen"}
-		{"riflemans(rus2)" "Regular infantry"}
+		{"riflemans(rus2)" "Guards rifle"}
 		{"riflemans2(eng)" "Rifleman"}
 		{"riflemans2(ger)" "Rifleman"}
 		{"riflemans2(jap)" "Rifleman"}
@@ -583,13 +583,13 @@
 		{"hero1_rus2" "Tank riders"}
 		{"hero2_rus2" "AT detachment"}
 		{"hero3_rus2" "284th Rifles"}
-		{"hero4_rus2" "T-34/76E"}
-		{"hero5_rus2" "T-34/57 '43"}
+		{"hero4_rus2" "Counter Attack!"}
+		{"hero5_rus2" "Guards T-34/57"}
 		{"hero6_rus2" "Mechanized Guards Rifle"}
-		{"hero7_rus2" "Radio Operator"}
-		{"hero8_rus2" "ML-20"}
-		{"hero9_rus2" "KV-122"}
-		{"hero10_rus2" "BM-31-12"}
+		{"hero7_rus2" "Lend Lease M4A3E8(76)W"}
+		{"hero8_rus2" "Radio Operator"}
+		{"hero9_rus2" "Red Thunder"}
+		{"hero10_rus2" "Stalin's Organ"}
 		{"hero11_rus2" "Guards ISU-152"}
 		{"hero12_rus2" "Guards IS-2"}
 	}
@@ -989,9 +989,13 @@
 		{"np_52k" "52-K"}
 		{"t34_l11" "T-34/76 '40"}
 		{"kv1_40" "KV-1 '40"}
-
-
-		
+		{"np_is1" "IS-1"}
+		{"is2_43" "IS-2 '43"}
+		{"gazaaa4m_rus" "GAZ-AAA (4M)"}
+		{"np_zis42_61k" "ZiS-42 (M) 61K"}
+		{"np_su76" "SU-76"}
+		{"su85m" "SU-85M"}
+		{"dodge_hmg" "Dodge WC DShK"}
 
 	}
 	{"ammo"

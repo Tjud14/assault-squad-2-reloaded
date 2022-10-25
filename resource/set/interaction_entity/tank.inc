@@ -2194,3 +2194,58 @@
 		}
 	}
 }
+{"veteran_is2 tank"
+	("is_sound")
+	{on "gunner_hatch_open" overload
+		{ani_play "open2"}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"np_is1 tank"
+	("is_sound")
+	("burn_by_engine" args 0.3)
+}
+{"veteran_isu152 tank"
+	{on "add_movement_sound" overload
+		{link_sound "move"				"vehicle/tracks/is"		}
+		{link_sound "engine"			"vehicle/engine/isu"		}
+		{link_sound "engine_end"		"vehicle/engine/isu_end"	}
+		{link_sound "exhaust"			"vehicle/engine/m4a2_up"		}
+	}
+	{on "gunner_hatch_open" overload
+		{ani_play "open2"}
+	}
+	("burn_by_engine" args 0.3)
+}
+{"kv1s tank"
+	("kv_sound")
+	("burn_by_engine" args 0.3)
+}
+{"kv-122 tank"
+	("kv_sound")
+	("burn_by_engine" args 0.3)
+}
+{"kv1_40 tank"
+	("kv_sound")
+	("burn_by_engine" args 0.3)
+}
+{"t34_42e tank"
+	("t34_sound")
+	("burn_by_engine" args 0.3)
+}
+{"t34_1_43 tank"
+	("t34_sound")
+	("burn_by_engine" args 0.3)
+}
+{"t34_l11 tank"
+	("t34_sound")
+	("burn_by_engine" args 0.3)
+}
+{"t34_3c tank"
+	("t34_sound")
+	("burn_by_engine" args 0.3)
+}
+{"t80 tank"
+	("t70_sound")
+	("burn_by_engine" args 0.3)
+}

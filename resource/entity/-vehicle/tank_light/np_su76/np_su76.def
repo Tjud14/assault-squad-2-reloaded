@@ -1,0 +1,133 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{collider "tank.light"}
+	{patherId "tank.light"}
+	{props "light" "-turret" "vision_vehicle_medium" "muzzle_medium_sides" "t-20"  "gun_mode_change"}
+	{targetClass "light_tank"}
+	{targetSelector "tank_at"}
+
+
+	{extender "enumerator"
+		{digit_folder "rus"}
+	}
+	
+	{volume "body1"
+		{component "body"}
+		{tags "body"}
+		{thickness 15}
+	}
+	{volume "body2"
+		{component "body"}
+		{tags "body"}
+		{thickness 15}
+	}
+	{volume "body3"
+		{component "body"}
+		{tags "body"}
+		{thickness 15}
+	}
+	("armor_spa_light" armor(30 15 15 7))
+	("armor_engine"  t(10 15 15 7))
+	("armor_mantlet" t(10))
+	
+	{Volume "mantlet"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 10}
+	}
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_t34_driver"} {base "open_driver"}}
+			{reverse 	{end	"emit_t34_hold"} {base "open_driver"}}
+		}
+		{anm "left"
+			{forward	{begin	"board_dodge_bodyback"} {base "doors"}}
+			{reverse 	{end "emit_tank_2_hold"} {base "doors"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_dodge_bodyback"} {base "doors"}}
+			{reverse   {end "emit_tank_2_hold"} {base "doors"}}
+		}
+	}
+
+	("crew_4_human_extended")
+
+	{extender "inventory"
+		{box
+            {item "bullet76 ap" 26}
+            {item "bullet76 fg" 27}
+            {item "bullet76 apcr" 6}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "76mm_zis3" filling "ammo bullet76 ap" 1}        
+			("abm_low")
+		}
+	}
+	{Placer
+		{place "attach01"
+			{entity "shell_ap_76"}
+			{Linkbone "attach01"}
+			{handlebone "basis"}
+			{obstacle disable}
+		}
+		{place "attach02"
+			{entity "shell_fg_76"}
+			{Linkbone "attach02"}
+			{handlebone "basis"}
+			{obstacle disable}
+		}
+		{place "attach03"
+			{entity "shell_ap_76"}
+			{Linkbone "attach03"}
+			{handlebone "basis"}
+			{obstacle disable}
+		}
+		{place "attach04"
+			{entity "shell_fg_76"}
+			{Linkbone "attach04"}
+			{handlebone "basis"}
+			{obstacle disable}
+		}
+               }
+	{mass 10500}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.15) len(0.3))
+		{Locomotion ("locomotion")
+				{maxspeed   36}
+				{maxSpeedAtMaxTurn 18}
+				{StartTime 24}
+				{TurnTime 12}
+				{TurnStart  1.1}			
+				{TurnRadius 7} 
+    				{TurnStop   0.6}
+				{BrakeTime  1}
+				{StopTime   2.5}
+				{Gears   0.1 0.2 0.7}
+				{RearGears  0.27}	
+		}
+		{FuelBag
+			{volume 420 }	
+			{rate	 85 }   
+			{remain 420 }
+			{fuel "fuel"}
+		}
+		{speed
+        			{Normal  12}
+        			{Slow  18}
+    		}
+	}
+	{Extension "su12.mdl"}
+	{bone "turret"
+		{speed 0.007}
+		{limits -20 16}
+	}
+	{bone "gun_rot"
+		{speed 0.007}
+		{limits -3 45}
+	}
+}

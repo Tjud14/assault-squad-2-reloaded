@@ -88,7 +88,7 @@
 ("squad_with2types" side(eng) name(home_guards) c(30) g(squad_1) c1(home_guard:6) c2(home_guard2:2) b(squad1) t(all inf_only) level(1) cost(60) f(-1.0))
 ("squad_with2types" side(jap) name(home_guards) c(30) g(squad_1) c1(home_guard:6) c2(home_guard2:2) b(squad1) t(all inf_only) level(1) cost(60) f(-1.0))
 ("squad_with3types" side(ger2) name(home_guards) c(60) g(squad_1) c1(squadleader:1) c2(smg:3) c3(rifle:2)  b(squad1) t(all inf_only) level(1) cost(80) f(1.0))
-("squad_with2types" side(rus2) name(home_guards) c(30) g(squad_1) c1(home_guard:7) c2(home_guard2:1) b(squad1) t(all inf_only) level(1) cost(60) f(-1.0))
+("squad_with2types" side(rus2) name(home_guards) c(60) g(squad_1) c1(home_guard:7) c2(home_guard2:1) b(squad1) t(all inf_only) level(1) cost(80) f(-1.0))
 
 ("squad_with3types" side(rus) name(smgs) c(30) g(squad_2) c1(squadleader2:1) c2(rifle2:3) c3(smg2:4) b(squad1) t(all inf_only) level(1) cost(115) f(1.0))
 ("squad_with3types" side(ger) name(smgs) c(30) g(squad_2) c1(squadleader2:1) c2(rifle2:3) c3(smg2:4) b(squad1) t(all inf_only) level(1) cost(110) f(1.0))
@@ -96,7 +96,7 @@
 ("squad_with3types" side(eng) name(smgs) c(30) g(squad_2) c1(squadleader2:1) c2(rifle2:3) c3(smg2:4) b(squad1) t(all inf_only) level(1) cost(100) f(1.0))
 ("squad_with3types" side(jap) name(smgs) c(30) g(squad_2) c1(squadleader2:1) c2(rifle2:3) c3(smg2:4) b(squad1) t(all inf_only) level(1) cost(110) f(1.0))
 ("squad_with3types" side(ger2) name(smgs) c(30) g(squad_2) c1(squadleader2:1) c2(rifle2:1) c3(smg2:4) b(squad1) t(all inf_only) level(1) cost(110) f(1.0))
-("squad_with3types" side(rus2) name(smgs) c(30) g(squad_2) c1(squadleader2:1) c2(rifle2:3) c3(smg2:4) b(squad1) t(all inf_only) level(1) cost(115) f(1.0))
+("squad_with3types" side(rus2) name(smgs) c(30) g(squad_2) c1(squadleader2:1) c2(rifle2:2) c3(smg2:3) b(squad1) t(all inf_only) level(1) cost(110) f(1.0))
 
 ("squad_with4types" side(rus) name(riflemans) c(30) g(squad_2) c1(squadleader:1) c2(rifle:5) c3(smg:1) c4(mgun:1) b(squad1) t(all inf_only) level(1) cost(140) f(1.0))
 ("squad_with4types" side(ger) name(riflemans) c(30) g(squad_2) c1(squadleader:1) c2(rifle:5) c3(smg:1) c4(mgun:1) b(squad1) t(all inf_only) level(1) cost(150) f(1.0))
@@ -104,7 +104,7 @@
 ("squad_with4types" side(eng) name(riflemans) c(30) g(squad_2) c1(squadleader:1) c2(rifle:5) c3(smg:1) c4(mgun:1) b(squad1) t(all inf_only) level(1) cost(130) f(1.0))
 ("squad_with4types" side(jap) name(riflemans) c(30) g(squad_2) c1(squadleader:1) c2(rifle:5) c3(smg:1) c4(mgun:1) b(squad1) t(all inf_only) level(1) cost(130) f(1.0))
 ("squad_with4types" side(ger2) name(riflemans) c(30) g(squad_2) c1(squadleader2:1) c2(rifle2:3) c3(smg2:1) c4(mgun:1) b(squad1) t(all inf_only) level(1) cost(140) f(1.0))
-("squad_with4types" side(rus2) name(riflemans) c(30) g(squad_2) c1(squadleader:1) c2(rifle:5) c3(smg:1) c4(mgun:1) b(squad1) t(all inf_only) level(1) cost(140) f(1.0))
+("squad_with4types" side(rus2) name(riflemans) c(30) g(squad_2) c1(squadleader:1) c2(elite:3) c3(elite2:1) c3(elite3:1) b(squad1) t(all inf_only) level(1) cost(150) f(1.0))
 
 
 
@@ -114,7 +114,7 @@
 ("squad_with3types" side(eng) name(elites) c(0) g(squad_4) c1(elite:3) c2(elite2:3) c3(elite3:2) b(squad1) t(all inf_only) level(4) cost(215) f(1.0))
 ("squad_with3types" side(jap) name(elites) c(0) g(squad_4) c1(elite:3) c2(elite2:3) c3(elite3:2) b(squad1) t(all inf_only) level(4) cost(200) f(1.0))
 ("squad_with3types" side(ger2) name(elites) c(0) g(squad_4) c1(elite:3) c2(elite2:3) c3(elite3:2) b(squad1) t(all inf_only) level(4) cost(235) f(1.0))
-("squad_with3types" side(rus2) name(elites) c(0) g(squad_4) c1(elite:3) c2(elite2:3) c3(elite3:2) b(squad1) t(all inf_only) level(4) cost(225) f(1.0))
+("squad_with3types" side(rus2) name(elites) c(0) g(squad_4) c1(elite:3) c2(elite2:1) c3(elite3:2) b(squad1) t(all inf_only) level(4) cost(225) f(1.0))
 
 ("squad_with3types" side(rus) name(stormtroopers) c(0) g(squad_5) c1(sturmovik:4) c2(sturmovik2:2) c3(sturmovik3:2) b(squad1) t(all inf_only) level(8) cost(325) f(1.0))
 ("squad_with3types" side(ger) name(stormtroopers) c(0) g(squad_5) c1(sturmovik:4) c2(sturmovik2:2) c3(sturmovik3:2) b(squad1) t(all inf_only) level(8) cost(330) f(1.0))

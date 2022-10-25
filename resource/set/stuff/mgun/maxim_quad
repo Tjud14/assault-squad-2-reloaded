@@ -1,0 +1,9 @@
+{from "maxim"
+	{filling "ammo mgun" 800}
+	{entity "maxim_inv"}
+	{fireSound	"mgun/maxim_burst/"}
+	{mass 80}
+	{rechargeTime 25}	
+	("recoveryTime" r(2000))
+	("burst_long")
+}

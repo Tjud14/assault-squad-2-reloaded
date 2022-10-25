@@ -48,6 +48,7 @@
 		{item "mosin" filled}
 		{item "ammo rifle" 10}
 		{item "bandage" 3}
+		{item "grenade f1" 1}
 		{item "grenade molotov_coctail" 1}
 		{in_hands 0}
 	}
