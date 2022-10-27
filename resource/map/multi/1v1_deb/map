@@ -38110,7 +38110,7 @@
 		{Constrain none}
 	}
 	{Entity "sandbag" 0x2008
-		{Position -1338.44 3556.42 108.25}
+		{Position -1338.44 3556.42 99.25}
 		{xform zl -2.02}
 	}
 	{Entity "sandbag" 0x2009
@@ -38118,12 +38118,12 @@
 		{xform zl -159.59}
 	}
 	{Entity "sandbag" 0x200a
-		{Position -1407.25 3463.47 105.6}
+		{Position -1407.25 3463.47 100.6}
 		{xform zl -1.41}
 		{Constrain none}
 	}
 	{Entity "sandbag" 0x200b
-		{Position -1407.22 3490.16 105.56}
+		{Position -1407.22 3490.16 101.06}
 		{xform zl -0.48}
 	}
 	{Entity "crash_wood4" 0x200c
@@ -38132,12 +38132,12 @@
 		{DecalOrder 1}
 	}
 	{Entity "sandbag" 0x200d
-		{Position -1407.78 3438.28 105.6}
+		{Position -1407.78 3438.28 100.1}
 		{xform zl 0.03}
 		{Constrain none}
 	}
 	{Entity "sandbag" 0x200e
-		{Position -1373.33 3424.91 105.1}
+		{Position -1381.1 3424.68 99.1}
 		{xform zl -90.21}
 		{Constrain none}
 	}
@@ -38182,12 +38182,12 @@
 		{Constrain none}
 	}
 	{Entity "sandbag" 0x2091
-		{Position -1328.11 3424.4 105.1}
+		{Position -1328.11 3424.4 99.1}
 		{xform zl -89.1}
 		{Constrain none}
 	}
 	{Entity "sandbag" 0x2092
-		{Position -1380.62 3424.86 105.1}
+		{Position -1380.54 3424.27 99.1}
 		{xform zl 89.97}
 		{Constrain none}
 	}
@@ -38202,15 +38202,15 @@
 		{Constrain none}
 	}
 	{Entity "sandbag" 0x4103
-		{Position -1406.59 3516.45 105.49}
+		{Position -1406.59 3516.45 100.49}
 		{xform zl -0.48}
 	}
 	{Entity "sandbag" 0x4104
-		{Position -1406.46 3542.8 106.22}
+		{Position -1406.46 3542.8 100.72}
 		{xform zl -0.48}
 	}
 	{Entity "sandbag" 0x4105
-		{Position -1406.05 3567.37 105.84}
+		{Position -1406.05 3567.37 100.84}
 		{xform zl -0.48}
 	}
 	{Entity "sandbag" 0x2093
@@ -38231,23 +38231,23 @@
 		{xform zl -160.13}
 	}
 	{Entity "sandbag" 0xfb
-		{Position -1263.05 3491.68 108.67}
+		{Position -1263.05 3491.68 102.67}
 		{xform zl -160.68}
 	}
 	{Entity "sandbag" 0xfd
-		{Position -1280.99 3500.86 108.51}
+		{Position -1280.99 3500.86 102.51}
 		{xform zl -71.04}
 	}
 	{Entity "sandbag" 0xfe
-		{Position -1328.3 3492.75 108.43}
+		{Position -1328.3 3492.75 102.43}
 		{xform zl 89.47}
 	}
 	{Entity "sandbag" 0xff
-		{Position -1339.95 3506.24 108.31}
+		{Position -1339.95 3506.24 102.81}
 		{xform zl -0.03}
 	}
 	{Entity "sandbag" 0x100
-		{Position -1339.32 3530.61 108.11}
+		{Position -1339.32 3530.61 100.11}
 		{xform zl -2.02}
 	}
 	{Entity "sandbag" 0x6015
@@ -38322,7 +38322,7 @@
 		{Constrain surface}
 	}
 	{Entity "ash_tree_bush2" 0x7008
-		{Position -1395.1 3398.25 100.55}
+		{Position -1395.1 3398.25 90.05}
 		{xform zl 36.17 y 7.66 zw -17.45 scale 0.773}
 		{Constrain surface}
 	}

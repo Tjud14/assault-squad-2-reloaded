@@ -5,9 +5,15 @@
 		{Extender "map_point"
 			{name b1}
 			{team b}
+			{zoneA 0}
+			{zoneB 0}
 			{phase 0}
 			{order 1}
 			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
 		}
 		{Player 0}
 		{MID 45}
@@ -18,9 +24,15 @@
 		{Extender "map_point"
 			{name a2}
 			{team a}
+			{zoneA 0}
+			{zoneB 0}
 			{phase 0}
 			{order 2}
 			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
 		}
 		{Player 0}
 		{MID 46}
@@ -28,6 +40,11 @@
 	{Entity "flag_point_2" 0x8030
 		{Position 1587.76 1394.8}
 		{xform zl -43.71 scale 0.75}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
 		{Extender "map_point"
 			{name f2}
 			{zoneA 12}
@@ -38,15 +55,22 @@
 			{visor MapPoint}
 			{allow
 				{capture "b" "a"}
+				{enableCapture}
 				{release "b" "a"}
+				{enableRelease}
 			}
 		}
 		{Player 0}
 		{MID 49}
 	}
 	{Entity "flag_point_3" 0x8031
-		{Position -1361.34 2875.92}
+		{Position -1374.03 2977.54}
 		{xform zl -43.71 scale 0.75}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
 		{Extender "map_point"
 			{name f3}
 			{zoneA 12}
@@ -57,7 +81,9 @@
 			{visor MapPoint}
 			{allow
 				{capture "b" "a"}
+				{enableCapture}
 				{release "b" "a"}
+				{enableRelease}
 			}
 		}
 		{Player 0}
@@ -66,6 +92,11 @@
 	{Entity "flag_point_1" 0x8032
 		{Position 138.35 2260.45}
 		{xform zl -43.71 scale 0.75}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
 		{Extender "map_point"
 			{name f1}
 			{zoneA 12}
@@ -76,7 +107,9 @@
 			{visor MapPoint}
 			{allow
 				{capture "b" "a"}
+				{enableCapture}
 				{release "b" "a"}
+				{enableRelease}
 			}
 		}
 		{Player 0}
@@ -88,9 +121,15 @@
 		{Extender "map_point"
 			{name a1}
 			{team a}
+			{zoneA 0}
+			{zoneB 0}
 			{phase 0}
 			{order 1}
 			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
 		}
 		{Player 0}
 		{MID 6}
@@ -101,9 +140,15 @@
 		{Extender "map_point"
 			{name b2}
 			{team b}
+			{zoneA 0}
+			{zoneB 0}
 			{phase 0}
 			{order 2}
 			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
 		}
 		{Player 0}
 		{MID 11}
@@ -154,17 +199,12 @@
 	{Tags "keep_places_without_door" 0x101a}
 	{Tags "keep_places_without_door" 0x1024}
 	{Tags "keep_places_without_door" 0x41bc}
-	{Tags "keep_places_without_door" 0x4d9}
-	{Tags "keep_places_without_door" 0x507}
 	{Tags "keep_places_without_door" 0x705}
 	{Tags "keep_places_without_door" 0x730}
-	{Tags "keep_places_without_door" 0x480b}
 	{Tags "keep_places_without_door" 0x4833}
 	{Tags "keep_places_without_door" 0x505d}
-	{Tags "keep_places_without_door" 0x3000}
-	{Tags "keep_places_without_door" 0x3025}
 	{Tags "keep_places_without_door" 0x304d}
-	{Tags "keep_places_without_door" 0x305c}
+	{Tags "keep_places_without_door" 0x3000}
 	{Tags "night" 0x8000}
 	{Tags "day" 0xe000}
 	{Tags "day" 0xe001}
@@ -190,6 +230,8 @@
 							}
 							{"environment"
 								{name "multi/multi_10"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -209,6 +251,8 @@
 							}
 							{"environment"
 								{name "multi/multi_09"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -235,6 +279,8 @@
 							}
 							{"environment"
 								{name "multi/multi_08"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -261,6 +307,8 @@
 							}
 							{"environment"
 								{name "multi/multi_07"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -287,6 +335,8 @@
 							}
 							{"environment"
 								{name "multi/multi_06"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -313,6 +363,8 @@
 							}
 							{"environment"
 								{name "multi/multi_05"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -339,6 +391,8 @@
 							}
 							{"environment"
 								{name "multi/multi_04"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -365,6 +419,8 @@
 							}
 							{"environment"
 								{name "multi/multi_03"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -391,6 +447,8 @@
 							}
 							{"environment"
 								{name "multi/multi_02"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
@@ -413,6 +471,8 @@
 						{"default"
 							{"environment"
 								{name "multi/multi_01"}
+								{time -1}
+								{apply}
 							}
 							{"delete"
 								{selector
