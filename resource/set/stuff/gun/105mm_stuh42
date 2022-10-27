@@ -11,7 +11,7 @@
 		("damage" a(72) b(68) c(62) d(58) e(53))
 	}
 	
-	{range 120 130}
+	{range 130 140}
 	{parameters "apcr"	
 		{range 110 120}
 	}

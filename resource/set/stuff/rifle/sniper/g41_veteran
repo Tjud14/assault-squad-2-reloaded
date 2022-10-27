@@ -1,8 +1,16 @@
 {from "pattern sniper_rifle"
+	{special
+		{mode aim}
+		{PrepareTime 4.0}	
+		{PrepareCursor "aimed_shot"}
+		{accuracy 2.5}
+		{damage 2.5}
+		{throw_off}
+	}
 	{filling "ammo rifle" 5}
 	{entity "mauzer_s"}
 	{fireSound "rifle/mauzer_s"}
 	{reloadSound "rifle_bolt_five"}
-	
 	("speed" s(745))
+	{range 95 100}
 }

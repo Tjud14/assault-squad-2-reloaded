@@ -1,0 +1,111 @@
+;Exported by: Lemi
+;Date:        Sat Jan 16 14:55:12 2016
+;File:       C:\Users\Lemi\Documents\3dsmax\scenes\faustpatrone for DCG mod.max
+{Skeleton
+	{bone "faustpatrone"
+		{parameters "ID=mgun;"}
+		{Position 5	0 0}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "tube"
+			{Matrix34
+				0.88	0	0
+				0	0.90	0
+				0   0	0.90
+				0	0	0
+			}
+			{VolumeView "faustpatrone.ply"}
+		}
+		{bone "fxshot"
+			{Matrix34
+				1	0	0
+				0	-0.0092496	0.999957
+				0	-0.999957	-0.0092496
+				6.27097	0.409884	0.390902
+			}
+		}
+		{bone "handle"
+			{Position -2.49617	0.0433747	-0.780487}
+		}
+		{bone "foresight3"		
+			{Matrix34
+				1	0	0
+				0	-0.0092496	0.999957
+				0	-0.999957	-0.0092496
+				10.1712	0.410022	0.375971
+			}
+		}
+		{bone "patronerocket"
+			{parameters "ID=mgun;"}
+			{Matrix34 ; Rot Y = 1.5 scale 0.85
+				0.849709 0 0.02225   
+				0 0.85 0   
+				-0.02225 0 0.849709 
+				0.15	0	0
+				;+f +l  +Up
+			}
+			{VolumeView "patronerocket.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 14.6361 2.20497 1.33496}
+	{Bone "faustpatrone"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-1.5	0	0
+	}
+}
+{Volume "select"
+	{Box 20.4114 9.6014 2.39379}
+	{Bone "faustpatrone"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0	0	0
+	}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 5	39.1565	0.135489}
+			{lookat 5	-0.0386658	0.205024}
+			{fov 27.7899}
+			{horizon 9.99922}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 5.57153	22.7479	-14.9019}
+			}
+			{"1"
+				{type directional}
+				{direction 0	-0.379154	-0.325948}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 5.55	40.0846	0.431897}
+			{lookat 5.55 -0.0386658	0.50483}
+			{fov 28.7899}
+			{horizon 0.100871}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.00341325	-0.379154	-0.32593}
+			}
+			{"1"
+				{type point}
+				{position 5.70638	25.187	-9.89805}
+			}
+		}
+	}
+}

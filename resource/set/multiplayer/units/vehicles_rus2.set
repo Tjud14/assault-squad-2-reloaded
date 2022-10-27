@@ -21,6 +21,7 @@
 {"degtyarev_stan"   ("vs" c(300) t(all cannon) 	s(rus2) n(2) g(c1) sc(5.25) b(v2) cw(2) cp(5)) {level 1} {cost 105} {fore 1.0}}
 {"12_7mm_dshk_zenit"        ("vs" c(300) t(all cannon) 	s(rus2) n(2) g(c2) sc(7.50) b(v2) cw(2) cp(5)) {level 3} {cost 150} {fore 0.5}}
 
+
 {"m42"              ("vs" c(0) t(all cannon) 	s(rus2) n(2) g(c4) sc(6.75)  b(v2) cw(2) cp(5)) {level 1} {cost 135} {fore 1.0}}
 {"m43"              ("vs" c(0) t(all cannon mediumcan) 	s(rus2) n(2) g(c6) sc(11.00) b(v2) cw(2) cp(10)) {level 1} {cost 220} {fore 1.0}}
 {"np_52k"           ("vs" c(0) t(all cannon heavycan) 	s(rus2) n(2) g(c5) sc(16.25) b(v2) cw(2) cp(15)) {level 1} {cost 325} {fore 1.0}}
