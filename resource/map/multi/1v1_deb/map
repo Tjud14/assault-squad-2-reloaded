@@ -37239,8 +37239,8 @@
 		{xform zl 52.09}
 	}
 	{Entity "destroy_chip" 0x780a
-		{Position -1236.07 3857.03}
-		{xform zl -42.16 y 4.79 zw 150.2}
+		{Position -1293.63 3827.23}
+		{xform zl 15.65 y 5.92 zw -31.57}
 		{Constrain surface}
 	}
 	{Entity "destroy_chip" 0x780b
