@@ -1,42 +1,4 @@
 {mission
-	{Entity "map_point" 0x802c
-		{Position -1228.88 -310.55}
-		{xform zl 72.16}
-		{Extender "map_point"
-			{name b1}
-			{team b}
-			{zoneA 0}
-			{zoneB 0}
-			{phase 0}
-			{order 1}
-			{visor SpawnPoint}
-			{allow
-				{enableCapture}
-				{enableRelease}
-			}
-		}
-		{Player 0}
-		{MID 45}
-	}
-	{Entity "map_point" 0x802d
-		{Position 1927.04 4960.67}
-		{xform zl -104.16}
-		{Extender "map_point"
-			{name a2}
-			{team a}
-			{zoneA 0}
-			{zoneB 0}
-			{phase 0}
-			{order 2}
-			{visor SpawnPoint}
-			{allow
-				{enableCapture}
-				{enableRelease}
-			}
-		}
-		{Player 0}
-		{MID 46}
-	}
 	{Entity "flag_point_2" 0x8030
 		{Position 1587.76 1394.8}
 		{xform zl -43.71 scale 0.75}
@@ -115,44 +77,6 @@
 		{Player 0}
 		{MID 51}
 	}
-	{Entity "map_point" 0xc004
-		{Position 1860.38 4982.37}
-		{xform zl -104.16}
-		{Extender "map_point"
-			{name a1}
-			{team a}
-			{zoneA 0}
-			{zoneB 0}
-			{phase 0}
-			{order 1}
-			{visor SpawnPoint}
-			{allow
-				{enableCapture}
-				{enableRelease}
-			}
-		}
-		{Player 0}
-		{MID 6}
-	}
-	{Entity "map_point" 0xc009
-		{Position -1292.49 -287.27}
-		{xform zl 72.16}
-		{Extender "map_point"
-			{name b2}
-			{team b}
-			{zoneA 0}
-			{zoneB 0}
-			{phase 0}
-			{order 2}
-			{visor SpawnPoint}
-			{allow
-				{enableCapture}
-				{enableRelease}
-			}
-		}
-		{Player 0}
-		{MID 11}
-	}
 	{Entity "battle" 0x8000
 		{Position -2235.42 2036.3}
 		{Extender "speaker"
@@ -188,6 +112,44 @@
 		{Extender "speaker"
 			{SoundName "world/skirmish_environment/open_ground_night1"}
 		}
+	}
+	{Entity "map_point" 0x8004
+		{Position 1777.4 4895.52}
+		{xform zl -119.47}
+		{Extender "map_point"
+			{name b1}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 1}
+	}
+	{Entity "map_point" 0xe002
+		{Position -1315.35 -291.58}
+		{xform zl 60.58}
+		{Extender "map_point"
+			{name a1}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 2}
 	}
 	{Tags "switch_right" 0x800}
 	{Tags "switch_right" 0x801}

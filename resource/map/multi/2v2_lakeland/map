@@ -1,7 +1,6 @@
 {map
 	{Land
 		{Position 0 0}
-		{TexMod ""}
 	}
 	{Clips
 		{"[auto]"
@@ -12,6 +11,13 @@
 			{viewAngle 20 50}
 			{water -0.5}
 		}
+	}
+	{Ocean
+		{active 0}
+		{state calm}
+		{zlevel 0}
+		{waveamount 8}
+		{wavedir 50}
 	}
 	{Entity "fir" 0x400a
 		{Position -1535.63 881.95}
@@ -6576,7 +6582,7 @@
 		{xform zl -138.55}
 	}
 	{Entity "crash_build2" 0x6181
-		{Position 4728.19 -708.75}
+		{Position 4728.83 -710.27}
 		{xform zl 167.55}
 	}
 	{Entity "ground_clay5" 0x6182
@@ -7092,7 +7098,7 @@
 		{Position 3863.29 -2463.45}
 		{xform zl 113.92}
 		{Volume "ram"
-			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
 		{Player 0}
 		{MID 10007}
@@ -7141,7 +7147,7 @@
 		{Position 441.33 275.93}
 		{xform zl -47.02}
 		{Volume "ram"
-			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
 		{Player 0}
 		{MID 10017}
@@ -7156,7 +7162,7 @@
 		{xform zl 113.55}
 		{Fogable never}
 		{Volume "ram"
-			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
 		{Player 0}
 		{MID 10018}
@@ -11183,8 +11189,8 @@
 		{TexMod "aut"}
 	}
 	{Entity "pla01b" 0x68e
-		{Position 1630.87 1618.62}
-		{xform zl -58.23 scale 0.939}
+		{Position 1528.46 1534.37}
+		{xform zl -13.19 scale 0.939}
 		{TexMod "aut"}
 	}
 	{Entity "pla01b" 0x68f
@@ -12478,14 +12484,6 @@
 		{Constrain none}
 		{TexMod "1"}
 	}
-	{Entity "trace_track_sand" 0x4cc
-		{Position 1840.64 1428.87 30.02}
-		{xform zl -124.24}
-		{Constrain none}
-		{TexMod "sand2"}
-		{DecalOrder 2}
-		{Color 0xffc2c2c2}
-	}
 	{Entity "trench_cannon_ls" 0x4cd
 		{Position 1968.83 1324.3 130.93}
 		{xform zl -32.41}
@@ -12500,16 +12498,8 @@
 		{TexMod "4"}
 		{Color 0xffc2c2c2}
 	}
-	{Entity "trace_track_sand" 0x4074
-		{Position 1697.46 1571.2 30.02}
-		{xform zl 49.77}
-		{Constrain none}
-		{TexMod "sand2"}
-		{DecalOrder 2}
-		{Color 0xffc2c2c2}
-	}
 	{Entity "wheat_new1" 0x407d
-		{Position 1873.56 1478.55 33}
+		{Position 2006.02 1553.44 1}
 		{xform zl 3.97 y 10.56 zw 155.47}
 		{Constrain none}
 		{TexMod "autlate"}
@@ -12648,14 +12638,6 @@
 		{Constrain none}
 		{TexMod "1"}
 	}
-	{Entity "trace_track_sand" 0x4108
-		{Position 4356.8 -402.95 87.02}
-		{xform zl -108.01}
-		{Constrain none}
-		{TexMod "sand2"}
-		{DecalOrder 2}
-		{Color 0xffc2c2c2}
-	}
 	{Entity "trench_cannon_ls" 0x4109
 		{Position 4116.89 -192.09 88.43}
 		{xform zl 141.21}
@@ -12676,14 +12658,6 @@
 		{Constrain none}
 		{TexMod "autlate"}
 		{Color 0xffa8a8a8}
-	}
-	{Entity "trace_track_sand" 0x603f
-		{Position 4200.35 -308.59 87.02}
-		{xform zl -124.64}
-		{Constrain none}
-		{TexMod "sand2"}
-		{DecalOrder 2}
-		{Color 0xffc2c2c2}
 	}
 	{Entity "sandbag3" 0x6040
 		{Position 4050.15 -298.77 25}
@@ -13625,6 +13599,11 @@
 	{Entity "r_house_rcorner2" 0x2024
 		{Position 4013.3 1206.49 -1}
 		{xform zl -50.25}
+	}
+	{Entity "road_slush_new5" 0x57c
+		{Position 1625.61 1602.05}
+		{xform zl 47.29}
+		{DecalOrder 1}
 	}
 	{Link 0x12f {0x48f "7"}}
 	{Link 0x131 {0x48f "9"}}

@@ -1664,12 +1664,6 @@
 		{Position 133.62 2396.88}
 		{xform zl 91.66}
 	}
-	{Entity "monument_place1" 0x21e7
-		{Position -216.91 2451.18}
-		{xform zl -86.06}
-		{DecalOrder 3}
-		{Color 0xffacacac}
-	}
 	{Entity "st_fence_n1a_af" 0x21ec
 		{Position -228.78 2548.19}
 		{xform zl -175.62}
@@ -2045,8 +2039,8 @@
 		{xform zl 143.72}
 	}
 	{Entity "telega_gals01" 0x4660
-		{Position -51.29 705.74}
-		{xform zl -5.76}
+		{Position -14.27 1075.77}
+		{xform zl 168.74}
 	}
 	{Entity "goods_gals02" 0x4661
 		{Position 267.6 -1033.71}
@@ -5974,7 +5968,7 @@
 		{xform zl 89.01}
 	}
 	{Entity "fence_n3b_af" 0x7032
-		{Position 875.89 -1013.04}
+		{Position 876.24 -1010.62}
 		{xform zl 129.4}
 	}
 	{Entity "road_cross1" 0x7033
@@ -14671,7 +14665,7 @@
 		{Position 3119.23 -682.79}
 	}
 	{Entity "destroy_chip" 0x6ad
-		{Position 867.21 -1013.77}
+		{Position 873.7 -1006.81}
 	}
 	{Entity "destroy_chip" 0x6ae
 		{Position 1145.61 -2224.33}
@@ -15013,12 +15007,12 @@
 		{xform zl 96.54}
 	}
 	{Entity "new_bush1" 0x3028
-		{Position 689.66 7.81}
+		{Position 686.32 9.27}
 		{xform zl 148.73}
 		{TexMod "3"}
 	}
 	{Entity "bamboo" 0x3029
-		{Position 657.97 11.45}
+		{Position 656.34 9.18}
 		{xform zl -6.1}
 		{TexMod "1"}
 	}
@@ -15456,8 +15450,8 @@
 		{Position 413.03 -40.35}
 	}
 	{Entity "car-dead2" 0x405b
-		{Position 552.84 -67.75}
-		{xform zl -82.32}
+		{Position 492.34 25.68}
+		{xform zl -102.36}
 	}
 	{Entity "cane3" 0x6035
 		{Position 414.48 -598.84}
@@ -16228,6 +16222,38 @@
 		{Position 304.05 -38.02}
 		{xform zl 129.29}
 	}
+	{Entity "destroy_chip" 0x41e
+		{Position 544.43 753.46}
+		{xform zl 25.88}
+	}
+	{Entity "destroy_chip" 0x41f
+		{Position 151.61 1068.45}
+		{xform zl 66.85}
+	}
+	{Entity "destroy_chip" 0x420
+		{Position -253.43 631.97}
+		{xform zl 51.16}
+	}
+	{Entity "destroy_chip" 0x421
+		{Position -154.48 297.67}
+		{xform zl 46.4}
+	}
+	{Entity "destroy_chip" 0x422
+		{Position 255.78 -5.89}
+		{xform zl -30.87}
+	}
+	{Entity "bags_big" 0x423
+		{Position 526.62 640.53}
+		{xform zl 46.49}
+	}
+	{Entity "bags_big" 0x424
+		{Position 525.19 388.57}
+		{xform zl 109.37}
+	}
+	{Entity "bags_big" 0x426
+		{Position -227.66 743.53}
+		{xform zl 103.24}
+	}
 	{Link 0x7860 {0x7875 "1"}}
 	{Link 0x7861 {0x7875 "2"}}
 	{Link 0x7862 {0x7875 "3"}}
@@ -16800,35 +16826,17 @@
 	}
 	{Helpers
 		{edifice
-			{"workshop 1"
-				{entities}
-			}
-			{"workshop2"
-				{entities}
-			}
-			{"workshop3"
-				{entities}
-			}
-			{"workshop4"
-				{entities}
-			}
-			{"workshop garage"
-				{entities}
-			}
-			{"workshop shop"
-				{entities}
-			}
+			{"workshop 1"}
+			{"workshop2"}
+			{"workshop3"}
+			{"workshop4"}
+			{"workshop garage"}
+			{"workshop shop"}
 			{"spawn structure green1"}
-			{"spawn structure green2"
-				{entities}
-			}
-			{"spawn structure green3"
-				{entities}
-			}
+			{"spawn structure green2"}
+			{"spawn structure green3"}
 			{"spawn structure green4"}
-			{"spawn structure green5"
-				{entities}
-			}
+			{"spawn structure green5"}
 			{"spawn structure green6"
 				{entities 0x2011}
 			}
@@ -16842,23 +16850,15 @@
 			{"african church area 1"
 				{entities 0x52e}
 			}
-			{"african church area 2"
-				{entities}
-			}
+			{"african church area 2"}
 			{"african church area 3"}
 			{"african church area 4"}
-			{"african church area 5"
-				{entities}
-			}
+			{"african church area 5"}
 			{"graveyard area 1"
 				{entities 0x1c64}
 			}
-			{"graveyard area 2"
-				{entities}
-			}
-			{"graveyard area 3"
-				{entities}
-			}
+			{"graveyard area 2"}
+			{"graveyard area 3"}
 			{"graveyard area 4"}
 			{"hotel single 1"
 				{entities 0x28d6 0x28d7}
@@ -16866,52 +16866,36 @@
 			{"hotel single 2"
 				{entities 0x202a 0x2045}
 			}
-			{"hotel duo"
-				{entities}
-			}
+			{"hotel duo"}
 			{"hotel duo addon"}
-			{"center 1"
-				{entities}
-			}
+			{"center 1"}
 			{"center 2"
 				{entities 0x1168}
 			}
 			{"center 3"}
-			{"center 4"
-				{entities}
-			}
+			{"center 4"}
 			{"center 5"}
 			{"center 6"}
-			{"mostower a"
-				{entities}
-			}
+			{"mostower a"}
 			{"mostower b"
 				{entities 0x8e8 0x8e7}
 			}
 			{"center housing a"
 				{entities 0x207f 0x207e}
 			}
-			{"center housing b"
-				{entities}
-			}
+			{"center housing b"}
 			{"center housing c"
 				{entities 0x41a9}
 			}
-			{"center redbrick 1"
-				{entities}
-			}
+			{"center redbrick 1"}
 			{"center redbrick 2"
 				{entities 0x3840 0x382c 0x1ccd}
 			}
 			{"center redbrick 3"
 				{entities 0x612d}
 			}
-			{"center redbrick 4"
-				{entities}
-			}
-			{"center redbrick 5"
-				{entities}
-			}
+			{"center redbrick 4"}
+			{"center redbrick 5"}
 			{"oasis house 1"
 				{entities 0x6849}
 			}
@@ -16927,9 +16911,7 @@
 			{"cafe crash 4"
 				{entities 0x70f3}
 			}
-			{"cafe crash 5"
-				{entities}
-			}
+			{"cafe crash 5"}
 			{"cafe crash 6"
 				{entities 0x10db}
 			}
@@ -16940,9 +16922,7 @@
 				{entities 0x1082}
 			}
 			{"cafe compound 2"}
-			{"cafe compound 3"
-				{entities}
-			}
+			{"cafe compound 3"}
 			{"cafe compound 4"}
 			{"cafe compound 5"
 				{entities 0x3827}
@@ -16954,27 +16934,17 @@
 			{"farm 1"
 				{entities 0x200e}
 			}
-			{"farm 2"
-				{entities}
-			}
+			{"farm 2"}
 			{"farm 3"
 				{entities 0x11cb}
 			}
 			{"farm 4"}
-			{"farm 5"
-				{entities}
-			}
-			{"farm 6"
-				{entities}
-			}
+			{"farm 5"}
+			{"farm 6"}
 			{"flank structures"}
-			{"flank structures 1"
-				{entities}
-			}
+			{"flank structures 1"}
 			{"flank structures 2"}
-			{"flank structures 3"
-				{entities}
-			}
+			{"flank structures 3"}
 			{"flank structures 4"}
 			{"flank structures 5"
 				{entities 0x21d2}
@@ -16982,24 +16952,14 @@
 			{"flank structures 6"
 				{entities 0x562}
 			}
-			{"flank structures 7"
-				{entities}
-			}
+			{"flank structures 7"}
 			{"workshop b"
 				{entities 0x203c 0x203d 0x203e 0x203f}
 			}
-			{"spawn pond a"
-				{entities}
-			}
-			{"spawn pond b"
-				{entities}
-			}
-			{"spawn pond c"
-				{entities}
-			}
-			{"hotel single 3"
-				{entities}
-			}
+			{"spawn pond a"}
+			{"spawn pond b"}
+			{"spawn pond c"}
+			{"hotel single 3"}
 			{"admin"
 				{entities 0x3071}
 			}

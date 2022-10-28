@@ -7,7 +7,7 @@
 	}
 	{mass 6}
 	{entity "faustpatrone"}
-	{fireSound "reactive/panzerfaust"}
+	{fireSound "reactive/launch04"}
 	{ammoLocked}
     {projectileDamage 140}
 	{gravity 0.8}

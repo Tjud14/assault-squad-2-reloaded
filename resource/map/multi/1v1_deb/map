@@ -38474,8 +38474,8 @@
 		{DecalOrder 3}
 	}
 	{Entity "destroy_chip" 0x3004
-		{Position -1153.89 3094.6}
-		{xform zl 77.54}
+		{Position -1111.57 3060.84}
+		{xform zl 94.64}
 	}
 	{Entity "crash_stone1" 0x3005
 		{Position -1136.72 3039.26}
@@ -38483,22 +38483,12 @@
 		{DecalOrder 2}
 	}
 	{Entity "destroy_chip" 0x3006
-		{Position -1198.08 3214.83}
-		{xform zl 59.08}
-	}
-	{Entity "crash_stone1" 0x3007
-		{Position -1210.35 3156.89}
-		{xform zl 33.03}
-		{DecalOrder 2}
+		{Position -1204.45 3182.12}
+		{xform zl 66.26}
 	}
 	{Entity "destroy_chip" 0x3008
 		{Position -1231.56 3295.53}
 		{xform zl 70.51}
-	}
-	{Entity "crash_stone1" 0x3009
-		{Position -1238.2 3183.39}
-		{xform zl 61.9}
-		{DecalOrder 2}
 	}
 	{Entity "destroy_chip" 0x300a
 		{Position -1127.05 3056.52}
@@ -38522,8 +38512,8 @@
 		{Constrain surface}
 	}
 	{Entity "destroy_chip" 0x501f
-		{Position -1153.91 3147.61}
-		{xform zl 77.26}
+		{Position -1161.16 3114.58}
+		{xform zl 103.89}
 	}
 	{Entity "destroy_chip" 0x5020
 		{Position -1205.36 3279.67}
@@ -38896,10 +38886,6 @@
 		{Position 2022.71 2816.58 95.62}
 		{xform zl 4.19}
 	}
-	{Entity "destroy_chip" 0x4142
-		{Position -1233.88 3172.68}
-		{xform zl 131.17}
-	}
 	{Entity "crash_stone1" 0x4145
 		{Position -1202.06 3199.94}
 		{xform zl -176.41}
@@ -38925,8 +38911,8 @@
 		{DecalOrder 2}
 	}
 	{Entity "crash_stone1" 0x414e
-		{Position -1169.35 3202.33}
-		{xform zl -110.72}
+		{Position -1220.18 3174.52}
+		{xform zl -47.64}
 		{TexMod "kjust"}
 		{DecalOrder 2}
 	}
@@ -38952,5 +38938,9 @@
 		{Position 1696.21 2132.39}
 		{xform zl 94.84 y 0.59 zw -109.31}
 		{Constrain surface}
+	}
+	{Entity "boat1" 0x144
+		{Position 1990.94 2384.77 -13.83}
+		{xform zl -8.36 y 8.19 zw 61.38}
 	}
 }

@@ -1,33 +1,12 @@
 {mission
-	{Entity "map_point" 0x802c
-		{Position 439.56 -4474.08}
-		{xform zl 86.11}
-		{Extender "map_point"
-			{name b2}
-			{team b}
-			{phase 0}
-			{order 2}
-			{visor SpawnPoint}
-		}
-		{Player 0}
-		{MID 45}
-	}
-	{Entity "map_point" 0x802d
-		{Position -346.52 4145}
-		{xform zl -88.47}
-		{Extender "map_point"
-			{name a2}
-			{team a}
-			{phase 0}
-			{order 2}
-			{visor SpawnPoint}
-		}
-		{Player 0}
-		{MID 46}
-	}
 	{Entity "flag_point_1" 0x802f
 		{Position -36.07 19.02}
 		{xform zl 1.28 scale 0.75}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
 		{Extender "map_point"
 			{name f1}
 			{zoneA 12}
@@ -38,15 +17,22 @@
 			{visor MapPoint}
 			{allow
 				{capture "b" "a"}
+				{enableCapture}
 				{release "b" "a"}
+				{enableRelease}
 			}
 		}
 		{Player 0}
 		{MID 48}
 	}
 	{Entity "flag_point_3" 0x8011
-		{Position 1898.65 1415.67}
+		{Position 2112.77 49.66}
 		{xform zl 0.92 scale 0.75}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
 		{Extender "map_point"
 			{name f3}
 			{zoneA 12}
@@ -57,79 +43,22 @@
 			{visor MapPoint}
 			{allow
 				{capture "b" "a"}
+				{enableCapture}
 				{release "b" "a"}
+				{enableRelease}
 			}
 		}
 		{Player 0}
 		{MID 17}
 	}
-	{Entity "flag_point_2" 0x8013
-		{Position -2066.83 -1284.75}
-		{xform zl 2.24 scale 0.75}
-		{Extender "map_point"
-			{name f2}
-			{zoneA 12}
-			{zoneB 12}
-			{phase 0}
-			{order 2}
-			{show All}
-			{visor MapPoint}
-			{allow
-				{capture "b" "a"}
-				{release "b" "a"}
-			}
-		}
-		{Player 0}
-		{MID 18}
-	}
-	{Entity "map_point" 0xc000
-		{Position -350.94 -4433.79}
-		{xform zl 87.61}
-		{Extender "map_point"
-			{name b1}
-			{team b}
-			{phase 0}
-			{order 1}
-			{visor SpawnPoint}
-		}
-		{Player 0}
-		{MID 1}
-	}
-	{Entity "map_point" 0xc007
-		{Position 329.67 4147.27}
-		{xform zl -93.13}
-		{Extender "map_point"
-			{name a1}
-			{team a}
-			{phase 0}
-			{order 1}
-			{visor SpawnPoint}
-		}
-		{Player 0}
-		{MID 9}
-	}
-	{Entity "flag_point_4" 0xc001
-		{Position 1974.79 -1316.46}
-		{xform zl 1.17 scale 0.75}
-		{Extender "map_point"
-			{name f4}
-			{zoneA 12}
-			{zoneB 12}
-			{phase 0}
-			{order 4}
-			{show All}
-			{visor MapPoint}
-			{allow
-				{capture "b" "a"}
-				{release "b" "a"}
-			}
-		}
-		{Player 0}
-		{MID 3}
-	}
 	{Entity "flag_point_5" 0xc002
-		{Position -2107.6 1409.8}
+		{Position -2121.36 -9.48}
 		{xform zl -1.55 scale 0.75}
+		{Skeleton
+			{MtlParams
+				{"specular color" "e6e6e6ff"}
+			}
+		}
 		{Extender "map_point"
 			{name f5}
 			{zoneA 12}
@@ -140,11 +69,51 @@
 			{visor MapPoint}
 			{allow
 				{capture "b" "a"}
+				{enableCapture}
 				{release "b" "a"}
+				{enableRelease}
 			}
 		}
 		{Player 0}
 		{MID 4}
+	}
+	{Entity "map_point" 0x8004
+		{Position -38.04 -4297.9}
+		{xform zl 89.22}
+		{Extender "map_point"
+			{name b1}
+			{team b}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 1}
+	}
+	{Entity "map_point" 0xe002
+		{Position -7.39 4079.96}
+		{xform zl -90.78}
+		{Extender "map_point"
+			{name a1}
+			{team a}
+			{zoneA 0}
+			{zoneB 0}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+			{allow
+				{enableCapture}
+				{enableRelease}
+			}
+		}
+		{Player 0}
+		{MID 2}
 	}
 	{Tags "keep_places_without_door" 0x1bc}
 	{Tags "keep_places_without_door" 0x4101}
