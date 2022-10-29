@@ -2241,8 +2241,8 @@
 		{Constrain surface}
 	}
 	{Entity "cane2" 0x15d
-		{Position 2070.25 2367.74}
-		{xform zl -32.76 y 11.31 zw 90 scale 0.847}
+		{Position 2091.49 2344.83}
+		{xform zl -4.57 y 10.2 zw 61.16 scale 0.847}
 		{Constrain surface}
 	}
 	{Entity "cane2" 0x15e
@@ -38649,12 +38649,12 @@
 		{xform zl 43.46}
 	}
 	{Entity "stone_af1e" 0x206e
-		{Position 2054.97 2322.55 -10.5}
-		{xform zl -14.78 y 6.85 zw -64.15}
+		{Position 2048.41 2307 -9.63}
+		{xform zl -172.01 y 8.21 zw 92.19}
 		{Constrain surface}
 	}
 	{Entity "stone_af1f" 0x20bd
-		{Position 2119.38 2330.42 -4.12}
+		{Position 2121.23 2326.99 -3.59}
 		{xform zl 7.26}
 	}
 	{Entity "stone_af1e" 0x20c0
@@ -38731,8 +38731,8 @@
 		{Constrain surface}
 	}
 	{Entity "stone_af1g" 0x105f
-		{Position 2032.81 2330.69}
-		{xform zl -96.85 y 7.87 zw 174.28}
+		{Position 2034.21 2303.47 -2.3}
+		{xform zl 23.92 y 2.29 zw 54.85}
 		{Constrain surface}
 	}
 	{Entity "stone_af1g" 0x1060
@@ -38753,11 +38753,6 @@
 	{Entity "stone_af1g" 0x1072
 		{Position 2050.83 2607.53}
 		{xform zl -44.63 y 8.4 zw 3.12}
-		{Constrain surface}
-	}
-	{Entity "stone_af1g" 0x1081
-		{Position 2034.2 2280.43}
-		{xform zl 162.24 y 18.52 zw -87.22}
 		{Constrain surface}
 	}
 	{Entity "crash_stone2" 0x512f
@@ -38940,7 +38935,19 @@
 		{Constrain surface}
 	}
 	{Entity "boat1" 0x144
-		{Position 1990.94 2384.77 -13.83}
+		{Position 2000.38 2385.29 -13.93}
 		{xform zl -8.36 y 8.19 zw 61.38}
+	}
+	{Entity "bonfire" 0x14e
+		{Position 1994.43 2335.51 -1.24}
+		{xform zl 35.7 y 6.52 zw 63.5}
+	}
+	{Entity "crossbar" 0x14f
+		{Position 1997.39 2331.35 -4.2}
+		{xform zl 35.7 y 6.52 zw 63.5}
+		{SpawnedInFog}
+		{Volume "body4"
+			{disabled}
+		}
 	}
 }
