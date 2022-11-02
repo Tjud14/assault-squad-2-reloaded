@@ -41,7 +41,7 @@
 
 {"pz1b_ger2"			("v" c(150) t(all light)		s(ger2) n1(1) n2(1) g(d1) sc(9.00)	b(v3) cw(0) cp(5)) {level 1} {cost 180} {fore 0.6}}
 {"pz1_ger2"				("v" c(150) t(all light)		s(ger2) n1(2) n2(1) g(d2) sc(10.5) b(v3) cw(0) cp(5)) {level 1} {cost 210} {fore 0.4}}
-{"sdkfz234_1"			("v" c(150) t(all light)		s(ger2) n1(2) n2(1) g(d3) sc(14.50) b(v3) cw(0) cp(5)) {level 1} {cost 290} {fore 0.4}}
+{"sdkfz234_1"			("v" c(150) t(all light)		s(ger2) n1(2) n2(1) g(d3) sc(14.50) b(v3) cw(0) cp(5)) {level 1} {cost 280} {fore 0.4}}
 
 {"sdkfz234_ger2"		("v" c(150) t(all light)		s(ger2) n1(2) n2(1) g(d4) sc(15.00) b(v3) cw(0) cp(5)) {level 1} {cost 300} {fore 0}}
 {"sdkfz7_2"				("v" c(150) t(all light)		s(ger2) n1(3) n2(1) g(d5) sc(15.00) b(v3) cw(0) cp(5)) {level 5} {cost 300} {fore 0}}

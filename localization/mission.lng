@@ -248,14 +248,20 @@
 		{"1v1_scheldt"
 			{"name" "Scheldt <e(shadow)><c(bebebe)>1x1</c>"}
 		}
+		{"1v1_iwo"
+			{"name" "Iwo Jima <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"1v1_okinawa"
+			{"name" "Okinawa <e(shadow)><c(bebebe)>1x1</c>"}
+		}
 		{"2v2_bestland"
 			{"name" "Bestland <e(shadow)><c(bebebe)>2x2</c>"}
 		}
 		{"2v2_lakeland"
 			{"name" "Lakeland <e(shadow)><c(bebebe)>2x2</c>"}
 		}
-		{"2v2_mirage"
-			{"name" "Mirage <e(shadow)><c(bebebe)>2x2</c>"}
+		{"2v2_mirage2"
+			{"name" "Mirage 2 <e(shadow)><c(bebebe)>2x2</c>"}
 		}	
 		{"3v3_elzas"
 			{"name" "Elzas <e(shadow)><c(bebebe)>3x3</c>"}
