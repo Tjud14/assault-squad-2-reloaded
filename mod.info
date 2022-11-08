@@ -1,6 +1,6 @@
 {Mod
-	{Name "Reloaded mod Beta"}
-	{Desc "MP mod"}
+	{Name "Assault Squad 2: Reloaded GitHub"}
+	{Desc "GitHub ver"}
 	{MinGameVersion "3.250"}
 	{MaxGameVersion "3.265"}
 }
