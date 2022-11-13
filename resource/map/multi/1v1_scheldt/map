@@ -27489,7 +27489,7 @@
 		{DecalOrder 3}
 	}
 	{Entity "poplar_evr" 0x61c5
-		{Position -1222.23 1853.91}
+		{Position -1219.8 1854.62}
 		{xform zl -42.34}
 		{TexMod "2"}
 	}
@@ -36385,6 +36385,55 @@
 		{Position -1299.17 1995.07}
 		{xform zl 78.31}
 		{DecalOrder 50}
+	}
+	{Entity "broken_wall_stones" 0xd76
+		{Position -959.98 1990.05 -31.28}
+		{xform zl 48.99 y 24.5 zw 42.15 scale 1.15}
+	}
+	{Entity "broken_wall_stones" 0xd78
+		{Position -920.87 1997.23 -42.36}
+		{xform zl 149.48 y 17.16 zw 24.14 scale 1.227}
+		{Constrain surface}
+	}
+	{Entity "broken_wall_stones" 0xd7b
+		{Position -881.85 1997.27 -53.53}
+		{xform zl 134.21 y 20.68 zw -10 scale 1.227}
+		{Constrain surface}
+	}
+	{Entity "broken_wall_stones" 0xe1b
+		{Position -999.52 1979.97 -18.95}
+		{xform zl 76.42 y 26.85 zw 94.8 scale 1.227}
+	}
+	{Entity "broken_wall_stones" 0xe1e
+		{Position -954.8 2385.66 -43.6}
+		{xform zl -158.22 y 32.66 zw 7.19 scale 1.227}
+		{Constrain surface}
+	}
+	{Entity "broken_wall_stones" 0xe1f
+		{Position -991.19 2366.5 -38.26}
+		{xform zl 108.29 y 3.92 zw -31.8 scale 1.227}
+	}
+	{Entity "broken_wall_stones" 0xe20
+		{Position -1017.73 2365.14 -34.73}
+		{xform zl -33.47 y 10.75 zw -27.56 scale 1.227}
+		{Constrain surface}
+	}
+	{Entity "r_side_piece6" 0xe33
+		{Position -1003.6 2009.59 -21.61}
+		{xform zl 66.37 y 24.09 zw -2.3}
+		{TexMod "4"}
+	}
+	{Entity "tube01" 0x41be
+		{Position -1015.49 2125.06 -77.5}
+		{xform zl 179.96}
+	}
+	{Entity "tube01" 0x41c0
+		{Position -1086.35 2222.16 -77.46}
+		{xform zl 179.66}
+	}
+	{Entity "tube01" 0x41bf
+		{Position -1016.15 2221.74 -77.5}
+		{xform zl -0.51}
 	}
 	{Link 0x462 {0x461 "5"}}
 	{Link 0x463 {0x461 "6"}}
