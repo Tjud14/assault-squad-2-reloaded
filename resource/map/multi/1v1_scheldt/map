@@ -8355,11 +8355,11 @@
 		{DecalOrder 1}
 	}
 	{Entity "suitcase_o" 0x4e1
-		{Position -1679.91 1439.66}
+		{Position -1678.34 1438.6}
 		{xform zl -178.41}
 	}
 	{Entity "suitcase" 0x4e2
-		{Position -1676.28 1461.12}
+		{Position -1676.53 1459.93}
 		{xform zl 16.65}
 	}
 	{Entity "bath" 0x4e3
@@ -8383,7 +8383,7 @@
 		{xform zl -17.77}
 	}
 	{Entity "crash_stuff2a" 0x4e7
-		{Position -1690.49 1458.33}
+		{Position -1690.24 1459.87}
 		{xform zl -116.72}
 	}
 	{Entity "suitcase" 0x11d0
@@ -32951,7 +32951,7 @@
 		{xform zl 179.55}
 	}
 	{Entity "bench" 0x5024
-		{Position -1029.18 1884.01}
+		{Position -1029.18 1884.01 2.35}
 		{xform zl -61.37}
 	}
 	{Entity "new_coil3" 0x5026
@@ -36464,12 +36464,12 @@
 		{xform zl 119.13}
 	}
 	{Entity "barricade2_a" 0x2101
-		{Position -1151.85 2166.44}
-		{xform zl 43.36}
+		{Position -1160.73 2171.18}
+		{xform zl 43.92}
 	}
 	{Entity "barricade1" 0x2105
-		{Position -1143.37 2093.85}
-		{xform zl -5.67}
+		{Position -1158.27 2092.01}
+		{xform zl -6.29}
 	}
 	{Entity "wood_bench" 0x211c
 		{Position -1298.64 2297.29 9}
@@ -36536,6 +36536,102 @@
 		{Position 3.94 1983.51}
 		{xform zl 127.48}
 		{DecalOrder 160}
+	}
+	{Entity "vase_barrel" 0x41cb
+		{Position -1153.12 2127.37}
+		{xform zl -7.92}
+	}
+	{Entity "barrel_woods6" 0x41cc
+		{Position -816.53 2005.89}
+		{xform zl -94.45}
+	}
+	{Entity "wood_bench" 0x41cd
+		{Position -712.7 2075.5 -48.91}
+		{xform zl 89.86 y 82.93 zw 21.11}
+		{Simulation {Able 1}}
+	}
+	{Entity "trash7" 0x41ce
+		{Position -691.4 2063.48}
+		{xform zl 16.65}
+		{DecalOrder 1}
+	}
+	{Entity "trash7" 0x41d0
+		{Position -712.66 2038.08}
+		{xform zl 16.65}
+		{DecalOrder 1}
+	}
+	{Entity "wood_bench" 0x20f4
+		{Position -652.34 2037.62 -48.91}
+		{xform zl 89.86 y 82.93 zw 39.93}
+		{Simulation {Able 1}}
+	}
+	{Entity "trash7" 0x20fb
+		{Position -795.98 2253.45}
+		{xform zl 35.47}
+		{DecalOrder 1}
+	}
+	{Entity "wood_bench" 0x2115
+		{Position -737.38 2244.72 -48.91}
+		{xform zl 89.86 y 82.93 zw -27.03}
+		{Simulation {Able 1}}
+	}
+	{Entity "trash7" 0x2118
+		{Position -804.69 2226.68}
+		{xform zl -31.49}
+		{DecalOrder 1}
+	}
+	{Entity "trash7" 0x2136
+		{Position -867.36 2039.03}
+		{xform zl 70.43}
+		{DecalOrder 1}
+	}
+	{Entity "suitcase_o" 0x60a5
+		{Position -743.7 2193.86}
+		{xform zl -178.41}
+	}
+	{Entity "suitcase" 0x60c2
+		{Position -741.89 2215.19}
+		{xform zl 16.65}
+	}
+	{Entity "suitcase" 0x60ca
+		{Position -729.25 2213.08}
+		{xform zl 153.66 y 24.17 zw -168.79}
+	}
+	{Entity "crash_stuff2a" 0x60fd
+		{Position -755.6 2215.13}
+		{xform zl -116.72}
+	}
+	{Entity "barricade2_b_corner2" 0x60fe
+		{Position -694.41 2169.31}
+		{xform zl 36.31}
+	}
+	{Entity "cobble1" 0x611d
+		{Position -771.38 2227.9}
+		{xform zl 144.95}
+	}
+	{Entity "cobble1" 0x611e
+		{Position -740.51 2057.2}
+		{xform zl 48.31}
+	}
+	{Entity "cobble1" 0x6122
+		{Position -688.46 2161.64}
+		{xform zl 161.52}
+	}
+	{Entity "cobble1" 0x6123
+		{Position -755.11 2075.98}
+		{xform zl 96.64}
+	}
+	{Entity "cobble1" 0x6124
+		{Position -890.03 1997.28}
+		{xform zl 96.64}
+	}
+	{Entity "sack_3" 0x5047
+		{Position -1273.25 2264.42}
+		{xform zl -166.01}
+	}
+	{Entity "sack_3" 0x5048
+		{Position -1339.82 2208.62}
+		{xform zl 88.09}
 	}
 	{Link 0x462 {0x461 "5"}}
 	{Link 0x463 {0x461 "6"}}
