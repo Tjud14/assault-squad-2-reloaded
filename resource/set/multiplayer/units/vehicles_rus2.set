@@ -6,7 +6,7 @@
 ;���Button 1��3
 
 {"m72"              ("vs" c(60) t(all) 			s(rus2) n(2) g(b1) sc(4.00) b(v1) cw(0) cp(0)) {level 2} {cost 80} {fore 1.0}}
-{"dodge_hmg"        ("vs" c(60) t(all)			s(rus2) n(3) g(b2) sc(5.25) b(v1) cw(0) cp(0)) {level 4} {cost 115} {fore 1.0}}
+{"dodge_hmg"        ("vs" c(60) t(all)			s(rus2) n(2) g(b2) sc(5.25) b(v1) cw(0) cp(0)) {level 4} {cost 115} {fore 1.0}}
 {"m3"               ("vs" c(300) t(all) 		s(rus2) n(2) g(b3) sc(7.50) b(v1) cw(0) cp(0)) {level 6} {cost 150} {fore 0.5}}
 
 {"zis5"             ("vs" c(60) t(all supply) 	s(rus2) n(2) g(b4) sc(2.50) b(v1) cw(0) cp(0)) {level 1} {cost 50} {fore 1.0}}
