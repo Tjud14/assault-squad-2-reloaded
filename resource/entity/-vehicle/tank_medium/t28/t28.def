@@ -1,0 +1,200 @@
+{Entity
+	(include "/properties/tank_multyturret.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))			
+	{props  "medium" "multiturret" "turret_rotator" "turret2_rotator" "turret3_rotator" "turret"  "turret2" "turret3" "vision_vehicle_maximum" "muzzle_medium"}
+	{collider "tank.medium"}
+	{targetSelector "tank_sup"}
+
+	{volume "turret3"
+		{tags "turret3"}
+		{component "turret3"}
+	}
+	{volume "turret2"
+		{tags "turret2"}
+		{component "turret2"}
+	}
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+	}
+             	
+	("armor_medium_M3" body(30 20 18 10) turret(30 20 30 15) turret2(22 20 20 10) turret3(22 20 20 10) SHL1(10) SHR1(10) SHL2(20) SHR2(20) SHR3(10))
+	("armor_mantlet" t(20))
+	{Volume "cover"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 10 0.3 
+			{front	13}
+		}
+	}	
+	
+	{volume "turret"
+		{tags "turret"}
+		{component "turret"}
+	}	
+	{extender "shield"
+		{on}
+	}
+	{extender "enumerator"
+		{digit_folder "rus2"}
+	}
+	("crew_62_human")	
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit1)  animation(armor1))
+	("seat_human" place(seat4) bone(seat04) door(emit2)  animation(armor1))
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_t34_driver"} {end "seat_gunner_stand"} {base "open_driver" -0.5}}
+			{reverse 	{end	"emit_t34_hold"} {base  "open_driver" 0.5}}
+		}
+		{anm "gunner3"
+			{forward	{begin	"board_tank_right"} {end "seat_gunner_stand"} {base "open2" -0.5}}
+			{reverse 	{end	"emit_tank_2_hold"}{base "open2" 0.5} }
+		}
+		{anm "gunner4"
+			{forward	{begin	"board_tank_right"} {end "seat_gunner_stand"} {base "open3" -0.5}}
+			{reverse 	{end	"emit_tank_2_hold"}{base "open3" 0.5} }
+		}
+		{anm "left"
+			{forward	{begin	"board_sherman_left"} {end "pose_mgun_stan"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_sherman_right"} {end "pose_mgun_stan"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}	
+		{anm "armor"
+			{forward	{begin	"board_HighArmor"} 	{end "seat_armor"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_sherman_left"} {end "seat_armor"}}
+			{reverse 	{end	"emit_body"}}
+		}
+		{anm "armor2"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}	         
+	{sensor		
+		{visor "driver"
+			{vision "tank_driver"}
+			{bone "Visor2"}
+		}
+		{visor "tur2"
+			{vision "tank_main-l"}
+			{bone "foresight4"}
+		}
+		{visor "tur3"
+			{vision "tank_main-l"}
+			{bone "foresight5"}
+		}
+		{visor "main"
+			{vision "tank_main-h"}
+			{bone "Visor1"}
+		}
+	}
+	{extender "inventory"		
+		{weapon "mgun1"
+            			{mask "weapon mgun"}
+        		}
+        		{weapon "mgun2"
+            			{mask "weapon mgun"}
+        		}
+        		{weapon "mgun3"
+             			{mask "weapon mgun"}
+         		}					
+		{box
+			{size 8 10}	
+			{item "ammo bullet76_rus fg" 61}
+			{item "ammo bullet76_rus sr" 8}	
+			{item "ammo 7x54" 2650}				
+			{item "repair_kit" 1}
+			{item "dt-29" filling "7x54" "ammo" 60 {user "mgun1"}}
+			{item "dt-29" filling "7x54" "ammo" 59 {user "mgun2"}}			
+			{item "dt-29" filling "7x54" "ammo" 58 {user "mgun3"}}				
+		}
+	}	
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "76mm_kt28" filling "ammo bullet76_rus fg" 1}
+			("abm_medium")			
+		}
+		{place "mgun1" ;спаренный
+			{LinkBone "mg"}
+           			{LinkAnimation "off"}
+			{type "mgun_coaxial"}						
+			{foresight "foresight4"}
+			{gunner "commander"}
+			{charger "commander"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun2" ;правый
+			{LinkBone "mg3"}
+           			{LinkAnimation "off"}
+			{type "mgun_right"}
+			{foresight "foresight5"}
+			{gunner "gunner4"}
+			{charger "gunner4"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun3" ;левый
+			{LinkBone "mg2"}
+			{LinkAnimation "off"}
+			{type "mgun_left"}			
+			{foresight "foresight6"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+			("abm_mgun")	
+			{basic}		
+		}
+	}	
+	{mass 28250}
+	{Chassis
+		("tank_trace" fx("tracks_sm") step(0.2) len(0.473))		
+		{Locomotion ("locomotion")
+			{MaxSpeed 25}
+			{StartTime 24}
+			{maxSpeedAtMaxTurn 7}
+			{BrakeTime  1.5}
+     			{StopTime   2.5} 
+			{TurnRadius     	10}
+			{TurnTime 22}
+			{TurnStart		 2}
+			{TurnStop	         1}
+		}
+		(mod "mp"
+			{FuelBag
+				{volume 660 }	
+				{rate	400 }   
+				{remain 650 }
+				{fuel "fuel"}
+			}
+		    	{speed
+        			{Normal  10}
+    			}
+		)
+	}	
+	{Extension "t28.mdl"}
+	("turret_speed_medium")
+	{sensor
+		{visor "main"
+			{vision "tank_main-h"}
+			{bone "Visor1						"}
+		}
+	}
+	("rus_1_sight")
+}

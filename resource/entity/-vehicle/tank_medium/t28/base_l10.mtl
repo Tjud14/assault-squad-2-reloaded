@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "t28_l10"}
+	{specular "t28_l10_sp"}
+	{color "255 255 255 25"}
+	{blend none}
+}

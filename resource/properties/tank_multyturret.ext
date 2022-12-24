@@ -1,0 +1,811 @@
+;SDL
+
+(include "tank.ext")
+("tracks")
+{sensor
+	{visor "main"
+		{vision "tank_main-h"}
+		{bone "visor4"}
+	}
+	{visor "tur2"
+		{vision "tank_main-l"}
+		{bone "foresight6"}
+	}
+	{visor "tur3"
+		{vision "tank_main-l"}
+		{bone "foresight5"}
+	}
+	{visor "tur4"
+		{vision "tank_main-m"}
+		{bone "visor11"}
+	}
+	{visor "tur5"
+		{vision "tank_main-m"}
+		{bone "visor12"}
+	}
+	{visor "back"
+			{vision "tank_back"}
+			{bone "foresight4"}
+	}	
+	{Visor "driver"
+		{vision "tank_driver"}
+		{bone "visor2"}
+	}	
+}
+{Weaponry
+	{place "gun"
+		{Rotate}
+		{RestoreIKAfterAim}
+	}
+	{place "gun2"
+		{Rotate}
+		{RestoreIKAfterAim}
+	}
+	{place "gun3"
+		{Rotate}
+		{RestoreIKAfterAim}
+	}	
+	{place "mgun"
+	}
+	{place "mgun2"
+	}
+	{place "mgun3"
+	}
+	{place "mgun4"
+	}
+	{place "mgun5"
+	}
+	{place "mgun6"
+	}
+}
+
+{collider "tank.medium"}
+
+{extender "inventory"	
+	{weapon "mgun"
+		{mask "weapon mgun"}
+	}
+	{weapon "mgun2"
+		{mask "weapon mgun"}
+	}
+	{weapon "mgun3"
+		{mask "weapon mgun"}
+	}
+	{weapon "mgun4"
+		{mask "weapon mgun"}
+	}
+	{weapon "mgun5"
+		{mask "weapon mgun"}
+	}
+	{weapon "mgun6"
+		{mask "weapon mgun"}
+	}	
+}
+
+{extender "inventory"
+	{box
+		{size 8 10}
+		{Clear}
+		{Weight 15000}
+		{item "repair_kit"}
+		{item "dynamite"}
+                                {item "spade_inv_foxhole_tank"}
+	}
+}
+
+
+(define "turret"
+	{volume %0
+		{thickness 6}
+		{tags "turret" "body"}
+		{component %0}
+	}
+	{component %0
+		{RepairTime 10}		
+		{tags "turret"}
+	}
+)
+
+{component "turret"
+	{RepairTime 10}	
+}
+{volume "turret"
+	{component "turret"}
+	{tags "turret"}
+}
+
+(define "turret2"
+	{volume %0
+		{thickness 6}
+		{tags "turret2" "body"}
+		{component %0}
+	}
+	{component %0
+		{RepairTime 10}		
+		{tags "turret2"}
+	}
+)
+
+{component "turret2"
+	{RepairTime 10}	
+}
+{volume "turret2"
+	{component "turret2"}
+	{tags "turret2"}
+}
+
+
+(define "turret3"
+	{volume %0
+		{thickness 6}
+		{tags "turret3" "body"}
+		{component %0}
+	}
+	{component %0
+		{RepairTime 10}		
+		{tags "turret3"}
+	}
+)
+{component "turret3"
+	{RepairTime 10}	
+}
+{volume "turret3"
+	{component "turret3"}
+	{tags "turret3"}
+}
+
+(define "turret4"
+	{volume %0
+		{thickness 6}
+		{tags "turret4" "body"}
+		{component %0}
+	}
+	{component %0
+		{RepairTime 10}		
+		{tags "turret4"}
+	}
+)
+{component "turret4"
+	{RepairTime 10}	
+}
+{volume "turret4"
+	{component "turret4"}
+	{tags "turret4"}
+}
+
+(define "turret5"
+	{volume %0
+		{thickness 6}
+		{tags "turret5" "body"}
+		{component %0}
+	}
+	{component %0
+		{RepairTime 10}		
+		{tags "turret5"}
+	}
+)
+{component "turret5"
+	{RepairTime 10}
+	
+}
+{volume "turret5"
+	{component "turret5"}
+	{tags "turret5"}
+}
+
+
+(define "gun2"
+	{volume %0
+		{thickness 6}
+		{tags "gun2"}
+		{component %0}
+	}
+	{component %0
+		{RepairTime 20}
+		{Able {repair}{break_by_pierce}}
+		{tags "gun2"}
+	}
+)
+{volume "gun2"
+	{component "gun2"}
+	{tags "gun2" "turret4" "body"}
+	{thickness 6}
+	{able {Visible 0} {Obstacle 0} {Contact 0}}
+}
+{component "gun2"
+	{RepairTime 20}
+}
+
+
+(define "gun3"
+	{volume %0
+		{thickness 6}
+		{tags "gun3"}
+		{component %0}
+	}
+	{component %0
+		{RepairTime 20}
+		{Able {repair}{break_by_pierce}}
+		{tags "gun3"}
+	}
+)
+{volume "gun3"
+	{component "gun3"}
+	{tags "gun3" "turret5" "body"}
+	{thickness 6}
+	{able {Visible 0} {Obstacle 0} {Contact 0}}
+}
+{component "gun3"
+	{RepairTime 20}
+}
+
+(define "shieldL1_28"
+	{volume %0
+		{thickness 10}
+		{tags "shieldL1_28"}
+		{component %0}
+	}
+	{component %0
+		{RepairTime 10}
+		{tags "shieldL1_28"}
+	}
+)
+{volume "shieldL1_28"
+	{component "shieldL1_28"}
+	{tags "shieldL1_28"}
+	{thickness 10}
+}
+{component "shieldL1_28"
+	{RepairTime 10}
+}
+
+
+(define "shieldR1_28"
+	{volume %0
+		{thickness 10}
+		{tags "shieldR1_28"}
+		{component %0}
+	}
+	{component %0
+		{RepairTime 10}
+		{tags "shieldR1_28"}
+	}
+)
+{volume "shieldR1_28"
+	{component "shieldR1_28"}
+	{tags "shieldR1_28"}
+	{thickness 10}
+}
+{component "shieldR1_28"
+	{RepairTime 10}
+}
+
+
+(define "shieldL2_28"
+	{volume %0
+		{thickness 20}
+		{tags "shieldL2_28"}
+		{component %0}
+	}
+	{component %0
+		{RepairTime 10}
+		{tags "shieldL2_28"}
+	}
+)
+{volume "shieldL2_28"
+	{component "shieldL2_28"}
+	{tags "shieldL2_28"}
+	{thickness 20}
+}
+{component "shieldL2_28"
+	{RepairTime 10}
+}
+
+(define "shieldR2_28"
+	{volume %0
+		{thickness 20}
+		{tags "shieldR2_28"}
+		{component %0}
+	}
+	{component %0
+		{RepairTime 10}
+		{tags "shieldLR2_28"}
+	}
+)
+{volume "shieldR2_28"
+	{component "shieldR2_28"}
+	{tags "shieldR2_28"}
+	{thickness 20}
+}
+{component "shieldR2_28"
+	{RepairTime 10}
+}
+
+(define "shieldR3_28"
+	{volume %0
+		{thickness 10}
+		{tags "shieldR3_28"}
+		{component %0}
+	}
+	{component %0
+		{RepairTime 10}
+		{tags "shieldLR3_28"}
+	}
+)
+{volume "shieldR3_28"
+	{component "shieldR3_28"}
+	{tags "shieldR3_28"}
+	{thickness 10}
+}
+{component "shieldR3_28"
+	{RepairTime 10}
+}
+
+
+(define "armor_tank_MT3" ; armor system details for t-28
+    {armor
+        {setting "track"
+            {thickness %t}
+            {durability
+                {blast
+                    {koef (* %dur %track_b)}
+                }
+                {pierce
+                    {value 1000}
+                }
+            }
+            {threshold
+                {blast
+                    {value %track_b}
+                }
+            }
+            {volumes "track*"}
+            {whole_wound}
+        }
+        {setting "turret"
+            {thickness %tur}
+            {threshold
+                {blast
+                    {koef  0.8}
+                }
+                
+            }
+            {volumes "turret*"}
+        }
+	{setting "turret2"
+            {thickness %tur2}
+            {threshold
+                {blast
+                    {koef  0.9}
+                }
+                
+            }
+            {volumes "turret2*"}
+        }
+	{setting "turret3"
+            {thickness %tur3}
+            {threshold
+                {blast
+                    {koef  0.9}
+                }
+                
+            }
+            {volumes "turret3*"}
+        }	
+        {setting "gun"
+            {thickness %gun}
+            {durability
+                {blast  {koef 3}}
+                {pierce {koef 1.2}}
+            }
+            {threshold
+                {blast
+                    {value 15}
+                }
+                {pierce
+                    {value 12}
+                }
+            }
+            {volumes "gun*"}
+        }	
+        {setting "body"
+            {thickness %bod}
+            {durability
+                {blast
+                    {koef %dur}
+                }
+               	{pierce
+               		{koef %pierce_dur}
+               	}
+            }
+            {threshold
+                {blast
+                    {koef %thr}
+                }
+            }
+            {volumes "body*"}
+        }
+        {setting "engine"
+            {thickness %en}
+            {durability
+                {blast
+                    {koef %dur}
+                }
+            }
+            {threshold
+                {blast
+                    {koef %thr}
+                }
+            }
+            {volumes "engine*"}
+        }	
+    }
+)
+
+(define "armor_medium_M3"
+	("armor_tank_MT3" t(6) track_b(20) bod(%body) tur(%turret) tur2(%turret2) tur3(%turret3) SHL1(%shieldL1_28) SHR1(%shieldR1_28) SHL2(%shieldL2_28) SHR2(%shieldR2_28) SHR3(%shieldR3_28) en(25) gun(35)  dur(1.2) thr(1.2) pierce_dur(1.2))	
+	(mod not "mp"
+    	("armor_tank_MT3" t(6) track_b(20) bod(%body) tur(%turret) tur2(%turret2) tur3(%turret3) SHL1(%shieldL1_28) SHR1(%shieldR1_28) SHL2(%shieldL2_28) SHR2(%shieldR2_28) SHR3(%shieldR3_28) en(25) gun(35)  dur(1.2) thr(1.2) pierce_dur(1))
+   	)
+  	("components_tank" repair(2))
+
+    {sensor
+        {visor "view-around"
+            {vision "tank_around-l"}
+            {bone "basis"}
+        }
+        {visor "main"
+            {vision "tank_main-m"}
+        }
+    }
+    {props "with_gun"}
+    {targetClass "tank" "ap fg bullet"}
+    {targetSelector "tank"}
+
+)
+(define "armor_tank_MT5" ; armor system details for t-35
+    {armor
+        {setting "track"
+            {thickness %t}
+            {durability
+                {blast
+                    {koef (* %dur %track_b)}
+                }
+                {pierce
+                    {value 1000}
+                }
+            }
+            {threshold
+                {blast
+                    {value %track_b}
+                }
+            }
+            {volumes "track*"}
+            {whole_wound}
+        }
+        {setting "turret"
+            {thickness %tur}
+            {threshold
+                {blast
+                    {koef  0.8}
+                }
+                
+            }
+            {volumes "turret*"}
+        }
+	{setting "turret2"
+            {thickness %tur2}
+            {threshold
+                {blast
+                    {koef  0.9}
+                }
+                
+            }
+            {volumes "turret2*"}
+        }
+	{setting "turret3"
+            {thickness %tur3}
+            {threshold
+                {blast
+                    {koef  0.9}
+                }
+                
+            }
+            {volumes "turret3*"}
+        }
+	{setting "turret4"
+            {thickness %tur4}
+            {threshold
+                {blast
+                    {koef  0.85}
+                }
+                
+            }
+            {volumes "turret4*"}
+        }
+	{setting "turret5"
+            {thickness %tur5}
+            {threshold
+                {blast
+                    {koef  0.85}
+                }
+                
+            }
+            {volumes "turret5*"}
+        }
+        {setting "gun"
+            {thickness %gun}
+            {durability
+                {blast  {koef 3}}
+                {pierce {koef 1.2}}
+            }
+            {threshold
+                {blast
+                    {value 15}
+                }
+                {pierce
+                    {value 12}
+                }
+            }
+            {volumes "gun*"}
+        }
+	{setting "gun2"
+            {thickness %gun2}
+            {durability
+                {blast  {koef 3.3}}
+                {pierce {koef 1.2}}
+            }
+            {threshold
+                {blast
+                    {value 15}
+                }
+                {pierce
+                    {value 12}
+                }
+            }
+            {volumes "gun2*"}
+        }
+	{setting "gun3"
+            {thickness %gun3}
+            {durability
+                {blast  {koef 3.3}}
+                {pierce {koef 1.2}}
+            }
+            {threshold
+                {blast
+                    {value 15}
+                }
+                {pierce
+                    {value 12}
+                }
+            }
+            {volumes "gun3*"}
+        }
+        {setting "body"
+            {thickness %bod}
+            {durability
+                {blast
+                    {koef %dur}
+                }
+               	{pierce
+               		{koef %pierce_dur}
+               	}
+            }
+            {threshold
+                {blast
+                    {koef %thr}
+                }
+            }
+            {volumes "body*"}
+        }
+        {setting "engine"
+            {thickness %en}
+            {durability
+                {blast
+                    {koef %dur}
+                }
+            }
+            {threshold
+                {blast
+                    {koef %thr}
+                }
+            }
+            {volumes "engine*"}
+        }
+    }
+)
+(define "armor_tank_M5"
+	{armor
+		{setting "track"
+			{thickness (* %t 1)}
+			{volumes "track*"}
+		}
+		{setting "turret"
+			{thickness %tur}
+			{volumes "turret*"}
+		}
+		{setting "turret2"
+			{thickness %tur2}
+			{volumes "turret2*"}
+		}
+		{setting "turret3"
+			{thickness %tur3}
+			{volumes "turret3*"}
+		}
+		{setting "turret4"
+			{thickness %tur4}
+			{volumes "turret4*"}
+		}
+		{setting "turret5"
+			{thickness %tur5}
+			{volumes "turret5*"}
+		}
+		{setting "gun"
+			{thickness %g}
+			{volumes "gun*"}
+		}
+		{setting "gun2"
+			{thickness %g2}
+			{volumes "gun2*"}
+		}
+		{setting "gun3"
+			{thickness %g3}
+			{volumes "gun3*"}
+		}
+		{setting "body"
+			{thickness %bod}
+			{volumes "body*"}
+		}
+		{setting "engine"
+			{thickness %en}
+			{volumes "engine"}
+		}
+	}
+)
+(define "armor_heavy_M5"
+	("armor_tank_M5" t(50) bod(%body) tur(%turret) tur2(%turret2) tur3(%turret3) tur4(%turret4) tur5(%turret5) g(45) g2(30) g3(30) en(17))
+
+	{sensor
+		{visor "view-around"
+			{vision "tank_around-h"}
+			{bone "basis"}
+		}
+		{visor "main"
+			{vision "tank_main-h"}
+		}
+	}
+	{targetClass "heavytank" "ap fg bullet"}
+	{targetSelector "tank"}
+)
+(define "armor_tank_MT2" ; armor system details for t-26
+    {armor
+        {setting "track"
+            {thickness %t}
+            {durability
+                {blast
+                    {koef (* %dur %track_b)}
+                }
+                {pierce
+                    {value 1000}
+                }
+            }
+            {threshold
+                {blast
+                    {value %track_b}
+                }
+            }
+            {volumes "track*"}
+            {whole_wound}
+        }
+        {setting "turret"
+            {thickness %tur}
+            {threshold
+                {blast
+                    {koef  0.8}
+                }
+                
+            }
+            {volumes "turret*"}
+        }
+	{setting "turret2"
+            {thickness %tur2}
+            {threshold
+                {blast
+                    {koef  0.9}
+                }
+                
+            }
+            {volumes "turret2*"}
+        }	
+        {setting "gun"
+            {thickness %gun}
+            {durability
+                {blast  {koef 3}}
+                {pierce {koef 1.2}}
+            }
+            {threshold
+                {blast
+                    {value 15}
+                }
+                {pierce
+                    {value 12}
+                }
+            }
+            {volumes "gun*"}
+        }	
+        {setting "body"
+            {thickness %bod}
+            {durability
+                {blast
+                    {koef %dur}
+                }
+               	{pierce
+               		{koef %pierce_dur}
+               	}
+            }
+            {threshold
+                {blast
+                    {koef %thr}
+                }
+            }
+            {volumes "body*"}
+        }
+        {setting "engine"
+            {thickness %en}
+            {durability
+                {blast
+                    {koef %dur}
+                }
+            }
+            {threshold
+                {blast
+                    {koef %thr}
+                }
+            }
+            {volumes "engine*"}
+        }
+    }
+)
+(define "armor_tank_M2"
+	{armor
+		{setting "track"
+			{thickness (* %t 1)}
+			{volumes "track*"}
+		}
+		{setting "turret"
+			{thickness %tur}
+			{volumes "turret*"}
+		}
+		{setting "turret2"
+			{thickness %tur2}
+			{volumes "turret2*"}
+		}		
+		{setting "gun"
+			{thickness %g}
+			{volumes "gun*"}
+		}		
+		{setting "body"
+			{thickness %bod}
+			{volumes "body*"}
+		}
+		{setting "engine"
+			{thickness %en}
+			{volumes "engine"}
+		}
+	}
+)
+(define "armor_light_M2"
+	("armor_tank_M2" t(30) bod(%body) tur(%turret) tur2(%turret2) g(45) en(17))
+
+	{sensor
+		{visor "view-around"
+			{vision "tank_around-h"}
+			{bone "basis"}
+		}
+		{visor "main"
+			{vision "tank_main-h"}
+		}
+	}
+	{targetClass "tank" "ap fg bullet"}
+	{targetSelector "tank"}
+)

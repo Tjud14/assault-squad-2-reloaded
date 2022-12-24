@@ -19,7 +19,7 @@
 ;���Button 2��3
 
 {"degtyarev_stan"   ("vs" c(300) t(all cannon) 	s(rus2) n(2) g(c1) sc(5.25) b(v2) cw(2) cp(5)) {level 1} {cost 105} {fore 1.0}}
-{"12_7mm_dshk_zenit"        ("vs" c(300) t(all cannon) 	s(rus2) n(2) g(c2) sc(7.50) b(v2) cw(2) cp(5)) {level 3} {cost 150} {fore 0.5}}
+{"dshk_stan"        ("vs" c(300) t(all cannon) 	s(rus2) n(2) g(c2) sc(7.50) b(v2) cw(2) cp(5)) {level 3} {cost 150} {fore 0.5}}
 
 
 {"m42"              ("vs" c(0) t(all cannon) 	s(rus2) n(2) g(c4) sc(6.75)  b(v2) cw(2) cp(5)) {level 1} {cost 135} {fore 1.0}}
@@ -40,7 +40,7 @@
 ;���Button 3���
 
 {"gazaaa4m_rus"     ("v" c(150) t(all light) 		s(rus2) n1(1) n2(1) g(d1) sc(6.75)  b(v3) cw(0) cp(5)) {level 1} {cost 135} {fore 0.6}}
-;{"bt7"             ("v" c(150) t(all light) 		s(rus2) n1(3) n2(1) g(d2) sc(11.00) b(v3) cw(0) cp(5)) {level 1} {cost 220} {fore 0.4}}
+{"bt7_37_1"         ("v" c(150) t(all light) 		s(rus2) n1(3) n2(1) g(d2) sc(11.00) b(v3) cw(0) cp(5)) {level 1} {cost 220} {fore 0.4}}
 {"np_zis42_61k"     ("v" c(150) t(all light)        s(rus2) n1(2) n2(1) g(d3) sc(10.00) b(v3) cw(0) cp(5)) {level 1} {cost 200} {fore 0}}
 
 {"t60"              ("v" c(150) t(all light) 		s(rus2) n1(1) n2(1) g(d4) sc(13.00) b(v3) cw(0) cp(5)) {level 5} {cost 260} {fore 0}}
@@ -55,7 +55,7 @@
 ;���Button 4���
 
 {"t34_42e"          ("v" c(0) t(all medium) 		s(rus2) n1(3) n2(1) g(e3) sc(20.00) b(v4) cw(0) cp(15)) {level 1} {cost 400} {fore 1.0}}
-;{"t28"             ("v" c(0) t(all medium) 		s(rus2) n1(3) n2(1) g(e3) sc(20.00) b(v4) cw(0) cp(15)) {level 1} {cost 400} {fore 1.0}}
+{"t28_l10"          ("v" c(0) t(all medium) 		s(rus2) n1(3) n2(1) g(e3) sc(20.00) b(v4) cw(0) cp(15)) {level 1} {cost 400} {fore 1.0}}
 {"kv1_40"           ("v" c(0) t(all medium) 		s(rus2) n1(3) n2(1) g(e3) sc(20.00) b(v4) cw(0) cp(15)) {level 1} {cost 400} {fore 1.0}}
 
 {"ot34_2"           ("v" c(0) t(all medium) 		s(rus2) n1(3) n2(1) g(e4) sc(26.25) b(v4) cw(0) cp(15)) {level 1} {cost 525} {fore 1.0}}

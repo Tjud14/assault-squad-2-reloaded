@@ -68,10 +68,9 @@
 	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor))
                	{extender "inventory"
 		{box
-			{item "ammo 7x54" 2394}
-			{item "ammo bullet45_rus ap" 60}
-			{item "ammo bullet45_rus fg" 78}
-		                {item "grenade f1" 3}
+			{item "ammo mgun" 2394}
+			{item "ammo bullet45 ap" 60}
+			{item "ammo bullet45 fg" 78}
 		}
 	}
 	{Weaponry
@@ -79,13 +78,13 @@
 		{place "gun"
 			{RestoreIKAfterAim}
 			("abm_low")
-			{weapon "45mm_20k" filling "ammo bullet45_rus ap" 1}
+			{weapon "45mm_20k" filling "ammo bullet45 ap" 1}
 			{charger "gunner"}
 		}
 		{place "mgun"
-            			("abm_mgun")
+            ("abm_mgun")
 			{type "mgun_coaxial"}
-			{weapon "dt_optic" filled}
+			{weapon "dt" filled}
 			{foresight "foresight3"}
 			{charger "gunner"}
 			{basic}
@@ -106,17 +105,17 @@
 	{Chassis
 		("tank_trace_ex" fx("tracks_sm") step(0.3) len(0.55) boneleft("wheell4") boneright("wheelr4"))
 		{Locomotion ("locomotion")
-			{MaxSpeed 	    38} ; ¬ ªá¨¬ «ì­ ï áª®à®áâì, kmph
+			{MaxSpeed 	    38} ; ï¿½ï¿½ï¿½á¨¬ï¿½ï¿½ì­ ï¿½ áª®ï¿½ï¿½ï¿½ï¿½, kmph
             			{maxSpeedAtMaxTurn 23}
 			{StartTime 34}
 			{BrakeTime        0.5}
-			{StopTime         0.7} ; ¢à¥¬ï ®áâ ­®¢ª¨ ¯®á«¥ ®âª«îç¥­¨ï ¤¢¨£ â¥«ï á ¬ ªá. áª®à®áâ¨ ¤® 0, seconds
-			{TurnRadius     	6} ; ¬¨­. à ¤¨ãá à §¢®à®â , meter
+			{StopTime         0.7} ; ï¿½à¥¬ï¿½ ï¿½ï¿½â ­ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½á«¥ ï¿½âª«ï¿½ç¥­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½â¥«ï¿½ ï¿½ ï¿½ï¿½ï¿½ï¿½. áª®ï¿½ï¿½ï¿½ ï¿½ï¿½ 0, seconds
+			{TurnRadius     	6} ; ï¿½ï¿½ï¿½. à ¤ï¿½ï¿½ï¿½ à §ï¿½ï¿½ï¿½ï¿½, meter
 			{TurnTime 6}
-			{TurnStart		 2}	; ¢à¥¬ï à §£®­  ¤® ¬ ªá. ã£«®¢®© áª®à®áâ¨ á 0, seconds
-			{TurnStop	   0.5}	; ¢à¥¬ï ®áâ ­®¢ª¨ á ¬ ªá. ã£«®¢®© áª®à®áâ¨ ¤® 0, seconds
-			{Gears 0.05 0.1 0.25 0.37 0.7} ; ¯¥à¥¤ â®ç­ë¥ ª®íä-âë ª®à®¡ª¨ ¯¥à¥¤ ç
-                        		{RearGears 0.1} ; ¯¥à¥¤ â®ç­ë¥ ª®íä-âë ª®à®¡ª¨ ¯¥à¥¤ ç
+			{TurnStart		 2}	; ï¿½à¥¬ï¿½ à §ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. ã£«ï¿½ï¿½ï¿½ï¿½ áª®ï¿½ï¿½ï¿½ ï¿½ 0, seconds
+			{TurnStop	   0.5}	; ï¿½à¥¬ï¿½ ï¿½ï¿½â ­ï¿½ï¿½ï¿½ï¿½ ï¿½ ï¿½ï¿½ï¿½ï¿½. ã£«ï¿½ï¿½ï¿½ï¿½ áª®ï¿½ï¿½ï¿½ ï¿½ï¿½ 0, seconds
+			{Gears 0.05 0.1 0.25 0.37 0.7} ; ï¿½ï¿½à¥¤ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½-ï¿½ï¿½ ï¿½ï¿½à®¡ï¿½ï¿½ ï¿½ï¿½à¥¤ï¿½ï¿½
+                        		{RearGears 0.1} ; ï¿½ï¿½à¥¤ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½-ï¿½ï¿½ ï¿½ï¿½à®¡ï¿½ï¿½ ï¿½ï¿½à¥¤ï¿½ï¿½
 		}
         		{speed
 			{Slow	19}
@@ -130,6 +129,4 @@
 			{fuel "fuel"}
 		}
 	}
-	
-	("rus_1_sight")
 }

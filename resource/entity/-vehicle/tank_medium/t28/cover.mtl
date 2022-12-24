@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "t28_cover"}
+	{specular "t28_cover_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}
