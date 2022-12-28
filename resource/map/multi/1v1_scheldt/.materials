@@ -109,4 +109,34 @@
 			{bump "/texture/land/dirt/muddy_1_nm"}
 		}
 	}
+	{"mtl11"
+		{layer bump
+			{diffuse "/texture/land/dirt/clay_gr"}
+			{bump "/texture/land/dirt/clay_gr_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/fields/stubble_field3a"}
+			{bump "/texture/land/fields/stubble_field3a_nm"}
+		}
+	}
+	{"mtl12"
+		{layer bump
+			{diffuse "/texture/land/dirt/clay_gr"}
+			{bump "/texture/land/dirt/clay_gr_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/fields/stubble_field3a"}
+			{bump "/texture/land/fields/stubble_field3a_nm"}
+		}
+	}
+	{"mtl13"
+		{layer bump
+			{diffuse "/texture/land/dirt/steep_stones"}
+			{bump "/texture/land/dirt/steep_stones_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/fields/stubble_field3a"}
+			{bump "/texture/land/fields/stubble_field3a_nm"}
+		}
+	}
 }

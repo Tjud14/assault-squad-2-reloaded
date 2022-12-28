@@ -230,39 +230,45 @@
 		{"8v8_winter_walk"
 			{"name" "Winter walk <e(shadow)><c(bebebe)>8x8</c>"}
 		}
-		{"1v1_airborne"
-			{"name" "Airborne <e(shadow)><c(bebebe)>1x1</c>"}
+		{"wip1v1_abbey"
+			{"name" "WIP Abbey <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"wip1v1_airborne"
+			{"name" "WIP Airborne <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"wip1v1_farmland"
+			{"name" "WIP Farmland <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"wip1v1_lumber"
+			{"name" "WIP Lumber <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"wip1v1_iwo"
+			{"name" "WIP Iwo Jima <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"wip1v1_okinawa"
+			{"name" "WIP Okinawa <e(shadow)><c(bebebe)>1x1</c>"}
+		}
+		{"wip2v2_africa"
+			{"name" "WIP Africa <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"wip2v2_lakeland"
+			{"name" "WIP Lakeland <e(shadow)><c(bebebe)>2x2</c>"}
+		}
+		{"wip2v2_mirage2"
+			{"name" "WIP Mirage 2 <e(shadow)><c(bebebe)>2x2</c>"}
 		}
 		{"1v1_deb"
 			{"name" "Deb <e(shadow)><c(bebebe)>1x1</c>"}
 		}
-		{"1v1_farmland"
-			{"name" "Farmland <e(shadow)><c(bebebe)>1x1</c>"}
-		}
 		{"1v1_kreuzberg"
 			{"name" "Kreuzberg <e(shadow)><c(bebebe)>1x1</c>"}
 		}
-		{"1v1_lumber"
-			{"name" "Lumber <e(shadow)><c(bebebe)>1x1</c>"}
-		}
 		{"1v1_scheldt"
 			{"name" "Scheldt <e(shadow)><c(bebebe)>1x1</c>"}
-		}
-		{"1v1_iwo"
-			{"name" "Iwo Jima <e(shadow)><c(bebebe)>1x1</c>"}
-		}
-		{"1v1_okinawa"
-			{"name" "Okinawa <e(shadow)><c(bebebe)>1x1</c>"}
-		}
+		}		
 		{"2v2_bestland"
 			{"name" "Bestland <e(shadow)><c(bebebe)>2x2</c>"}
 		}
-		{"2v2_lakeland"
-			{"name" "Lakeland <e(shadow)><c(bebebe)>2x2</c>"}
-		}
-		{"2v2_mirage2"
-			{"name" "Mirage 2 <e(shadow)><c(bebebe)>2x2</c>"}
-		}	
 		{"3v3_elzas"
 			{"name" "Elzas <e(shadow)><c(bebebe)>3x3</c>"}
 		}

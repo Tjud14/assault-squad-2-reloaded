@@ -1,0 +1,25 @@
+2v2_Dead_Center is a small, clean, simple map that offers a lot of cover and aggressive technical play. 
+This map, played at the diagonals offers an good amount of natural cover to make for
+intense opening matches where players may be assaulted from a variety of angles in 
+the center grave yard. Hull down positions and key strategic buildings in the city
+offer great amounts of tactical depth. 
+A lot of fighting will happen naturally around the 130 range
+forcing aggressive tactical play.
+
+Intended for for MOW:AS matches.
+
+
+Assault Zones, Combat, and Day of Victory should be working.
+Map tested on a W64 system with 4 gigs of ram and an ati4870 and ran well.
+Some slow down experienced during .04 and .06 testing in the urban area. Useless structures & objects removed. 
+The 1.0 update only contains some additional stamps and some minor texture work
+
+
+Original Work by Triumph triumphisepic@hotmail.com
+Thanks to Eva for testing.
+
+TO USE THIS MAP:
+W7 64bit steam using PCs may...
+Drop the folder here:
+C:\Program Files (x86)\Steam\steamapps\common\men of war assault squad\resource\map\multi
+
