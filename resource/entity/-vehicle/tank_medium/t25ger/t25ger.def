@@ -1,0 +1,115 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+    {collider "tank.medium"}
+	{props "medium" "turret_rotator" "vision_vehicle_high" "muzzle_medium"}
+	
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+
+	("armor_medium" turret(60 60 35 10) body(50 45 20 22))
+	("armor_engine"  t(30 30 50 20))
+	("armor_mantlet" t(50))
+	("shield" args 10)
+
+
+	("crew_4_human")
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_right"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_left"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_lowArmor"} 	{end "pose_seat_armor_2"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_2"}}
+			{reverse 	{end	"emit_body"}}
+		}
+		{anm "armor2"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+
+	("crew_human_visible" 	place(gunner2)	door1(emit1) door2(emit2) visor(main))
+
+	("gunner_visible")
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit3)  animation(armor2))
+	("seat_human" place(seat3) bone(seat03) door(emit4)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit4)  animation(armor1))
+
+	{extender "inventory"
+		{box
+			{item "ammo bullet75 ap" 55}
+			{item "ammo bullet75 fg" 32}
+			{item "ammo bullet75 apcr" 5}
+			{item "mg42" filled {user "mgun"}}
+			{item "ammo mgun" 2250}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "75mm_a18" filling "ammo bullet75 ap" 3}
+			("abm_medium")
+		}
+		{place "mgun1"
+			{type "mgun_hull"}
+			{weapon "mg34" filled}
+			{foresight "foresight4"}
+			{gunner "driver"}
+			{charger "driver"}
+			("abm_mgun")
+		}
+		{place "mgun2"
+			{type "mgun_coaxial"}
+			{weapon "mg34" filled}
+			{foresight "foresight5"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+	{mass 23000}
+	{Chassis
+		("tank_trace" fx("tracks_sm") step(0.4) len(2))
+		{Locomotion ("locomotion")
+			{MaxSpeed	35}
+			{maxSpeedAtMaxTurn 13}
+			{StartTime	 12}
+			{TurnTime	8.5}
+			{TurnStart  1.5} 
+    		{BrakeTime  1.5}
+     		{StopTime   2.5} 
+    		{TurnRadius 9} 
+    		{TurnStop   0.7} 
+    		{Gears      0.2 0.5 1.0}
+    		{RearGears  0.3}
+		}
+		{FuelBag
+			{volume 540 }	
+			{rate	110 }   
+			{remain 540 }
+			{fuel "fuel"}
+		}
+		{speed
+        	{Normal  10}
+        	{Slow  16}
+    	}	
+	}
+
+	{Extension "t25ger.mdl"}
+
+}

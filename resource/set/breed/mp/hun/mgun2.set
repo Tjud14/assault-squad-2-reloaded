@@ -1,0 +1,56 @@
+{breed
+	{skin "hun_officer"}
+	{portrait "hun_soldier2"}
+	{nationality hun}
+	{icon "smgs"}
+	{icon_priority 0}
+	{armors
+		{head "8_kaska_soldat_ruminia"}
+	}
+	{perks
+		{"health" "250%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.9
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "zb_30lmg"}
+		{item "ammo mgun" 900}
+		{item "bandage" 4}
+		{item "m24 grenade" 2}
+		{item "m24x5 grenade"}
+		{item "sandbag_kit" 1}
+		{in_hands 0}
+	}
+}

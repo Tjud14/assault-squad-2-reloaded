@@ -1,0 +1,58 @@
+;Exported by: Administrator
+;Date:        Tue Nov 05 09:02:49 2013
+;File:        C:\Documents and Settings\Administrator\Desktop\tanky\t5 - t25ger\t25ger_xx_mow.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position -1.55512	0.177165	17.9921}
+			{VolumeView "body.ply"}
+			{bone "turret"
+				{parameters "ID=turret;"}
+				{Position 14.9409	0	14.5866}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_rot"
+					{parameters "ID=gun;"}
+					{limits -20 10}
+					{speed 0.0061}
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						14.735	0	7.73727
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{Matrix34
+							1	0	0
+							0	0	1
+							0	-1	0
+							0.00439453	0	0
+						}
+						{VolumeView "gun.ply"}
+					}
+				}
+			}
+			{bone "enumerator"
+				{parameters "ID=body;"}
+				{VolumeView "enumerator.ply"}
+			}
+		}
+		{bone "trackl"
+			{parameters "ID=trackleft;"}
+			{Position -1.55512	-0.019685	0.0984268}
+			{VolumeView "trackl.ply"}
+		}
+		{bone "trackr"
+			{parameters "ID=trackright;"}
+			{Position -1.55512	-0.019685	0.0984268}
+			{VolumeView "trackr.ply"}
+		}
+	}
+}

@@ -1,0 +1,74 @@
+ ;----- Hungary -----
+
+
+;���Button 1���
+
+;{"r12_hun"               ("vs" c(60) t(all) 		s(hun) n(2) g(b1) sc(75.00) b(v1) cw(0) cp(0)) {level 1} {cost 75} {fore 1.0}}
+;{"stoewer_t40_kfz4"      ("vs" c(60) t(all)		    s(hun) n(3) g(b2) sc(130.00) b(v1) cw(0) cp(0)) {level 1} {cost 130} {fore 1.0}}
+;{"np_sdkfz251_hun"       ("vs" c(300) t(all) 		s(hun) n(3) g(b3) sc(130.00) b(v1) cw(0) cp(0)) {level 1} {cost 130} {fore 0.5}}
+
+;{"mercedes_hun"          ("vs" c(60) t(all supply) 	s(hun) n(2) g(b4) sc(50.00) b(v1) cw(0) cp(0)) {level 1} {cost 50} {fore 1.0}}
+;{"mercedes_hun_art"      ("vs" c(60) t(all supply) 	s(hun) n(2) g(b5) sc(200.00) b(v1) cw(0) cp(0)) {level 1} {cost 200} {fore 1.0}}
+;{"mercedes_hun_eng"      ("vs" c(60) t(all supply) 	s(hun) n(2) g(b6) sc(125.00) b(v1) cw(0) cp(0)) {level 1} {cost 125} {fore 0.0}}
+
+
+;���Button 2���
+
+;{"mg13_stan"            ("vs" c(300) t(all cannon) 	        s(hun) n(2) g(c1) sc(90.00) b(v2) cw(2) cp(5)) {level 1} {cost 90} {fore 1.0}}
+;{"13mm_hotchkiss_hun"   ("vs" c(300) t(all cannon)	        s(hun) n(2) g(c1) sc(160.00) b(v2) cw(2) cp(5)) {level 1} {cost 160} {fore 0.5}}
+;{"sgrw42_hun"           ("vs" c(0) t(all cannon mediumcan) 	s(hun) n(2) g(c3) sc(280.00) b(v2) cw(2) cp(5)) {level 1} {cost 280} {fore 1.0}}
+
+;{"solothurn_hun"        ("vs" c(0) t(all cannon) 	        s(hun) n(2) g(c4) sc(100.00)  b(v2) cw(2) cp(5)) {level 1} {cost 100} {fore 1.0}}
+;{"pak38_hun"            ("vs" c(0) t(all cannon mediumcan) 	s(hun) n(2) g(c5) sc(170.00)  b(v2) cw(2) cp(10)) {level 1} {cost 170} {fore 1.0}}
+;{"pak40_hun"            ("vs" c(0) t(all cannon heavycan) 	s(hun) n(2) g(c4) sc(390.00)  b(v2) cw(2) cp(15)) {level 1} {cost 390} {fore 1.0}}
+
+;("how" side(hun) name(how_aa) c(0) c1(krupp_protze) c2(bofors_hun) 	t(all cannon heavycan heavyaa) g(c7) b(v2) level(1) cost(260) f(1.0))
+;("how" side(hun) name(how_b) c(0) c1(krupp_protze) c2(lefh18)  	t(all artillery) g(c8) b(v2) level(6) cost(650) f(1.0))
+;("how" side(hun) name(how_a) c(0) c1(krupp_protze) c2(sfh18) 	t(all artillery heavyart) g(c9) b(v2) level(9) cost(800) f(1.0))
+
+ 
+;���Button 3���
+
+;{"l335_hun"           ("v" c(150) t(all light)   s(hun) n1(1) n2(1) g(d1) sc(120.00)  b(v3) cw(0) cp(5)) {level 1} {cost 120} {fore 0.6}}
+;{"csaba40m"           ("v" c(180) t(all light)   s(hun) n1(1) n2(1) g(d2) sc(150.00) b(v3) cw(0) cp(5)) {level 1} {cost 150} {fore 0}}
+;{"toldi1"             ("v" c(210) t(all light)   s(hun) n1(2) n2(1) g(d4) sc(255.00) b(v3) cw(0) cp(5)) {level 1} {cost 255} {fore 0}}
+
+;{"pzkpfw38t_hun"      ("v" c(150) t(all light)   s(hun) n1(2) n2(1) g(d6) sc(220.00) b(v3) cw(0) cp(5)) {level 1} {cost 220} {fore 0}}
+;{"toldi2"             ("v" c(150) t(all light)   s(hun) n1(2) n2(1) g(d8) sc(285.00) b(v3) cw(0) cp(5)) {level 1} {cost 285} {fore 0}}
+;{"nimrod"             ("v" c(210) t(all light)   s(hun) n1(2) n2(1) g(d8) sc(375.00) b(v3) cw(0) cp(15)) {level 1} {cost 375} {fore 0}}
+
+
+;���Button 4���
+
+{"t25ger"             ("v" c(0) t(all medium) 	s(hun) n1(3) n2(1) g(e1) sc(300.00) b(v4) cw(0) cp(15)) {level 1} {cost 300} {fore 1.0}}
+;{"turan3"             ("v" c(0) t(all medium) 	s(hun) n1(3) n2(1) g(e3) sc(670.00) b(v4) cw(0) cp(15)) {level 1} {cost 670} {fore 1.0}}
+;{"tas_44m"            ("v" c(0) t(all heavy) 	s(hun) n1(3) n2(1) g(e4) sc(1500.00) b(v4) cw(0) cp(30)) {level 1} {cost 1500} {fore 1.0}}
+ 
+
+;���Button 5���
+ 	
+;{"zrinyi1"            ("v" c(0) t(all heavy) 	s(hun) n1(3) n2(1) g(f3) sc(700.00) b(v5) cw(0) cp(10)) {level 1} {cost 700} {fore 1.0}}
+;{"zrinyi2"            ("v" c(0) t(all heavy) 	s(hun) n1(3) n2(1) g(f3) sc(780.00) b(v5) cw(0) cp(10)) {level 1} {cost 780} {fore 1.0}}
+;{"tas_44td"           ("v" c(0) t(all heavy) 	s(hun) n1(3) n2(1) g(f3) sc(1650.00) b(v5) cw(0) cp(20)) {level 1} {cost 1650} {fore 1.0}}
+
+       			
+;���Button Hero���
+
+;{"hero1_hun"         ("v1" c(120) c1(csaba40m)	        t(all hero) s(hun) n1(tankman:3) n2(tankman2:1) g(h1) b(hero))) {level 1} {cost 1.0} {fore -0.5}}
+;{"hero2_hun"         ("i2" c(120)			            t(all hero) s(hun) n1(smg4:3) n2(mgun2:1) g(h1) b(hero)) {level 1} {cost 1.0} {fore -0.5}}
+;{"hero3_hun"         ("i3" c(240)			            t(all hero) s(hun) n1(rifle4:8) n2(rifle3:8) g(h1) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
+
+;{"hero4_hun"         ("i2" c(240)  	                    t(all hero) s(hun) n1(elite4:4) n2(elite5:2) n3(elite6:2) g(h2) b(hero)) {level 1} {cost 2.0} {fore -0.5}}
+;{"hero5_hun"         ("v1" c(240) c1(sdkfz250_9_hun) 	t(all hero) s(hun) n1(tankman:2) n2(tankman2:1) g(h2) b(hero)) {level 1} {cost 2.0} {fore -0.5}}  
+;{"heronew5_hun1"     ("v1" c(240) c1(pak40_hun) 	t(all hero) s(hun) n1(vehicle_supporter:2) g(h2) b(hero)) {level 1} {cost 2.0} {fore -0.5}}  
+
+{"hero7_hun"         ("v1" c(360) c1(t25ger) 		    t(all hero) s(hun) n1(tankman:3) n2(tankman2:1) g(h3) b(hero)) {level 1} {cost 3.0} {fore -0.5}}  
+;{"hero8_hun"         ("v4" c(360) c1(np_sdkfz251_hun) 	t(all hero) s(hun) n1(elite:4) n2(elite2:2) n3(elite3:2) n4(elite_at:2) g(h3) b(hero)) {level 1} {cost 3.0} {fore -0.5}} 
+;{"hero6_hun"         ("v1" c(360) c1(hetzer_hun) 	    t(all hero) s(hun) n1(tankman:3) n2(tankman2:1) g(h3) b(hero)) {level 1} {cost 3.0} {fore -0.5}}
+
+;{"hero9_hun"         ("i2" c(480)                       t(all hero) s(hun) n1(radioman:1) n2(smg:2) g(h4) b(hero)) {level 1} {cost 4.0} {fore -0.5}}
+;{"hero10_hun"        ("2v" c(480) c1(np_sig33)	        t(all hero) s(hun) n1(vehicle_supporter:2) n2(vehicle_supporter:0) g(h4) b(hero))) {level 1} {cost 4.0} {fore -0.5}}
+;{"hero12_hun"        ("v1" c(840) c1(brummbar)       	t(all hero) s(hun) n1(tankman:3) n2(tankman2:1) g(h7) b(hero)) {level 1} {cost 7.0} {fore -0.5}}
+
+  
+ 

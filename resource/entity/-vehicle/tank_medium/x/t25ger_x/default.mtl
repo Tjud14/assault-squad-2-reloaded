@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "t-25_crash"}
+	{bump "t-25_nm"}
+	{specular "t-25_sm"}
+	{color "255 255 255 127"}
+	{blend none}
+}

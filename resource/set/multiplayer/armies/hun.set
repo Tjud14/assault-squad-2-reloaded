@@ -1,0 +1,7 @@
+{army
+	{id 7}
+	{title "Hungary"}
+	{icon "/interface/pages/multi/flag_ger"}
+	{flag "/interface/scene/common/flag-ger"}
+}
+

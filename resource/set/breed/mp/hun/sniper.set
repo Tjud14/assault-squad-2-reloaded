@@ -1,0 +1,62 @@
+{breed
+	{skin "hun_elite1"}
+	{portrait "hun_soldier4"}
+	{nationality hun}
+	{icon "snipers"}
+	{icon_priority 5}
+	{armors
+		{head "fieldcap3_hun"}
+	}
+	{tags "sniper"}
+	{perks
+		{"health" "100%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_sniper"
+		}
+		{"speed" 1.0
+		}
+		{"stealth"
+		}
+		{"telescope"
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_2
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_1
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"melee" lvl_2
+		}
+		{"aimedshot"}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "zb24_s" filled}
+		{item "ammo rifle" 50}
+		{item "bandage" 5}
+		{item "smoke_paradrop_ammo grenade" 1}
+		{item "plant" 3}
+		{item "knife_union"}
+		{in_hands 0}
+	}
+}

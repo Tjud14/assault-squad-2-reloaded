@@ -160,4 +160,5 @@
 	(include "vehicles_usa.set")
 	(include "vehicles_ger2.set")
 	(include "vehicles_rus2.set")
+	(include "vehicles_hun.set")
 	(include "vehicles_x.set")

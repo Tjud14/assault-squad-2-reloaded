@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "hetzer_track"}
+	{bump "hetzer_track_nm"}
+	{specular "hetzer_track_sm"}
+	{color "255 255 255 127"}
+	{blend test}
+}

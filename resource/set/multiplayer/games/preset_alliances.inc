@@ -3,6 +3,7 @@
 				{armies "ger"}
 				{armies "jap"}
 				{armies "ger2"}
+				{armies "hun"}
 				{icon "/interface/pages/multi/flag_axis"}
 			}
 			{"allies"
